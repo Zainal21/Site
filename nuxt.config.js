@@ -58,10 +58,10 @@ module.exports = {
   /*
   ** Build configuration
   */
-  css: [
-   '@/assets/css/tailwind.min.css'
-  ],
-
+  // css: [
+  //  '@/assets/css/tailwind.min.css'
+  // ],
+  buildModules: ['@nuxtjs/tailwindcss'],
   build: {
     extend (config) {
       const rule = config.module.rules.find(r => r.test.toString() === '/\\.(png|jpe?g|gif|svg|webp)$/i')

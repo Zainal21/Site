@@ -23,10 +23,14 @@
     "analyze": "nuxt build --analyze"
   },
   "devDependencies": {
+    "@nuxtjs/tailwindcss": "^3.3.3",
+    "autoprefixer": "^9",
     "frontmatter-markdown-loader": "^3.1.0",
     "node-sass": "^4.13.0",
+    "postcss": "^7",
     "responsive-loader": "^1.2.0",
     "sass-loader": "^8.0.0",
-    "sharp": "^0.23.4"
+    "sharp": "^0.23.4",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }

@@ -7,9 +7,10 @@
             <h2 class="text-gray-100 text-3xl font-bold">Who I am</h2>
 
             <p class="text-gray-400 lg:max-w-md mt-4">
-              Hi I am jane , software engineer <a class="text-indigo-300 font-bold" href="#">@BakaTeam</a> , Lorem
-              ipsum, dolor sit amet consectetur adipisicing elit. Illum in sed non alias, fugiat, commodi nemo ut fugit
-              corrupti dolorem sequi ex veniam consequuntur id, maiores beatae ipsa omnis aliquam?
+             Hi I am Muhamad Zainal Arifin, Software Enginnering Student at <a class="text-indigo-300 font-bold"
+              href="#">@SMKN 2 Karanganyar</a> Vocational Student who is interested in the world of technology,
+            especially in the world of web programming, and a web programmer who is quite experienced in creating,
+            developing web-based applications, especially with backend development with PHP Technology & JS Technology
             </p>
 
             <div class="flex items-center -mx-2 mt-6">

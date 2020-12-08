@@ -108,7 +108,7 @@
         return `${process.env.baseUrl}/images/blog/${this.id}/_thumbnail.jpg`;
       },
       pageTitle () {
-        return this.title + ' – Marina Aisa';
+        return this.title + ' – PenulisDudukDev';
       },
       showLocales () {
         return this.$i18n.locales.filter(locale => locale.code !== this.$i18n.locale)
