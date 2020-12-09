@@ -112,13 +112,12 @@
               </div>
 
               <div class="w-56 md:w-64 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden">
-                <h3 class="py-2 text-center font-bold uppercase tracking-wide text-gray-800">Nike Revolt</h3>
+                <h3 class="py-2 text-center font-bold uppercase tracking-wide text-gray-800">Wedding Project</h3>
 
                 <div class="flex items-center justify-between py-2 px-3 bg-gray-200">
-                  <span class="text-gray-800 font-bold ">Web Development</span>
+                  <span class="text-gray-800 font-bold ">HTML, CSS , JS</span>
                   <button
-                    class="bg-gray-800 text-xs text-white px-2 py-1 font-semibold rounded uppercase hover:bg-gray-700">Add
-                    to cart</button>
+                    class="bg-gray-800 text-xs text-white px-2 py-1 font-semibold rounded uppercase hover:bg-gray-700">See Project</button>
                 </div>
               </div>
             </div>
@@ -129,13 +128,12 @@
                 style="background-image: url(https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80)">
               </div>
               <div class="w-56 md:w-64 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden">
-                <h3 class="py-2 text-center font-bold uppercase tracking-wide text-gray-800">Nike Revolt</h3>
+                <h3 class="py-2 text-center font-bold uppercase tracking-wide text-gray-800">Wedding Project</h3>
 
                 <div class="flex items-center justify-between py-2 px-3 bg-gray-200">
-                  <span class="text-gray-800 font-bold ">$129</span>
+                  <span class="text-gray-800 font-bold ">HTML, CSS , JS</span>
                   <button
-                    class="bg-gray-800 text-xs text-white px-2 py-1 font-semibold rounded uppercase hover:bg-gray-700">Add
-                    to cart</button>
+                    class="bg-gray-800 text-xs text-white px-2 py-1 font-semibold rounded uppercase hover:bg-gray-700">See Project</button>
                 </div>
               </div>
             </div>
@@ -147,13 +145,12 @@
               </div>
 
               <div class="w-56 md:w-64 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden">
-                <h3 class="py-2 text-center font-bold uppercase tracking-wide text-gray-800">Nike Revolt</h3>
+                <h3 class="py-2 text-center font-bold uppercase tracking-wide text-gray-800">Wedding Project</h3>
 
                 <div class="flex items-center justify-between py-2 px-3 bg-gray-200">
-                  <span class="text-gray-800 font-bold ">$129</span>
+                  <span class="text-gray-800 font-bold ">HTML, CSS , JS</span>
                   <button
-                    class="bg-gray-800 text-xs text-white px-2 py-1 font-semibold rounded uppercase hover:bg-gray-700">Add
-                    to cart</button>
+                    class="bg-gray-800 text-xs text-white px-2 py-1 font-semibold rounded uppercase hover:bg-gray-700">See Project</button>
                 </div>
               </div>
             </div>

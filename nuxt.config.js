@@ -24,7 +24,7 @@ const productionUrl = {
   en: "/en",
   es: "/es"
 };
-const baseUrl = '#';
+const baseUrl = 'https://penulisduduk.vercel.app';
 
 module.exports = {
   env: {
@@ -39,7 +39,6 @@ module.exports = {
       { name: 'msapplication-TileColor', content: '#ffffff' },
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: '/favicons/favicon-16x16.png', sizes: '16x16' },
       {
         rel: 'stylesheet',
         href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.1/css/all.min.css',
@@ -58,9 +57,11 @@ module.exports = {
   /*
   ** Build configuration
   */
-  // css: [
-  //  '@/assets/css/tailwind.min.css'
-  // ],
+  css: [
+    'normalize.css/normalize.css',
+    '@/assets/css/main.scss',
+    '@/assets/css/prism-material-light.css'
+  ],
   buildModules: ['@nuxtjs/tailwindcss'],
   build: {
     extend (config) {

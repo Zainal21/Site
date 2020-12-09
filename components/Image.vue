@@ -4,7 +4,7 @@
     :class="`image-placeholder ${isRounded}`"
   >
     <img
-      :data-src="imageRequired"
+      :src="imageRequired"
       :data-loading="imageRequired.placeholder"
       :width="width"
       :height="height"
@@ -50,3 +50,30 @@ export default {
   }
 }
 </script>
+
+<style scoped lang="scss">
+
+.image-placeholder {
+  overflow: hidden;
+  line-height: 0;
+
+  &--rounded {
+    border-radius: 100%;
+  }
+}
+
+img {
+  transition: all ease .3s;
+  opacity: 0;
+
+  &[lazy='loading'] {
+    opacity: 1;
+    filter: blur(15px);
+  }
+  &[lazy='loaded'] {
+    opacity: 1;
+  }
+}
+
+</style>
+

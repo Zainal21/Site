@@ -5,9 +5,6 @@ html{
 }
 
 body {
-  background-color: $background-primary;
-	min-width: 320px;
-	height: 100%;
   overflow-x: hidden;
   transition: transform .5s ease-out;
 
@@ -92,79 +89,4 @@ img{
 
 li, ul {
   list-style-type: none;
-}
-
-section {
-  margin-bottom: 2.4rem;
-
-  ul {
-    padding: 0;
-  }
-  
-  @media (min-width: $screen-sm){
-    margin-bottom: 7.2rem;
-  }
-}
-
-button {
-  display: inline-block;
-  padding: 1rem 2rem;
-  margin: 0;
-  height: 3.6rem;
-  background-color: $primary;
-  text-decoration: none;
-  color: #ffffff;
-  cursor: pointer;
-  border: 0;
-  text-align: center;
-  transition: background 250ms ease-in-out, 
-              transform 150ms ease;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
-
-button:hover {
-  background-color: #574bc1;
-}
-
-button:focus {
-  outline: none;
-}
-
-button:active {
-  transform: scale(0.99);
-}
-
-.text-input {
-  display: flex;
-  flex-direction: column;
-
-  &__label {
-    margin-bottom: 4px;
-  }
-
-  &__field {
-    transition: border .1s ease;
-    border: 1px solid $grey-3;
-    background-color: white;
-    padding: 0 8px;
-    height: 36px;
-    font-size: 16px;
-
-    &:active,
-    &:hover {
-      outline: none;
-      border: 1px solid $primary;
-    }
-
-    &:focus {
-      outline-offset: 0;
-      border: 1px solid $primary;
-    }
-
-    &:disabled {
-      background-color: grey;
-      pointer-events: none;
-    }
-  }
 }
