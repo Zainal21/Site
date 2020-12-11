@@ -10,10 +10,6 @@
             <div class="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2 ">
                 <h2 class="text-2xl text-gray-100 font-bold md:text-3xl">Build Your New <span class="text-indigo-600">Idea</span></h2>
                 <p class="mt-4 text-gray-100">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem modi reprehenderit vitae exercitationem aliquid dolores ullam temporibus enim expedita aperiam mollitia iure consectetur dicta tenetur, porro consequuntur saepe accusantium consequatur.</p>
-                
-                <!-- <div class="mt-8">
-                    <a href="#" class="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded hover:bg-gray-800">Start Now</a>
-                </div> -->
             </div>
         </div>
     </section> 

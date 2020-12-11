@@ -21,7 +21,7 @@
                     <p class="elevate-cover__description text-xl text-gray-600">{{ description }}</p>
                   </div>
                 </div>
-                <img :src="`${baseUrl}/images/blog/vuex-what-when/_thumbnail.jpg`" alt="" width="100%">
+                <!-- <img :src="`/images/blog/${id}/_thumbnail.jpg`" alt="" width="100%"> -->
                 <!-- <ImageResponsive :imageURL="'blog/' + id + '/_thumbnail.jpg'" v-if="!noMainImage" width="20%"
                   class="elevate-cover__img" :alt="'Blog picture'" />
                 <component v-else class="elevate-cover__img" :is="extraComponentLoader" /> -->
@@ -199,7 +199,7 @@
   .elevate-cover {
     display: flex;
     flex-direction: column;
-    min-height: 459px;
+    // min-height: 459px;
 
     &__img,
     &__textOffset {

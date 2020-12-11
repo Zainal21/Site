@@ -7,7 +7,7 @@
             <h2 class="text-gray-100 text-3xl font-bold">Who I am</h2>
 
             <p class="text-gray-400 lg:max-w-md mt-4">
-             Hi I am Muhamad Zainal Arifin, Software Enginnering Student at <a class="text-indigo-300 font-bold"
+             Hi I am Muhamad Zainal Arifin, Nickname <a href="#" class="text-indigo-300">@PenulisDudukDev </a>, Software Enginnering Student at <a class="text-indigo-300 font-bold"
               href="#">@SMKN 2 Karanganyar</a> Vocational Student who is interested in the world of technology,
             especially in the world of web programming, and a web programmer who is quite experienced in creating,
             developing web-based applications, especially with backend development with PHP Technology & JS Technology
@@ -143,7 +143,6 @@
               <div class="bg-gray-300 h-64 w-full rounded-lg shadow-md bg-cover bg-center"
                 style="background-image: url(https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80)">
               </div>
-
               <div class="w-56 md:w-64 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden">
                 <h3 class="py-2 text-center font-bold uppercase tracking-wide text-gray-800">Wedding Project</h3>
 
