@@ -1,11 +1,11 @@
 <template>
   <section class="single-post bg-gray-800">
     <div class="lg:container lg:mx-auto md:container mx-6 py-20">
-      <div class="max-w-6xl mx-auto px-8 py-8 bg-gray-200 rounded-lg shadow-md">
+      <div class="max-w-6xl mx-auto px-8 py-8 bg-gray-600 rounded-lg shadow-md">
         <div class="flex justify-between items-center">
-          <nuxt-link to="/posts" class="px-3 py-1 bg-gray-600 text-gray-100 text-sm font-bold rounded hover:bg-gray-500">Back</nuxt-link>
-          <span class="font-semibold text-gray-600 text-md">{{ year }}</span>
-          <p class="px-3 py-1 bg-gray-600 text-gray-100 text-sm font-bold rounded hover:bg-gray-500">Publish</p>
+          <nuxt-link to="/posts" class="px-3 py-1 bg-gray-200 text-gray-00 text-sm font-bold rounded hover:bg-gray-200">Back</nuxt-link>
+          <span class="font-semibold text-gray-100 text-md">{{ year }}</span>
+          <p class="px-3 py-1 bg-gray-100 text-gray-500 text-sm font-bold rounded hover:bg-gray-200">Publish</p>
           
         </div>
 
@@ -15,10 +15,10 @@
               <div class="elevate-cover">
                 <div class="elevate-cover__textOffset">
                   <div class="elevate-cover__left">
-                    <h1 class="elevate-cover__title text-4xl text-gray-700 font-bold hover:text-gray-600">
+                    <h1 class="elevate-cover__title text-4xl text-white font-bold hover:text-gray-100">
                       {{ title }}
                     </h1>
-                    <p class="elevate-cover__description text-xl text-gray-600">{{ description }}</p>
+                    <p class="elevate-cover__description text-xl text-white">{{ description }}</p>
                   </div>
                 </div>
                 <!-- <img :src="`/images/blog/${id}/_thumbnail.jpg`" alt="" width="100%"> -->
@@ -36,9 +36,9 @@
           </div>
        </div>
         <div class="flex justify-between items-center mt-8">
-          <nuxt-link to="/posts" class="text-blue-600 hover:underline">Back</nuxt-link>
+          <nuxt-link to="/posts" class="text-blue-100 hover:underline">Back</nuxt-link>
           <div class="flex items-center">
-            <p class="text-gray-700 font-bold cursor-pointer">Muhamad Zainal Arifin</p>
+            <p class="text-gray-100 font-bold cursor-pointer">Muhamad Zainal Arifin</p>
           </div>
         </div>
       </div>
@@ -222,7 +222,6 @@
     &__title {
       font-size: 3rem;
       font-family: 'Tiempos Headline', Arial, sans-serif;
-      color: #030303;
     }
 
     &__description {
@@ -235,12 +234,13 @@
   }
 
   .dynamicMarkdown {
-    padding: 3.2rem 0;
-    font-size: 1.1rem;
+    padding: 3.1rem 0;
+    font-size: 1.2rem;
     line-height: 1.7;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #030303;
-    // background-color: #f3f4f4;
+    color: #e0d5d5;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05);
+
 
     >*:not(.datagrid):not(.image-placeholder) {
       max-width: 700px;

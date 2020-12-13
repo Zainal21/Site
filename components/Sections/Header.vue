@@ -1,7 +1,7 @@
 <template>
  <section class="header bg-gray-800">
     <div class="font-sans antialiased" id="app">
-     <div class="lg:container lg:mx-auto md:container mx-auto bg-gray-800">
+     <div class="lg:container lg:mx-auto md:container bg-gray-800">
       <nav class="flex items-center justify-between flex-wrap bg-teal p-6">
         <div class="flex items-center flex-no-shrink text-white mr-6">
           <span class="font-semibold text-lg tracking-tight">PenulisDuduk.Dev</span>
