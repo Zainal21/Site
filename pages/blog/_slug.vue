@@ -221,7 +221,7 @@
 
     &__title {
       font-size: 3rem;
-      font-family: 'Tiempos Headline', Arial, sans-serif;
+      font-family: 'Tiempos Headline', Arial, sans-serif; 
     }
 
     &__description {
@@ -235,7 +235,7 @@
 
   .dynamicMarkdown {
     padding: 3.1rem 0;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.7;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #e0d5d5;
