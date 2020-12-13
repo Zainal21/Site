@@ -25,5 +25,6 @@ bagi yang backgroundnya bukan IT atau sekolahnya bukan di Teknik Informatika, Ay
 
 mungkin itu dulu ya..<b>Keep Learning ya guys !!!!</b>, <b> Ganbatte !!!!</b>
 
+--------------------------------------------------------------------------------------
 
 __wassalamualaikum warahmatullahi wabarokatuh__
