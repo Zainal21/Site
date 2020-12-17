@@ -1,8 +1,8 @@
 <template>
  <section class="header bg-gray-800">
     <div class="font-sans antialiased" id="app">
-     <div class="lg:container lg:mx-auto md:container bg-gray-800">
-      <nav class="flex items-center justify-between flex-wrap bg-teal p-6">
+     <div class="container mx-auto px-5 py-8 bg-gray-800">
+      <nav class="flex items-center justify-between flex-wrap bg-teal">
         <div class="flex items-center flex-no-shrink text-white mr-6">
           <span class="font-semibold text-lg tracking-tight">PenulisDuduk.Dev</span>
         </div>
@@ -16,7 +16,7 @@
           </button>
         </div>
         <div :class="open ? 'block': 'hidden'"
-          class="w-full flex-grow sm:flex sm:items-center sm:w-auto text-white ml-auto  mr-auto">
+          class="w-full flex-grow sm:flex sm:items-center sm:w-auto text-white mr-auto">
           <div class="text-base sm:flex-grow">
             <nuxt-link to="/" class="no-underline block mt-4 sm:inline-block sm:mt-0  hover:text-white mr-4">
               Home

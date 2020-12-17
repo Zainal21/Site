@@ -4,8 +4,8 @@
       <div class="max-w-6xl mx-auto px-8 py-8 bg-gray-600 rounded-lg shadow-md">
         <div class="flex justify-between items-center">
           <nuxt-link to="/posts" class="px-3 py-1 bg-gray-200 text-gray-00 text-sm font-bold rounded hover:bg-gray-200">Back</nuxt-link>
-          <span class="font-semibold text-gray-100 text-md">{{ year }}</span>
-          <p class="px-3 py-1 bg-gray-100 text-gray-500 text-sm font-bold rounded hover:bg-gray-200">Publish</p>
+          <p class="font-semibold text-center text-gray-100 text-md">{{ year }}</p>
+          <p class="px-3 py-1 bg-gray-100 text-sm font-bold rounded hover:bg-gray-200">{{category}}</p>
           
         </div>
 
@@ -71,6 +71,8 @@
         trans: attr.trans,
         year: attr.year,
         id: attr.id,
+        category:attr.category,
+        time_read: attr.time_read,
         cardAlt: attr.cardAlt,
         noMainImage: attr.noMainImage,
         description: attr.description,
@@ -220,7 +222,7 @@
     }
 
     &__title {
-      font-size: 3rem;
+      font-size: 2rem;
       font-family: 'Tiempos Headline', Arial, sans-serif; 
     }
 

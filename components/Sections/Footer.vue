@@ -1,5 +1,7 @@
 <template>
-    <footer class="flex flex-col justify-between items-center px-6 py-2 bg-gray-800 sm:flex-row">
+   <section class="footer bg-gray-800">
+       <div class="container mx-auto px-5 py-8">
+        <footer class="flex flex-col justify-between items-center px-6 py-2  sm:flex-row">
         <a href="#" class="text-xl font-bold text-gray-100 hover:text-gray-400">PenulisDudukDev</a>
         
         <p class="py-2 text-gray-100 sm:py-0">All rights reserved</p>
@@ -24,6 +26,8 @@
             </a>
         </div>
     </footer>
+       </div>
+   </section>
 </template>
 <script>
 export default {

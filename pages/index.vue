@@ -89,16 +89,16 @@
     </section>
     <section class="git-contribution bg-gray-800">
       <div class="container mx-auto px-6 py-8">
-        <div class="lg:w-1/7 mb-10 mt-10">
+        <div class="mb-10 mt-10">
           <h2 class="text-gray-100 text-3xl  font-bold mb-8  mt-8">Contributions Chart</h2>
         </div>
-        <div class="container mx-auto">
-          <img data-src="https://ghchart.rshah.org/Zainal21" alt="My Contributions" style="width:100%"
-            src="https://ghchart.rshah.org/Zainal21" lazy="loaded">
-        </div>
+        <img data-src="https://ghchart.rshah.org/Zainal21" alt="My Contributions" style="width:100%"
+          src="https://ghchart.rshah.org/Zainal21" lazy="loaded">
+        <!-- <div class="container mx-auto">
+        </div> -->
       </div>
     </section>
-    <section class="bg-gray-800">
+    <!-- <section class="bg-gray-800">
       <div class="container mx-auto px-6 py-8">
         <div class="lg:w-1/7 mb-10">
           <h2 class="text-gray-100 text-3xl  font-bold mb-8  mt-10">Recent Project</h2>
@@ -108,9 +108,8 @@
 
             <div class="flex flex-col justify-center items-center max-w-sm mx-auto">
               <div class="bg-gray-300 h-64 w-full rounded-lg shadow-md bg-cover bg-center"
-                style="background-image: url(https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80)">
+               style="background-position:cover" :style="`background-image: url(Portfolio/image1.png)`">
               </div>
-
               <div class="w-56 md:w-64 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden">
                 <h3 class="py-2 text-center font-bold uppercase tracking-wide text-gray-800">Wedding Project</h3>
 
@@ -156,47 +155,30 @@
           </div>
         </div>
       </div>
-    </section>
-    <section class="contact-me bg-gray-800">
+    </section> -->
+    <!-- <section class="contact-me bg-gray-800">
       <div class="container mx-auto px-6 py-8">
         <div class="lg:w-1/7 mb-10 mt-10">
           <h2 class="text-gray-100 text-3xl  font-bold mb-8  mt-8">Get In Touch</h2>
         </div>
-        <div class="flex flex-col max-w-4xl mx-auto bg-gray-600 rounded-lg shadow-lg overflow-hidden md:flex-row md:h-48">
-      
-            <div class="flex items-center lg:mx-auto md:ml-20  mt-6">
-              <a class="mx-2" href="#" aria-label="Github">
-                <i class="fab fa-2x  fw text-gray-300 hover:text-gray-500 fa-Github font-bold"></i>
+        <div class="flex flex-col max-w-4xl mx-auto pb-5 bg-gray-600 rounded-lg shadow-lg overflow-hidden md:flex-row md:h-48">
+            <div class="flex items-center lg:mx-auto md:ml-20  mt-6 justi">
+              <a class="mx-6" href="#" aria-label="Github">
+                <i class="fab fa-2x  fw text-gray-300 hover:text-gray-500 fa-github font-bold"></i>
               </a>
-              <a class="mx-2" href="#" aria-label="Linkedin">
+              <a class="mx-6" href="#" aria-label="Github">
+                <i class="fab fa-2x  fw text-gray-300 hover:text-gray-500 fa-facebook font-bold"></i>
+              </a>
+              <a class="mx-6" href="#" aria-label="Linkedin">
                 <i class="fab fa-2x  fw text-gray-300 hover:text-gray-500 fa-linkedin font-bold"></i>
               </a>
-
-              <a class="mx-2" href="#" aria-label="Dev">
-                <i class="fab fa-2x  fw text-gray-300 hover:text-gray-500 fa-dev font-bold"></i>
-              </a>
-              <a class="mx-2" href="#" aria-label="medium">
-                <i class="fab fa-2x  fw text-gray-300 hover:text-gray-500 font-bold fa-medium "></i>
-              </a>
-              <a class="mx-2" href="#" aria-label="Instagra">
-                <i class="fab fa-2x  fw text-gray-300 hover:text-gray-500 font-bold fa-instagram "></i>
-              </a>
-              <a class="mx-2" href="#" aria-label="Phone">
-                <i class="fab fa-whatsapp fa-2x fw text-gray-300 hover:text-gray-500 font-bold" aria-hidden="true"></i>
-              </a>
-              <a class="mx-2" href="#" aria-label="telegram">
-                <i class="fab fa-2x fw text-gray-300 hover:text-gray-500 font-bold fa-telegram "></i>
-              </a>
-              <a class="mx-2" href="#" aria-label="Gitlab">
-                <i class="fab fa-2x fw text-gray-300 hover:text-gray-500 font-bold fa-gitlab "></i>
-              </a>
-              <a class="mx-2" href="#" aria-label="twitter">
+              <a class="mx-6" href="#" aria-label="twitter">
                 <i class="fab fa-2x fw text-gray-300 hover:text-gray-500 font-bold fa-twitter "></i>
               </a>
             </div>
         </div>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 
