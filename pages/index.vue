@@ -7,10 +7,11 @@
             <h2 class="text-gray-100 text-3xl font-bold">Who I am</h2>
 
             <p class="text-gray-400 lg:max-w-md mt-4">
-             Hi I am Muhamad Zainal Arifin, Nickname <a href="#" class="text-indigo-300">@PenulisDudukDev </a>, Software Enginnering Student at <a class="text-indigo-300 font-bold"
-              href="#">@SMKN 2 Karanganyar</a> Vocational Student who is interested in the world of technology,
-            especially in the world of web programming, and a web programmer who is quite experienced in creating,
-            developing web-based applications, especially with backend development with PHP Technology & JS Technology
+              Hi I am Muhamad Zainal Arifin, Nickname <a href="www.github.com/Zainal21" class="text-indigo-300">@PenulisDudukDev </a>,
+              Software Enginnering Student at <a class="text-indigo-300 font-bold" href="#">@SMKN 2 Karanganyar</a>
+              Vocational Student who is interested in the world of technology,
+              especially in the world of web programming, and a web programmer who is quite experienced in creating,
+              developing web-based applications, especially with backend development with PHP Technology & JS Technology
             </p>
 
             <div class="flex items-center -mx-2 mt-6">
@@ -60,6 +61,7 @@
         </div>
       </div>
     </section>
+    <!-- section skill -->
     <section class="bg-gray-800">
       <div class="container mx-auto px-6 py-8">
         <div class="lg:w-1/7 mb-10">
@@ -92,99 +94,63 @@
         <div class="mb-10 mt-10">
           <h2 class="text-gray-100 text-3xl  font-bold mb-8  mt-8">Contributions Chart</h2>
         </div>
-        <img data-src="https://ghchart.rshah.org/Zainal21" alt="My Contributions" style="width:100%"
+        <img data-src="https://ghchart.rshah.org/Zainal21" alt="My Contributions" style="width:120%"
           src="https://ghchart.rshah.org/Zainal21" lazy="loaded">
-        <!-- <div class="container mx-auto">
-        </div> -->
       </div>
     </section>
-    <!-- <section class="bg-gray-800">
-      <div class="container mx-auto px-6 py-8">
-        <div class="lg:w-1/7 mb-10">
-          <h2 class="text-gray-100 text-3xl  font-bold mb-8  mt-10">Recent Project</h2>
+    <!-- end section skill -->
+
+    <!-- section project -->
+    <section class="recent-project bg-gray-800">
+      <div class="container mx-auto py-8">
+        <div class="mb-10 mt-10">
+          <h2 class="text-gray-100 text-3xl  font-bold mb-6  mt-8">Recent Project</h2>
         </div>
-        <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-          <div>
-
-            <div class="flex flex-col justify-center items-center max-w-sm mx-auto">
-              <div class="bg-gray-300 h-64 w-full rounded-lg shadow-md bg-cover bg-center"
-               style="background-position:cover" :style="`background-image: url(Portfolio/image1.png)`">
-              </div>
-              <div class="w-56 md:w-64 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden">
-                <h3 class="py-2 text-center font-bold uppercase tracking-wide text-gray-800">Wedding Project</h3>
-
-                <div class="flex items-center justify-between py-2 px-3 bg-gray-200">
-                  <span class="text-gray-800 font-bold ">HTML, CSS , JS</span>
-                  <button
-                    class="bg-gray-800 text-xs text-white px-2 py-1 font-semibold rounded uppercase hover:bg-gray-700">See Project</button>
-                </div>
-              </div>
+      </div>
+      <div class="container mx-auto">
+        <div class=" grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5" v-for="item in portfolio" :key="item.id">
+          <!--Card 1-->
+          <div class="rounded  bg-white overflow-hidden shadow-lg">
+            <img class="w-full" src="Portfolio/image1.png" alt="Mountain">
+            <div class="px-6 py-4">
+              <a href="#" class="font-bold text-xl mb-4">{{item.project_name}}</a>
+              <p class="text-gray-700 mt-4 text-base">
+                {{item.description}}
+              </p>
             </div>
-          </div>
-          <div>
-            <div class="flex flex-col justify-center items-center max-w-sm mx-auto">
-              <div class="bg-gray-300 h-64 w-full rounded-lg shadow-md bg-cover bg-center"
-                style="background-image: url(https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80)">
-              </div>
-              <div class="w-56 md:w-64 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden">
-                <h3 class="py-2 text-center font-bold uppercase tracking-wide text-gray-800">Wedding Project</h3>
-
-                <div class="flex items-center justify-between py-2 px-3 bg-gray-200">
-                  <span class="text-gray-800 font-bold ">HTML, CSS , JS</span>
-                  <button
-                    class="bg-gray-800 text-xs text-white px-2 py-1 font-semibold rounded uppercase hover:bg-gray-700">See Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="flex flex-col justify-center items-center max-w-sm mx-auto">
-              <div class="bg-gray-300 h-64 w-full rounded-lg shadow-md bg-cover bg-center"
-                style="background-image: url(https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80)">
-              </div>
-              <div class="w-56 md:w-64 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden">
-                <h3 class="py-2 text-center font-bold uppercase tracking-wide text-gray-800">Wedding Project</h3>
-
-                <div class="flex items-center justify-between py-2 px-3 bg-gray-200">
-                  <span class="text-gray-800 font-bold ">HTML, CSS , JS</span>
-                  <button
-                    class="bg-gray-800 text-xs text-white px-2 py-1 font-semibold rounded uppercase hover:bg-gray-700">See Project</button>
-                </div>
-              </div>
+            <div class="px-4 pt-4 mb-12">
+              <span
+                class="inline-block bg-gray-200 rounded-full float-left px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#{{item.category}}</span>
+              <a href="#" class="sm:px-4 lg:px-4 py-2 float-right bg-gray-800 text-white text-xs font-bold uppercase rounded-full hover:bg-gray-700 focus:outline-none focus:bg-gray-700">See Project</a>
             </div>
           </div>
         </div>
       </div>
-    </section> -->
-    <!-- <section class="contact-me bg-gray-800">
-      <div class="container mx-auto px-6 py-8">
-        <div class="lg:w-1/7 mb-10 mt-10">
-          <h2 class="text-gray-100 text-3xl  font-bold mb-8  mt-8">Get In Touch</h2>
-        </div>
-        <div class="flex flex-col max-w-4xl mx-auto pb-5 bg-gray-600 rounded-lg shadow-lg overflow-hidden md:flex-row md:h-48">
-            <div class="flex items-center lg:mx-auto md:ml-20  mt-6 justi">
-              <a class="mx-6" href="#" aria-label="Github">
-                <i class="fab fa-2x  fw text-gray-300 hover:text-gray-500 fa-github font-bold"></i>
-              </a>
-              <a class="mx-6" href="#" aria-label="Github">
-                <i class="fab fa-2x  fw text-gray-300 hover:text-gray-500 fa-facebook font-bold"></i>
-              </a>
-              <a class="mx-6" href="#" aria-label="Linkedin">
-                <i class="fab fa-2x  fw text-gray-300 hover:text-gray-500 fa-linkedin font-bold"></i>
-              </a>
-              <a class="mx-6" href="#" aria-label="twitter">
-                <i class="fab fa-2x fw text-gray-300 hover:text-gray-500 font-bold fa-twitter "></i>
-              </a>
-            </div>
-        </div>
-      </div>
-    </section> -->
+    </section>
+    <!-- section project -->
+    <!-- seciton contact  -->
+    <section class="contact-me bg-gray-800">
+
+    </section>
+    <!--end  section contact -->
   </div>
 </template>
 
 <script>
   export default {
-
+    data: () => {
+      return {
+        portfolio : [
+          {
+            id:1,
+            project_name:'Teman Belajar',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus, nisi. Iure, laboriosam excepturi et non modi officia, nisi obcaecati nostrum molestiae corrupti eos. Odit!',
+            category:'Wed Development',
+            link:'www.github.com/Zainal21/E-Course-Learning-System-with--Laravel-8'
+          }
+        ]
+      }
+    }
   }
 </script>
 

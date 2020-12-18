@@ -15,9 +15,6 @@
         </div>
         <div class="mt-4">
           <div class="flex items-center">
-            <!-- <div class="flex items-center">
-              <p class="mx-1 text-gray-700 font-semibold">Muhamad Zainal Arifin</p>
-            </div> -->
             <div class="float-right">
             </div>
           </div>

@@ -49,7 +49,7 @@
 
 <script lang="js">
   import DynamicMarkdown from "~/components/Markdown/DynamicMarkdown.vue"
-  const baseUrl = 'https://penulisduduk.vercel.app';
+  const baseUrl = '#';
 
   export default {
 

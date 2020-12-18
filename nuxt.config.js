@@ -24,7 +24,7 @@ const productionUrl = {
   en: "/en",
   es: "/es"
 };
-const baseUrl = 'https://penulisduduk.vercel.app';
+const baseUrl = '';
 
 module.exports = {
   env: {
