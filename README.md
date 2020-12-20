@@ -1,12 +1,14 @@
-# 🏗️ Boilerplate for Nuxt, Tailwind & NetlifyCMS
+# 🏗️ @MuhammadZain Personal Websie
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cb2d4cc5-8a65-4940-81ce-4456ff96e6db/deploy-status)](https://app.netlify.com/sites/ntn-boilerplate/deploys) ← replace with [your own](https://app.netlify.com/sites/YOUR_NETLIFY_SITE_SLUG/settings/general#deploy-status-badge)
 
-**[Live Demo](https://ntn-boilerplate.netlify.app/)**
 
-An opinionated starter template for a quick start with the following technologies up on a site after only 5 minutes!
+> My Personal Website with NuxtJS & Tailwind CSS : http://penulisdudukdev.xyz/ 
 
-![NTN Boilerplate Screenshot](https://user-images.githubusercontent.com/770560/92640923-4a36fa80-f2de-11ea-8f96-a7bca7b1e0cc.png)
+### Required in System
+
+- [NodeJS](https://nodejs.org/en/download/)
+
 
 ## 🔋 Batteries included
 
@@ -144,3 +146,6 @@ Deployed easily with their boilerplate via:
 - > I can’t get Git LFS to run correctly on Netlify
 
   - Make sure that you have in your [Netlify build settings](https://app.netlify.com/sites/YOUR_NETLIFY_SITE_SLUG/settings/deploys#environment-variables), set the environment variable `GIT_LFS_ENABLED` : `true`. Then also make sure that Netlify LM is setup as [their docs](https://docs.netlify.com/large-media/setup/) specify.
+
+-------------------------------------------------------------------------------------------------------
+Copyright © 2020 by Muhamad Zainal Arifin
