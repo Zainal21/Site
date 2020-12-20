@@ -8,9 +8,7 @@
             <h2 class="text-gray-100 text-2xl font-bold">Hi, I am Muhamad Zainal Arifin</h2>
 
             <p class="text-gray-400 text-base lg:max-w-md mt-4">
-              Call Me <a href="www.github.com/Zainal21" class="text-indigo-300 text-base">@PenulisDudukDev </a>,
-              Software Enginnering Student at <a class="text-indigo-300 text-base font-bold" href="#">@SMKN 2
-                Karanganyar</a>
+              Nickname as <a href="www.github.com/Zainal21" class="text-indigo-300 text-base">@PenulisDudukDev </a>, I’m currently a Software Engineering student at <a class="text-indigo-300 text-base font-bold" href="https://smkn2kra.sch.id">at VHS 2 Karanganyar,</a>
               Vocational Student who is interested in the world of technology,
               especially in the world of web programming, and a web programmer who is quite experienced in creating,
               developing web-based applications, especially with backend development with PHP Technology & JS Technology
@@ -55,7 +53,7 @@
             <div class="flex items-center justify-center lg:justify-end">
               <div class="max-w-lg">
                 <img class="w-full h-64 object-cover object-center rounded-md"
-                  src="https://images.unsplash.com/photo-1484627147104-f5197bcd6651?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                  src="images/photo3211868340741056440.jpg"
                   alt="">
               </div>
             </div>
@@ -67,29 +65,22 @@
     <section class="skill-section">
       <div class="container mx-auto px-6 py-8">
         <div class="lg:w-1/7 mb-10">
-          <h2 class="text-gray-100 text-4xl  font-bold mb-8 mt-10">Skillset</h2>
+          <h2 class="text-gray-100 text-2xl font-bold mb-8 mt-10">Skillset</h2>
         </div>
         <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <div>
-            <h1 class="mt-4 font-semibold text-2xl text-white ">Front-End Development</h1>
-            <p class="mt-2 text-gray-500 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim
-              fusce
-              tortor,
-              ac sed malesuada blandit. Et mi gravida sem feugiat.</p>
+            <h1 class="mt-4 font-semibold text-lg text-white ">Front-End Development</h1>
+            <p class="mt-2 text-gray-500 text-base">
+             Currently I am studying several web technologies, the Frontend development section, I usually use <b>HTML</b>, <B>CSS</B>, <B>Javascript</B>, <b>Bootstrap</b>, <b>Tailwind</b>, <b>VueJS (on going)</b>, <b>React (but still a beginner)</b> to build User Interface
+            </p>
           </div>
           <div>
-            <h1 class="mt-4 font-semibold text-2xl text-white ">Back-End Development</h1>
-            <p class="mt-2 text-gray-500 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim
-              fusce
-              tortor,
-              ac sed malesuada blandit. Et mi gravida sem feugiat.</p>
+            <h1 class="mt-4 font-semibold text-lg text-white ">Back-End Development</h1>
+            <p class="mt-2 text-gray-500 text-base">For Backend development I am quite experienced with using <b>PHP</b> technology with Framework <b>(Laravel, Codeigniter3)</b> and <b> NodeJS with Framework (Express JS)</b>. and still learning</p>
           </div>
           <div>
-            <h1 class="mt-4 font-semibold text-2xl text-white">Desktop Apps Dev</h1>
-            <p class="mt-2 text-gray-500 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim
-              fusce
-              tortor,
-              ac sed malesuada blandit. Et mi gravida sem feugiat.</p>
+            <h1 class="mt-4 font-semibold text-lg text-white">Desktop Apps Dev</h1>
+            <p class="mt-2 text-gray-500 text-base">For Desktop app development. I once worked on a desktop application project using <b>VB.NET</b> and <b>C#</b> with <b>SQL Server Database</b></p>
           </div>
         </div>
       </div>
@@ -97,7 +88,7 @@
     <section class="git-contribution">
       <div class="container mx-auto px-6 py-8">
         <div class="mb-10 mt-10">
-          <h2 class="text-gray-100 text-4xl font-bold mb-8  mt-8">Contributions Chart</h2>
+          <h2 class="text-gray-100 text-2xl font-bold mb-8  mt-8">Contributions Chart</h2>
         </div>
         <img data-src="https://ghchart.rshah.org/Zainal21" alt="My Contributions" style="width:120%"
           src="https://ghchart.rshah.org/Zainal21" lazy="loaded">
@@ -106,13 +97,13 @@
     <!-- end section skill -->
 
     <!-- section project -->
-    <section class="recent-projec">
+    <section class="recent-project">
       <div class="container mx-auto py-8">
         <div class="mb-10 mt-10">
-          <h2 class="text-gray-100 text-4xl font-bold mb-6 mt-8">Recent Project</h2>
+          <h2 class="text-gray-100 text-2xl font-bold mb-6 mt-8">Recent Project</h2>
         </div>
       </div>
-      <div class="container mx-auto">
+      <div class="container mx-auto  mb-8">
         <div class="max-w-2xl mx-auto bg-white overflow-hidden shadow-md rounded-lg" v-for="item in portfolio"
           :key="item.id">
           <img class="w-full h-64 object-cover" src="Portfolio/image1.png" alt="Article">
@@ -136,6 +127,7 @@
         </div>
       </div>
     </section>
+    <hr class="border border-gray-500">
     <!-- section project -->
   </div>
 </template>

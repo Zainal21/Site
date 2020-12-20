@@ -4,7 +4,7 @@
      <div class="container mx-auto px-5 py-5">
       <nav class="flex items-center justify-between flex-wrap bg-teal">
         <div class="flex items-center flex-no-shrink text-white mr-6">
-          <h1 class="font-semibold text-base tracking-tight">@PenulisDuduk</h1>
+          <nuxt-link to="/" class="font-semibold text-lg tracking-tight">@Muhammadzain</nuxt-link>
         </div>
         <div class="block sm:hidden text-white">
           <button @click="toggle"
@@ -16,12 +16,12 @@
           </button>
         </div>
         <div :class="open ? 'block': 'hidden'"
-          class="w-full flex-grow sm:flex sm:items-center sm:w-auto text-white mr-auto">
+          class="w-full sm:flex sm:items-center sm:w-auto text-white ml-auto">
           <div class="text-base sm:flex-grow mt-1">
-            <nuxt-link to="/" class="no-underline block mt-2 sm:inline-block sm:mt-0  text-base hover:text-white mr-4">
+            <nuxt-link to="/" class="no-underline block mt-2 sm:inline-block sm:mt-0  text-sm hover:text-white mr-4">
               Home
             </nuxt-link>
-            <nuxt-link to="/posts" class="no-underline block mt-2 sm:inline-block sm:mt-0 text-base hover:text-white mr-4">
+            <nuxt-link to="/posts" class="no-underline block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4">
               Post
             </nuxt-link>
           </div>

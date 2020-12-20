@@ -5,14 +5,14 @@
         <div class=" text-white lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg lg:rounded-lg">
           <div class="lg:w-1/2">
             <div class="h-64 bg-cover lg:rounded-lg lg:h-full"
-              style="background-image:url('https://images.unsplash.com/photo-1497493292307-31c376b6e479?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80')">
+              style="background-image:url('images/photo-1483058712412-4245e9b90334.webp')">
             </div>
           </div>
 
           <div class="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2 ">
             <h2 class="text-2xl text-gray-100 font-bold md:text-3xl">Build Your New <span
-                class="text-indigo-200">Idea</span></h2>
-            <p class="mt-4 text-gray-100">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos expedita neque adipisci excepturi hic aspernatur nihil voluptates, illum sed culpa vel officia possimus at iure dicta vitae animi doloremque obcaecati..
+                class="text-indigo-100">Idea</span></h2>
+            <p class="mt-4 text-base text-gray-100">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos expedita neque adipisci excepturi hic aspernatur nihil voluptates, illum sed culpa vel officia possimus at iure dicta vitae animi doloremque obcaecati..
             </p>
           </div>
         </div>

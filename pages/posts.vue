@@ -38,13 +38,13 @@
 
     head () {
       return {
-        title: this.$t('indexPageHead.title'),
+        title: 'Muhamad Zainal Arifin - Post',
         htmlAttrs: {
           lang: 'en',
         },
         script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
         meta: [
-          { name: "author", content: "Marina Aisa" },
+          { name: "author", content: "Muhamad Zainal Arifin" },
           { name: "description", property: "og:description", content: this.$t('indexPageHead.description'), hid: "description" },
           { property: "og:title", content: this.$t('indexPageHead.title') },
           { property: "og:image", content: this.ogImage },

@@ -1,47 +1,52 @@
 <template>
   <section class="single-pos">
-     <hr class="border border-gray-500">
-    <div class="lg:container lg:mx-auto mt-4   md:container mx-6 py-20">
-      <div class="max-w-6xl mx-auto px-8 py-8 bg-gray-800 rounded-lg shadow-md">
+    <hr class="border border-gray-500">
+    <div class="lg:container lg:mx-auto mt-4   md:container mx-1 py-20">
+      <!-- <div class="max-w-6xl mx-auto px-8 py-8 bg-gray-800 rounded-lg shadow-md"> -->
+      <div class="container mx-auto">
         <div class="flex justify-between items-center">
-          <nuxt-link to="/posts" class="px-3 py-1 bg-gray-200 text-black text-sm font-bold rounded hover:bg-gray-200">Back</nuxt-link>
+          <nuxt-link to="/posts" class="px-3 py-1 bg-gray-200 text-black text-sm font-bold rounded hover:bg-gray-200">
+            Back</nuxt-link>
           <p class="font-semibold text-center text-gray-100 text-md">{{ year }}</p>
           <p class="px-3 py-1 text-black bg-gray-100 text-sm font-bold rounded hover:bg-gray-200">{{category}}</p>
         </div>
-        <div class="mt-2">
-          <div class="blogSelected">
-            <div class="intro">
-              <div class="elevate-cover">
-                <div class="elevate-cover__textOffset">
-                  <div class="elevate-cover__left">
-                    <h1 class="elevate-cover__title text-4xl text-white font-bold hover:text-gray-100">
-                      {{ title }}
-                    </h1>
-                    <p class="elevate-cover__description text-xl text-white">{{ description }}</p>
-                  </div>
+      </div>
+      <div class="mt-2">
+        <div class="blogSelected">
+          <div class="intro">
+            <div class="elevate-cover">
+              <div class="elevate-cover__textOffset">
+                <div class="elevate-cover__left">
+                  <h1 class="elevate-cover__title text-4xl text-white font-bold hover:text-gray-100">
+                    {{ title }}
+                  </h1>
+                  <p class="elevate-cover__description text-xl text-white">{{ description }}</p>
                 </div>
-                <!-- <img :src="`/images/blog/${id}/_thumbnail.jpg`" alt="" width="100%"> -->
-                <!-- <ImageResponsive :imageURL="'blog/' + id + '/_thumbnail.jpg'" v-if="!noMainImage" width="20%"
+              </div>
+              <!-- <img :src="`/images/blog/${id}/_thumbnail.jpg`" alt="" width="100%"> -->
+              <!-- <ImageResponsive :imageURL="'blog/' + id + '/_thumbnail.jpg'" v-if="!noMainImage" width="20%"
                   class="elevate-cover__img" :alt="'Blog picture'" />
                 <component v-else class="elevate-cover__img" :is="extraComponentLoader" /> -->
-              </div>
-            </div>
-            <div class="container small text-lg text-gray-600">
-              <client-only>
-                <DynamicMarkdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs"
-                  :extra-component="extraComponent" />
-              </client-only>
             </div>
           </div>
-       </div>
-        <div class="flex justify-between items-center mt-8">
-          <nuxt-link to="/posts" class="text-blue-100 hover:underline">Back</nuxt-link>
-          <div class="flex items-center">
-            <p class="text-gray-100 font-bold cursor-pointer">Muhamad Zainal Arifin</p>
+          <div class="container small text-lg text-gray-600">
+            <client-only>
+              <DynamicMarkdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs"
+                :extra-component="extraComponent" />
+            </client-only>
           </div>
         </div>
       </div>
+      <div class="flex justify-between items-center mt-8">
+        <div class="container mx-auto">
+          <nuxt-link to="/posts" class="px-3 py-1 float-left bg-gray-200 text-black text-sm font-bold rounded hover:bg-gray-200">
+            Back</nuxt-link>
+          <a href="https://github.com/Zainal21"
+            class="px-3 py-1 bg-gray-200 text-black float-right text-sm font-bold rounded hover:bg-gray-200">Muhamad Zain</a>
+        </div>
+      </div>
     </div>
+    <hr class="border border-gray-500">
   </section>
 
 </template>
@@ -52,9 +57,9 @@
 
   export default {
 
-    data : () => {
+    data: () => {
       return {
-        baseUrl : baseUrl
+        baseUrl: baseUrl
       }
     },
 
@@ -70,7 +75,7 @@
         trans: attr.trans,
         year: attr.year,
         id: attr.id,
-        category:attr.category,
+        category: attr.category,
         time_read: attr.time_read,
         cardAlt: attr.cardAlt,
         noMainImage: attr.noMainImage,
@@ -222,7 +227,7 @@
 
     &__title {
       font-size: 2rem;
-      font-family: 'Tiempos Headline', Arial, sans-serif; 
+      font-family: 'Tiempos Headline', Arial, sans-serif;
     }
 
     &__description {
@@ -236,12 +241,11 @@
 
   .dynamicMarkdown {
     padding: 3.1rem 0;
-    font-size: 1.2rem;
+    font-size: 16px;
     line-height: 1.7;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #e0d5d5;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05);
-
 
     >*:not(.datagrid):not(.image-placeholder) {
       max-width: 700px;
@@ -278,6 +282,7 @@
         background-color: #f6f8fa;
       }
     }
+
     code {
       background: #f3f4f4;
       border-radius: 4px;
