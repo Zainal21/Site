@@ -32,7 +32,7 @@ module.exports = {
     productionUrl
   },
   head: {
-    title: 'PenulisDudukDev | Muhamad Zainal Arifin',
+    title: 'Muhamad Zainal Arifin',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no' },

@@ -1,8 +1,8 @@
 <template>
-  <section class="bg-gray-800 pb-8 pt-50">
+  <section class="blog-section pb-8 pt-50">
     <div class="container mx-auto px-6 py-8">
-      <section class="bg-gray-800 lg:py-12 lg:flex lg:justify-center">
-        <div class="bg-gray-800 text-white lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg lg:rounded-lg">
+      <section class=" lg:py-12 lg:flex lg:justify-center">
+        <div class=" text-white lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg lg:rounded-lg">
           <div class="lg:w-1/2">
             <div class="h-64 bg-cover lg:rounded-lg lg:h-full"
               style="background-image:url('https://images.unsplash.com/photo-1497493292307-31c376b6e479?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80')">

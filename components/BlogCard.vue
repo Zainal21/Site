@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="max-w-2xl mx-auto bg-white overflow-hidden shadow-md rounded-lg">
+    <div class="max-w-2xl mx-auto mt-5 bg-white overflow-hidden shadow-md rounded-lg">
       <div class="p-7">
         <div>
           <span class="text-blue-600 float-left text-xs font-medium uppercase">{{blog.year}}</span>

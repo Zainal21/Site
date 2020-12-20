@@ -1,14 +1,13 @@
 <template>
-  <section class="single-post bg-gray-800">
-    <div class="lg:container lg:mx-auto md:container mx-6 py-20">
-      <div class="max-w-6xl mx-auto px-8 py-8 bg-gray-600 rounded-lg shadow-md">
+  <section class="single-pos">
+     <hr class="border border-gray-500">
+    <div class="lg:container lg:mx-auto mt-4   md:container mx-6 py-20">
+      <div class="max-w-6xl mx-auto px-8 py-8 bg-gray-800 rounded-lg shadow-md">
         <div class="flex justify-between items-center">
-          <nuxt-link to="/posts" class="px-3 py-1 bg-gray-200 text-gray-00 text-sm font-bold rounded hover:bg-gray-200">Back</nuxt-link>
+          <nuxt-link to="/posts" class="px-3 py-1 bg-gray-200 text-black text-sm font-bold rounded hover:bg-gray-200">Back</nuxt-link>
           <p class="font-semibold text-center text-gray-100 text-md">{{ year }}</p>
-          <p class="px-3 py-1 bg-gray-100 text-sm font-bold rounded hover:bg-gray-200">{{category}}</p>
-          
+          <p class="px-3 py-1 text-black bg-gray-100 text-sm font-bold rounded hover:bg-gray-200">{{category}}</p>
         </div>
-
         <div class="mt-2">
           <div class="blogSelected">
             <div class="intro">
@@ -27,7 +26,7 @@
                 <component v-else class="elevate-cover__img" :is="extraComponentLoader" /> -->
               </div>
             </div>
-            <div class="container small text-gray-600">
+            <div class="container small text-lg text-gray-600">
               <client-only>
                 <DynamicMarkdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs"
                   :extra-component="extraComponent" />
@@ -237,7 +236,7 @@
 
   .dynamicMarkdown {
     padding: 3.1rem 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.7;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #e0d5d5;

@@ -1,10 +1,10 @@
 <template>
- <section class="header bg-gray-800">
+ <section class="header ">
     <div class="font-sans antialiased" id="app">
-     <div class="container mx-auto px-5 py-8 bg-gray-800">
+     <div class="container mx-auto px-5 py-5">
       <nav class="flex items-center justify-between flex-wrap bg-teal">
         <div class="flex items-center flex-no-shrink text-white mr-6">
-          <span class="font-semibold text-lg tracking-tight">PenulisDuduk.Dev</span>
+          <h1 class="font-semibold text-base tracking-tight">@PenulisDuduk</h1>
         </div>
         <div class="block sm:hidden text-white">
           <button @click="toggle"
@@ -17,11 +17,11 @@
         </div>
         <div :class="open ? 'block': 'hidden'"
           class="w-full flex-grow sm:flex sm:items-center sm:w-auto text-white mr-auto">
-          <div class="text-base sm:flex-grow">
-            <nuxt-link to="/" class="no-underline block mt-4 sm:inline-block sm:mt-0  hover:text-white mr-4">
+          <div class="text-base sm:flex-grow mt-1">
+            <nuxt-link to="/" class="no-underline block mt-2 sm:inline-block sm:mt-0  text-base hover:text-white mr-4">
               Home
             </nuxt-link>
-            <nuxt-link to="/posts" class="no-underline block mt-4 sm:inline-block sm:mt-0  hover:text-white mr-4">
+            <nuxt-link to="/posts" class="no-underline block mt-2 sm:inline-block sm:mt-0 text-base hover:text-white mr-4">
               Post
             </nuxt-link>
           </div>
@@ -50,5 +50,7 @@
 </script>
 
 <style scoped>
-
+h1{
+font-size: 2rem;
+}
 </style>

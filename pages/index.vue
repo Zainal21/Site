@@ -1,21 +1,23 @@
 <template>
   <div>
-    <section class="bg-gray-800">
+    <hr class="border border-gray-500">
+    <section class="hero-section">
       <div class="container mx-auto px-6 py-8">
         <div class="lg:flex items-center">
-          <div class="lg:w-1/2">
-            <h2 class="text-gray-100 text-3xl font-bold">Who I am</h2>
+          <div class="lg:w-1/2 mt-6">
+            <h2 class="text-gray-100 text-2xl font-bold">Hi, I am Muhamad Zainal Arifin</h2>
 
-            <p class="text-gray-400 lg:max-w-md mt-4">
-              Hi I am Muhamad Zainal Arifin, Nickname <a href="www.github.com/Zainal21" class="text-indigo-300">@PenulisDudukDev </a>,
-              Software Enginnering Student at <a class="text-indigo-300 font-bold" href="#">@SMKN 2 Karanganyar</a>
+            <p class="text-gray-400 text-base lg:max-w-md mt-4">
+              Call Me <a href="www.github.com/Zainal21" class="text-indigo-300 text-base">@PenulisDudukDev </a>,
+              Software Enginnering Student at <a class="text-indigo-300 text-base font-bold" href="#">@SMKN 2
+                Karanganyar</a>
               Vocational Student who is interested in the world of technology,
               especially in the world of web programming, and a web programmer who is quite experienced in creating,
               developing web-based applications, especially with backend development with PHP Technology & JS Technology
             </p>
 
             <div class="flex items-center -mx-2 mt-6">
-              <a class="mx-2" href="#" aria-label="Twitter">
+              <a class="mx-2  text-lg" href="#" aria-label="Twitter">
                 <svg class="fill-current text-gray-300 hover:text-gray-500 h-6 w-6" xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 512 512">
                   <path
@@ -23,7 +25,7 @@
                 </svg>
               </a>
 
-              <a class="mx-2" href="#" aria-label="Facebook">
+              <a class="mx-2 text-lg" href="#" aria-label="Facebook">
                 <svg class="fill-current text-gray-300 hover:text-gray-500 h-6 w-6" xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 512 512">
                   <path
@@ -31,7 +33,7 @@
                 </svg>
               </a>
 
-              <a class="mx-2" href="#" aria-label="Linkden">
+              <a class="mx-2 text-lg" href="#" aria-label="Linkden">
                 <svg class="fill-current text-gray-300 hover:text-gray-500 h-6 w-6" xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 512 512">
                   <path
@@ -39,7 +41,7 @@
                 </svg>
               </a>
 
-              <a class="mx-2" href="#" aria-label="Github">
+              <a class="mx-2 text-lg" href="#" aria-label="Github">
                 <svg class="fill-current text-gray-300 hover:text-gray-500 h-6 w-6" xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 512 512">
                   <path
@@ -62,37 +64,40 @@
       </div>
     </section>
     <!-- section skill -->
-    <section class="bg-gray-800">
+    <section class="skill-section">
       <div class="container mx-auto px-6 py-8">
         <div class="lg:w-1/7 mb-10">
-          <h2 class="text-gray-100 text-3xl  font-bold mb-8 mt-10">My Skill</h2>
+          <h2 class="text-gray-100 text-4xl  font-bold mb-8 mt-10">Skillset</h2>
         </div>
         <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <div>
-            <h1 class="mt-4 font-semibold text-xl text-white">Front-End Development</h1>
-            <p class="mt-2 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim fusce
+            <h1 class="mt-4 font-semibold text-2xl text-white ">Front-End Development</h1>
+            <p class="mt-2 text-gray-500 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim
+              fusce
               tortor,
               ac sed malesuada blandit. Et mi gravida sem feugiat.</p>
           </div>
           <div>
-            <h1 class="mt-4 font-semibold text-xl text-white">Back-End Development</h1>
-            <p class="mt-2 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim fusce
+            <h1 class="mt-4 font-semibold text-2xl text-white ">Back-End Development</h1>
+            <p class="mt-2 text-gray-500 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim
+              fusce
               tortor,
               ac sed malesuada blandit. Et mi gravida sem feugiat.</p>
           </div>
           <div>
-            <h1 class="mt-4 font-semibold text-xl text-white">Desktop Apps Development</h1>
-            <p class="mt-2 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim fusce
+            <h1 class="mt-4 font-semibold text-2xl text-white">Desktop Apps Dev</h1>
+            <p class="mt-2 text-gray-500 text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim
+              fusce
               tortor,
               ac sed malesuada blandit. Et mi gravida sem feugiat.</p>
           </div>
         </div>
       </div>
     </section>
-    <section class="git-contribution bg-gray-800">
+    <section class="git-contribution">
       <div class="container mx-auto px-6 py-8">
         <div class="mb-10 mt-10">
-          <h2 class="text-gray-100 text-3xl  font-bold mb-8  mt-8">Contributions Chart</h2>
+          <h2 class="text-gray-100 text-4xl font-bold mb-8  mt-8">Contributions Chart</h2>
         </div>
         <img data-src="https://ghchart.rshah.org/Zainal21" alt="My Contributions" style="width:120%"
           src="https://ghchart.rshah.org/Zainal21" lazy="loaded">
@@ -101,38 +106,37 @@
     <!-- end section skill -->
 
     <!-- section project -->
-    <section class="recent-project bg-gray-800">
+    <section class="recent-projec">
       <div class="container mx-auto py-8">
         <div class="mb-10 mt-10">
-          <h2 class="text-gray-100 text-3xl  font-bold mb-6  mt-8">Recent Project</h2>
+          <h2 class="text-gray-100 text-4xl font-bold mb-6 mt-8">Recent Project</h2>
         </div>
       </div>
       <div class="container mx-auto">
-        <div class=" grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5" v-for="item in portfolio" :key="item.id">
-          <!--Card 1-->
-          <div class="rounded  bg-white overflow-hidden shadow-lg">
-            <img class="w-full" src="Portfolio/image1.png" alt="Mountain">
-            <div class="px-6 py-4">
-              <a href="#" class="font-bold text-xl mb-4">{{item.project_name}}</a>
-              <p class="text-gray-700 mt-4 text-base">
-                {{item.description}}
-              </p>
+        <div class="max-w-2xl mx-auto bg-white overflow-hidden shadow-md rounded-lg" v-for="item in portfolio"
+          :key="item.id">
+          <img class="w-full h-64 object-cover" src="Portfolio/image1.png" alt="Article">
+          <div class="p-7">
+            <div>
+              <span class="text-blue-600 text-base font-medium uppercase">{{item.category}}</span>
+              <a :href="item.link"
+                class="block text-gray-800 font-semibold text-3xl mt-2 hover:text-gray-600 hover:underline">{{item.project_name}}</a>
+              <p class="text-base text-gray-600 mt-2"> {{item.description}}s.</p>
             </div>
-            <div class="px-4 pt-4 mb-12">
-              <span
-                class="inline-block bg-gray-200 rounded-full float-left px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#{{item.category}}</span>
-              <a href="#" class="sm:px-4 lg:px-4 py-2 float-right bg-gray-800 text-white text-xs font-bold uppercase rounded-full hover:bg-gray-700 focus:outline-none focus:bg-gray-700">See Project</a>
+
+            <div class="mt-4">
+              <div class="flex items-center">
+                <a class="mx-2 text-xl" href="#" aria-label="Github">
+                  <i class="fas fa-github"></i>
+                </a>
+                <span class="mx-1 text-gray-600 text-xs">21 SEP 2015</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- section project -->
-    <!-- seciton contact  -->
-    <section class="contact-me bg-gray-800">
-
-    </section>
-    <!--end  section contact -->
   </div>
 </template>
 
@@ -140,15 +144,13 @@
   export default {
     data: () => {
       return {
-        portfolio : [
-          {
-            id:1,
-            project_name:'Teman Belajar',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus, nisi. Iure, laboriosam excepturi et non modi officia, nisi obcaecati nostrum molestiae corrupti eos. Odit!',
-            category:'Wed Development',
-            link:'www.github.com/Zainal21/E-Course-Learning-System-with--Laravel-8'
-          }
-        ]
+        portfolio: [{
+          id: 1,
+          project_name: 'Teman Belajar',
+          description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus, nisi. Iure, laboriosam excepturi et non modi officia, nisi obcaecati nostrum molestiae corrupti eos. Odit!',
+          category: 'Wed Development',
+          link: 'https://github.com/Zainal21'
+        }]
       }
     }
   }
