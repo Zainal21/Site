@@ -4,8 +4,8 @@
       <div class="p-7">
         <div>
           <span class="text-blue-600 float-left text-xs font-medium uppercase">{{blog.year}}</span>
-           <div class="flex">
-              <span class="mx-auto flex font-semibold text-gray-600 text-xs">{{blog.time_read}}</span>
+           <div class="flex justify-center">
+            <span class="font-medium ml-auto text-gray-600 text-xs">{{blog.time_read}}</span>
            </div>
           <nuxt-link :to="localePath({ name: 'blog-slug', params: { slug: blog.name }})"
             class="block text-gray-800 font-semibold text-2xl mt-3 hover:text-gray-600 hover:underline">{{blog.title}}

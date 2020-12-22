@@ -245,7 +245,8 @@
     line-height: 1.7;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #e0d5d5;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05);
+    background-color: rgb(22, 22, 29);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 
     >*:not(.datagrid):not(.image-placeholder) {
       max-width: 700px;
