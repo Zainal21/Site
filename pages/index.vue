@@ -8,7 +8,9 @@
             <h2 class="text-gray-100 text-2xl font-bold">Hi, I am Muhamad Zainal Arifin</h2>
 
             <p class="text-gray-400 text-base lg:max-w-md mt-4">
-              Nickname as <a href="www.github.com/Zainal21" class="text-indigo-300 text-base">@PenulisDudukDev </a>, I’m currently a Software Engineering student at <a class="text-indigo-300 text-base font-bold" href="https://smkn2kra.sch.id">at VHS 2 Karanganyar,</a>
+              Nickname as <a href="www.github.com/Zainal21" class="text-indigo-300 text-base">@PenulisDudukDev </a>, I’m
+              currently a Software Engineering student at <a class="text-indigo-300 text-base font-bold"
+                href="https://smkn2kra.sch.id">at VHS 2 Karanganyar,</a>
               Vocational Student who is interested in the world of technology,
               especially in the world of web programming, and a web programmer who is quite experienced in creating,
               developing web-based applications, especially with backend development with PHP Technology & JS Technology
@@ -52,8 +54,7 @@
           <div class="mt-8 lg:mt-0 lg:w-1/2">
             <div class="flex items-center justify-center lg:justify-end">
               <div class="max-w-lg">
-                <img class="w-full h-64 object-cover object-center rounded-md"
-                  src="images/photo3211868340741056440.jpg"
+                <img class="w-full h-64 object-cover object-center rounded-md" src="images/photo3211868340741056440.jpg"
                   alt="">
               </div>
             </div>
@@ -71,16 +72,21 @@
           <div>
             <h1 class="mt-4 font-semibold text-lg text-white ">Front-End Development</h1>
             <p class="mt-2 text-gray-500 text-base">
-             Currently I am studying several web technologies, the Frontend development section, I usually use <b>HTML</b>, <B>CSS</B>, <B>Javascript</B>, <b>Bootstrap</b>, <b>Tailwind</b>, <b>VueJS (on going)</b>, <b>React (but still a beginner)</b> to build User Interface
+              Currently I am studying several web technologies, the Frontend development section, I usually use
+              <b>HTML</b>, <B>CSS</B>, <B>Javascript</B>, <b>Bootstrap</b>, <b>Tailwind</b>, <b>VueJS (on going)</b>,
+              <b>React (but still a beginner)</b> to build User Interface
             </p>
           </div>
           <div>
             <h1 class="mt-4 font-semibold text-lg text-white ">Back-End Development</h1>
-            <p class="mt-2 text-gray-500 text-base">For Backend development I am quite experienced with using <b>PHP</b> technology with Framework <b>(Laravel, Codeigniter3)</b> and <b> NodeJS with Framework (Express JS)</b>. and still learning</p>
+            <p class="mt-2 text-gray-500 text-base">For Backend development I am quite experienced with using <b>PHP</b>
+              technology with Framework <b>(Laravel, Codeigniter3)</b> and <b> NodeJS with Framework (Express JS)</b>.
+              and still learning</p>
           </div>
           <div>
             <h1 class="mt-4 font-semibold text-lg text-white">Desktop Apps Dev</h1>
-            <p class="mt-2 text-gray-500 text-base">For Desktop app development. I once worked on a desktop application project using <b>VB.NET</b> and <b>C#</b> with <b>SQL Server Database</b></p>
+            <p class="mt-2 text-gray-500 text-base">For Desktop app development. I once worked on a desktop application
+              project using <b>VB.NET</b> and <b>C#</b> with <b>SQL Server Database</b></p>
           </div>
         </div>
       </div>
@@ -104,23 +110,27 @@
         </div>
       </div>
       <div class="container mx-auto  mb-8">
-        <div class="max-w-2xl mx-auto bg-white overflow-hidden shadow-md rounded-lg" v-for="item in portfolio"
-          :key="item.id">
-          <img class="w-full h-64 object-cover" src="Portfolio/image1.png" alt="Article">
-          <div class="p-7">
-            <div>
-              <span class="text-blue-600 text-base font-medium uppercase">{{item.category}}</span>
-              <a :href="item.link"
-                class="block text-gray-800 font-semibold text-3xl mt-2 hover:text-gray-600 hover:underline">{{item.project_name}}</a>
-              <p class="text-base text-gray-600 mt-2"> {{item.description}}s.</p>
-            </div>
-
-            <div class="mt-4">
-              <div class="flex items-center">
-                <a class="mx-2 text-xl" href="#" aria-label="Github">
-                  <i class="fas fa-github"></i>
-                </a>
-                <span class="mx-1 text-gray-600 text-xs">21 SEP 2015</span>
+        <div class="container my-12 mx-auto px-4 md:px-12">
+          <div class="flex flex-wrap -mx-1 lg:-mx-4">
+            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2" v-for="item in portfolio" :key="item.id">
+              <div class="m-auto px-4 py-8 max-w-xl">
+                <div class="bg-white shadow-2xl">
+                  <div>
+                    <img
+                      :src="item.image">
+                  </div>
+                  <div class="px-4 py-2 mt-1 bg-white">
+                    <h2 class="font-bold text-2xl text-gray-800">{{item.project_name}}</h2>
+                    <p class="sm:text-sm text-xs text-gray-700 px-2  my-2">
+                     {{item.description}}
+                    </p>
+                    <div class="py-4 text-gray-700">
+                      <span class="inline-block bg-gray-lighter rounded-full px-3 py-1 text-sm font-semibold mr-2">#Web Development</span>
+                      <span class="inline-block bg-gray-lighter rounded-full px-3 py-1 text-sm font-semibold mr-2">#{{item.category}}</span>
+                      <span class="inline-block bg-gray-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#Project</span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -137,12 +147,62 @@
     data: () => {
       return {
         portfolio: [{
-          id: 1,
-          project_name: 'Teman Belajar',
-          description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus, nisi. Iure, laboriosam excepturi et non modi officia, nisi obcaecati nostrum molestiae corrupti eos. Odit!',
-          category: 'Wed Development',
-          link: 'https://github.com/Zainal21'
-        }]
+            id: 1,
+            project_name: 'Teman Belajar',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
+            category: 'Laravel + VueJS',
+            link: 'https://github.com/Zainal21',
+            image: 'Portfolio/image1.png'
+          },
+          {
+            id: 2,
+            project_name: 'Teman Belajar Dashboard',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
+            category: 'Laravel + VueJS',
+            link: 'https://github.com/Zainal21',
+            image: 'Portfolio/image2.png'
+          },
+          {
+            id: 3,
+            project_name: 'Guest Book E-Wedding',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
+            category: 'Laravel',
+            link: 'https://github.com/Zainal21',
+            image: 'Portfolio/image4.png'
+          },
+          {
+            id: 4,
+            project_name: 'Global Fashion',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
+            category: 'Wordpress',
+            link: 'https://github.com/Zainal21',
+            image: 'Portfolio/image5.jpg'
+          },
+          {
+            id: 5,
+            project_name: 'Kabar Desa',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
+            category: 'Laravel',
+            link: 'https://github.com/Zainal21',
+            image: 'Portfolio/image6.png'
+          },
+          {
+            id: 6,
+            project_name: 'Movie Catalog',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
+            category: 'VueJS',
+            link: 'https://github.com/Zainal21',
+            image: 'Portfolio/image7.png'
+          },
+          {
+            id: 7,
+            project_name: 'Food Delivery',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
+            category: 'Wordpress',
+            link: 'https://github.com/Zainal21',
+            image: 'Portfolio/2.png'
+          },
+        ]
       }
     }
   }
