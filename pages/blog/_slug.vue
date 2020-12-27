@@ -1,14 +1,13 @@
 <template>
   <section class="single-pos">
     <hr class="border border-gray-500">
-    <div class="lg:container lg:mx-auto mt-4   md:container mx-1 py-20">
-      <!-- <div class="max-w-6xl mx-auto px-8 py-8 bg-gray-800 rounded-lg shadow-md"> -->
+    <div class="lg:container lg:mx-auto mt-4 md:container mx-1 py-20">
       <div class="container mx-auto">
         <div class="flex justify-between items-center">
-          <nuxt-link to="/posts" class="px-3 py-1 bg-gray-200 text-black text-sm font-bold rounded hover:bg-gray-200">
+          <nuxt-link to="/posts" class="px-2 py-1 bg-gray-200 text-black text-sm font-bold rounded hover:bg-gray-200">
             Back</nuxt-link>
-          <p class="font-semibold text-center text-gray-100 text-md">{{ year }}</p>
-          <p class="px-3 py-1 text-black bg-gray-100 text-sm font-bold rounded hover:bg-gray-200">{{category}}</p>
+          <p class="font-semibold text-center text-gray-100 text-sm">{{ year }}</p>
+          <p class="px-2 py-1 text-black bg-gray-100 text-sm font-bold rounded hover:bg-gray-200">{{category}}</p>
         </div>
       </div>
       <div class="mt-2">
@@ -39,10 +38,10 @@
       </div>
       <div class="flex justify-between items-center mt-8">
         <div class="container mx-auto">
-          <nuxt-link to="/posts" class="px-3 py-1 float-left bg-gray-200 text-black text-sm font-bold rounded hover:bg-gray-200">
+          <nuxt-link to="/posts" class="px-2 py-1 float-left bg-gray-200 text-black text-sm font-bold rounded hover:bg-gray-200">
             Back</nuxt-link>
           <a href="https://github.com/Zainal21"
-            class="px-3 py-1 bg-gray-200 text-black float-right text-sm font-bold rounded hover:bg-gray-200">Muhamad Zain</a>
+            class="px-2 py-1 bg-gray-200 text-black float-right text-sm font-bold rounded hover:bg-gray-200">Muhamad Zain</a>
         </div>
       </div>
     </div>
@@ -118,18 +117,18 @@
             property: "og:title",
             content: this.pageTitle
           },
-          {
-            property: "og:image",
-            content: this.ogImage
-          },
-          {
-            name: "twitter:description",
-            content: this.description
-          },
-          {
-            name: "twitter:image",
-            content: this.ogImage
-          }
+          // {
+          //   property: "og:image",
+          //   content: this.ogImage
+          // },
+          // {
+          //   name: "twitter:description",
+          //   content: this.description
+          // },
+          // {
+          //   name: "twitter:image",
+          //   content: this.ogImage
+          // }
         ],
         link: [
           this.hreflang
@@ -146,7 +145,7 @@
         return `${process.env.baseUrl}/images/blog/${this.id}/_thumbnail.jpg`;
       },
       pageTitle() {
-        return this.title + ' – PenulisDudukDev';
+        return this.title + ' – Muhamad Zainal Arifin';
       },
       showLocales() {
         return this.$i18n.locales.filter(locale => locale.code !== this.$i18n.locale)

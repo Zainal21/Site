@@ -50,7 +50,6 @@
               </a>
             </div>
           </div>
-
           <div class="mt-8 lg:mt-0 lg:w-1/2">
             <div class="flex items-center justify-center lg:justify-end">
               <div class="max-w-lg">
@@ -100,43 +99,7 @@
           src="https://ghchart.rshah.org/Zainal21" lazy="loaded">
       </div>
     </section>
-    <!-- end section skill -->
-
-    <!-- section project -->
-    <section class="recent-project">
-      <div class="container mx-auto py-8">
-        <div class="mb-10 mt-10">
-          <h2 class="text-gray-100 text-2xl font-bold mb-6 mt-8">Recent Project</h2>
-        </div>
-      </div>
-      <div class="container mx-auto  mb-8">
-        <div class="container my-12 mx-auto px-4 md:px-12">
-          <div class="flex flex-wrap -mx-1 lg:-mx-4">
-            <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2" v-for="item in portfolio" :key="item.id">
-              <div class="m-auto px-4 py-8 max-w-xl">
-                <div class="bg-white shadow-2xl">
-                  <div>
-                    <img
-                      :src="item.image">
-                  </div>
-                  <div class="px-4 py-2 mt-1 bg-white">
-                    <h2 class="font-bold text-2xl text-gray-800">{{item.project_name}}</h2>
-                    <p class="sm:text-sm text-xs text-gray-700 px-2  my-2">
-                     {{item.description}}
-                    </p>
-                    <div class="py-4 text-gray-700">
-                      <span class="inline-block bg-gray-lighter rounded-full px-3 py-1 text-sm font-semibold mr-2">#Web Development</span>
-                      <span class="inline-block bg-gray-lighter rounded-full px-3 py-1 text-sm font-semibold mr-2">#{{item.category}}</span>
-                      <span class="inline-block bg-gray-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#Project</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  
     <hr class="border border-gray-500">
     <!-- section project -->
   </div>
@@ -144,67 +107,7 @@
 
 <script>
   export default {
-    data: () => {
-      return {
-        portfolio: [{
-            id: 1,
-            project_name: 'Teman Belajar',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
-            category: 'Laravel + VueJS',
-            link: 'https://github.com/Zainal21',
-            image: 'Portfolio/image1.png'
-          },
-          {
-            id: 2,
-            project_name: 'Teman Belajar Dashboard',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
-            category: 'Laravel + VueJS',
-            link: 'https://github.com/Zainal21',
-            image: 'Portfolio/image2.png'
-          },
-          {
-            id: 3,
-            project_name: 'Guest Book E-Wedding',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
-            category: 'Laravel',
-            link: 'https://github.com/Zainal21',
-            image: 'Portfolio/image4.png'
-          },
-          {
-            id: 4,
-            project_name: 'Global Fashion',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
-            category: 'Wordpress',
-            link: 'https://github.com/Zainal21',
-            image: 'Portfolio/image5.jpg'
-          },
-          {
-            id: 5,
-            project_name: 'Kabar Desa',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
-            category: 'Laravel',
-            link: 'https://github.com/Zainal21',
-            image: 'Portfolio/image6.png'
-          },
-          {
-            id: 6,
-            project_name: 'Movie Catalog',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
-            category: 'VueJS',
-            link: 'https://github.com/Zainal21',
-            image: 'Portfolio/image7.png'
-          },
-          {
-            id: 7,
-            project_name: 'Food Delivery',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
-            category: 'Wordpress',
-            link: 'https://github.com/Zainal21',
-            image: 'Portfolio/2.png'
-          },
-        ]
-      }
-    }
+   
   }
 </script>
 

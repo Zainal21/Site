@@ -21,8 +21,11 @@
             <nuxt-link to="/" class="no-underline block mt-2 sm:inline-block sm:mt-0  text-sm hover:text-white mr-4">
               Home
             </nuxt-link>
+             <nuxt-link to="/project" class="no-underline block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4">
+              Recent Project
+            </nuxt-link>
             <nuxt-link to="/posts" class="no-underline block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4">
-              Post
+              Blog
             </nuxt-link>
           </div>
         </div>

@@ -47,9 +47,7 @@
           { name: "author", content: "Muhamad Zainal Arifin" },
           { name: "description", property: "og:description", content: this.$t('indexPageHead.description'), hid: "description" },
           { property: "og:title", content: this.$t('indexPageHead.title') },
-          { property: "og:image", content: this.ogImage },
           { name: "twitter:description", content: this.$t('indexPageHead.description') },
-          { name: "twitter:image", content: this.ogImage }
         ]
       };
     },
