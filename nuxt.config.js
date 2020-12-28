@@ -100,7 +100,13 @@ module.exports = {
       });
     }
   },
-  plugins: ['~/plugins/lazyload', '~/plugins/globalComponents', { src: '~plugins/ga.js', ssr: false }],
+  plugins: [
+    '~/plugins/lazyload', 
+    '~/plugins/globalComponents',
+    '~/plugins/disqus',
+     { src: '~plugins/ga.js', 
+     ssr: false 
+    },],
   modules: [  
     '@nuxtjs/style-resources',
     ['nuxt-i18n', I18N],

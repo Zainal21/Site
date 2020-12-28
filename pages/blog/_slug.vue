@@ -22,10 +22,9 @@
                   <p class="elevate-cover__description text-xl text-white">{{ description }}</p>
                 </div>
               </div>
-              <!-- <img :src="`/images/blog/${id}/_thumbnail.jpg`" alt="" width="100%"> -->
-              <!-- <ImageResponsive :imageURL="'blog/' + id + '/_thumbnail.jpg'" v-if="!noMainImage" width="20%"
-                  class="elevate-cover__img" :alt="'Blog picture'" />
-                <component v-else class="elevate-cover__img" :is="extraComponentLoader" /> -->
+              <div class="container mx-auto">
+                <img :src="`/images/blog/${id}/_thumbnail.jpg`" alt="" width="100%">
+              </div>
             </div>
           </div>
           <div class="container small text-lg text-gray-600">
@@ -36,20 +35,26 @@
           </div>
         </div>
       </div>
-      <div class="flex justify-between items-center mt-8">
+      <!-- <div class="flex justify-between items-center mt-8">
         <div class="container mx-auto">
-          <nuxt-link to="/posts" class="px-2 py-1 float-left bg-gray-200 text-black text-sm font-bold rounded hover:bg-gray-200">
+          <nuxt-link to="/posts"
+            class="px-2 py-1 float-left bg-gray-200 text-black text-sm font-bold rounded hover:bg-gray-200">
             Back</nuxt-link>
           <a href="https://github.com/Zainal21"
-            class="px-2 py-1 bg-gray-200 text-black float-right text-sm font-bold rounded hover:bg-gray-200">Muhamad Zain</a>
+            class="px-2 py-1 bg-gray-200 text-black float-right text-sm font-bold rounded hover:bg-gray-200">Muhamad
+            Zain</a>
         </div>
+      </div> -->
+    </div>
+    <div class="container mx-auto mb-10">
+      <div class="comments">
+        <Disqus />
       </div>
     </div>
-    <hr class="border border-gray-500">
+    <hr class="border border-gray-500 mt-5">
   </section>
 
 </template>
-
 <script lang="js">
   import DynamicMarkdown from "~/components/Markdown/DynamicMarkdown.vue"
   const baseUrl = '#';
@@ -116,19 +121,8 @@
           {
             property: "og:title",
             content: this.pageTitle
-          },
-          // {
-          //   property: "og:image",
-          //   content: this.ogImage
-          // },
-          // {
-          //   name: "twitter:description",
-          //   content: this.description
-          // },
-          // {
-          //   name: "twitter:image",
-          //   content: this.ogImage
-          // }
+          }
+
         ],
         link: [
           this.hreflang

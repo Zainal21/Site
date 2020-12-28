@@ -6,7 +6,6 @@
         <div class="lg:flex items-center">
           <div class="lg:w-1/2 mt-6">
             <h2 class="text-gray-100 text-2xl font-bold">Hi, I am Muhamad Zainal Arifin</h2>
-
             <p class="text-gray-400 text-base lg:max-w-md mt-4">
               Nickname as <a href="www.github.com/Zainal21" class="text-indigo-300 text-base">@PenulisDudukDev </a>, I’m
               currently a Software Engineering student at <a class="text-indigo-300 text-base font-bold"
@@ -15,7 +14,12 @@
               especially in the world of web programming, and a web programmer who is quite experienced in creating,
               developing web-based applications, especially with backend development with PHP Technology & JS Technology
             </p>
-
+            <div class="flex mt-6">
+              <a href="#"
+              class="px-3 py-2 block  bg-gray-800 text-white text-xs font-semibold rounded hover:bg-gray-700">Download CV</a>
+                <a href="#"
+              class="px-3 py-2 block mx-2 bg-gray-800 text-white text-xs font-semibold rounded hover:bg-gray-700">Hire Me</a>
+            </div>
             <div class="flex items-center -mx-2 mt-6">
               <a class="mx-2  text-lg" href="#" aria-label="Twitter">
                 <svg class="fill-current text-gray-300 hover:text-gray-500 h-6 w-6" xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +103,8 @@
           src="https://ghchart.rshah.org/Zainal21" lazy="loaded">
       </div>
     </section>
-  
+    <!-- <section class="experience"></section> -->
+    <!-- <section class="support-me"></section> -->
     <hr class="border border-gray-500">
     <!-- section project -->
   </div>
@@ -107,7 +112,7 @@
 
 <script>
   export default {
-   
+
   }
 </script>
 

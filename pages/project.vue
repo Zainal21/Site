@@ -40,6 +40,9 @@
 
 <script>
   export default {
+      transition: {
+      name: 'slide-fade'
+    },
     data: () => {
       return {
         portfolio: [{
