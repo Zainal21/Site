@@ -1,6 +1,5 @@
 <template>
   <div class="section posts-list">
-    <hr class="border border-gray-500">
      <div class="content">
       <BlogSection :blogs="blogs"/>
     </div>

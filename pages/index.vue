@@ -1,6 +1,5 @@
 <template>
   <div>
-    <hr class="border border-gray-500">
     <section class="hero-section">
       <div class="container mx-auto px-6 py-8">
         <div class="lg:flex items-center">
@@ -105,7 +104,6 @@
     </section>
     <!-- <section class="experience"></section> -->
     <!-- <section class="support-me"></section> -->
-    <hr class="border border-gray-500">
     <!-- section project -->
   </div>
 </template>
