@@ -1,6 +1,5 @@
 <template>
   <section class="single-pos">
-    <hr class="border border-gray-500">
     <div class="lg:container lg:mx-auto mt-4 md:container mx-1 py-20">
       <div class="container mx-auto">
         <div class="flex justify-between items-center">
@@ -47,18 +46,17 @@
       </div> -->
     </div>
     <div class="container mx-auto mb-10">
-      <div class="comments">
-        <Disqus />
-      </div>
+        <div class="comment">
+          <Disqus />
+        </div>
     </div>
-    <hr class="border border-gray-500 mt-5">
   </section>
 
 </template>
-<script lang="js">
+<script>
+
   import DynamicMarkdown from "~/components/Markdown/DynamicMarkdown.vue"
   const baseUrl = '#';
-
   export default {
 
     data: () => {

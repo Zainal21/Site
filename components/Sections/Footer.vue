@@ -5,7 +5,7 @@
     <section class="footer">
       <div class="container mx-auto px-5 py-8">
         <footer class="flex flex-col justify-between items-center px-6 py-2  sm:flex-row">
-          <a href="#" class="text-sm font-bold text-gray-100 hover:text-gray-400">Muhamadzain</a>
+          <a href="#" class="text-md font-bold text-gray-100 hover:text-gray-400">Muhamadzain</a>
 
           <p class="py-2 text-sm text-gray-100 sm:py-0">All rights reserved</p>
 
