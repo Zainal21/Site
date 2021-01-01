@@ -9,7 +9,6 @@
                 style="background-image:url('images/photo-1483058712412-4245e9b90334.webp')">
               </div>
             </div>
-
             <div class="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2 ">
               <h2 class="text-2xl text-gray-100 font-bold md:text-3xl">Recent Project</h2>
               <p class="mt-4 text-base text-gray-100">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos

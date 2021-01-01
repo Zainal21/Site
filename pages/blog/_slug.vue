@@ -34,16 +34,6 @@
           </div>
         </div>
       </div>
-      <!-- <div class="flex justify-between items-center mt-8">
-        <div class="container mx-auto">
-          <nuxt-link to="/posts"
-            class="px-2 py-1 float-left bg-gray-200 text-black text-sm font-bold rounded hover:bg-gray-200">
-            Back</nuxt-link>
-          <a href="https://github.com/Zainal21"
-            class="px-2 py-1 bg-gray-200 text-black float-right text-sm font-bold rounded hover:bg-gray-200">Muhamad
-            Zain</a>
-        </div>
-      </div> -->
     </div>
     <div class="container mx-auto mb-10">
         <div class="comment">

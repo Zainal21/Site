@@ -91,29 +91,9 @@ const columns = [
 
 const rowsSample = [
   {
-    name: 'Florence + The Machine',
-    country: 'England',
-    song: 'What Kind of Man'
-  }, {
-    name: 'IZAL',
-    country: 'Spain',
-    song: 'La Increíble Historia del Hombre Que Podía Volar Pero No Sabía Cómo'
-  }, {
-    name: 'James Bay',
-    country: 'England',
-    song: 'Us'
-  }, {
-    name: 'Lana Del Rey',
-    country: 'United States',
-    song: 'Ride'
-  }, {
-    name: 'London Grammar',
-    country: 'England',
-    song: 'Wasting My Young Years'
-  }, {
-    name: 'Tom Odell',
-    country: 'England',
-    song: 'Another Love'
+    name: 'Testing',
+    country: 'Indonesia',
+    song: 'Semoga kau dineraka'
   }
 ]
 

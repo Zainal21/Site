@@ -7,10 +7,8 @@
 <script lang="js">
   import Vue from "vue";
   // import Component from "nuxt-class-component";
-
   const files = require.context("assets/icons", true, /\.svg$/);
   files.keys().forEach(files);
-
   export default {
     props: {
       name: {
