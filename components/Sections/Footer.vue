@@ -1,13 +1,12 @@
 <template>
   <div>
     <hr class="border border-gray-500">
-
     <section class="footer">
       <div class="container mx-auto px-5 py-8">
         <footer class="flex flex-col justify-between items-center px-6 py-2  sm:flex-row">
           <a href="#" class="text-md font-bold text-gray-100 hover:text-gray-400">Muhamadzain</a>
 
-          <p class="py-2 text-sm text-gray-100 sm:py-0">All rights reserved</p>
+          <p class="py-2 text-sm text-gray-100 sm:py-0">{{year}} Copyright © Build with <strong>NuxtJs</strong> & <strong>Meraki UI</strong></p>
 
           <div class="flex -mx-2">
             <a class="mx-2  text-lg" href="#" aria-label="Twitter">

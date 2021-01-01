@@ -5,7 +5,7 @@ year: 22 Desember 2020
 color: '#edece7'
 isTextColorDark: true
 id: 'insecure-melihat-prestasi-orang'
-category: 'Kehidupan'
+category: 'Life'
 time_read: '8 Minutes Read'
 description: |
  Sering merasa insecure dengan prestasi seseorang ?
