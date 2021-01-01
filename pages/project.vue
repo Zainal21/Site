@@ -66,6 +66,53 @@
     transition: {
       name: 'slide-fade'
     },
+    head: {
+      title: 'Muhamad Zainal Arifin',
+      meta: [{
+          charset: 'utf-8'
+        },
+        {
+          name: 'viewport',
+          content: 'width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'
+        },
+        {
+          name: 'msapplication-TileColor',
+          content: '#ffffff'
+        },
+        {
+          name: 'description',
+          content: "Personal Website Muhamad Zainal Arifin , Penulis Duduk Dev"
+        },
+        {
+          name: 'description',
+          content: "Project terkakhir yang dibuat oleh Muhamad Zainal Arifin"
+        },
+        {
+          name: "keywords",
+          content: "penulisdudukdev"
+        },
+        {
+          name: "keywords",
+          content: "Muhamad Zainal Arifin"
+        },
+        {
+          name: "keywords",
+          content: "Zainal21"
+        },
+        {
+          name: "keywords",
+          content: "ZainaRPLDEV"
+        },
+        {
+          name: "keywords",
+          content: "Junior Full Stack Developer"
+        },
+        {
+          name: "Author",
+          content: "Muhamad Zainal Arifin"
+        }
+      ]
+    },
     data: () => {
       return {
         portfolio: [{

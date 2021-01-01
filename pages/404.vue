@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
-    Se ha producido un error
+  <div class="container mx-auto text-center">
+   <strong>404 Page Not Found</strong>
   </div>
 </template>
