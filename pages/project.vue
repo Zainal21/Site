@@ -11,10 +11,8 @@
             </div>
             <div class="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2 ">
               <h2 class="text-2xl text-gray-100 font-bold md:text-3xl">Recent Project</h2>
-              <p class="mt-4 text-base text-gray-100">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos
-                expedita neque adipisci excepturi hic aspernatur nihil voluptates, illum sed culpa vel officia possimus
-                at iure dicta vitae animi doloremque obcaecati..
-              </p>
+              <h3 class="mt-4 text-xl text-gray-100">" A recent project to fill my spare time and to learn some new web technologies as well as my portfolio "
+              </h3>
             </div>
           </div>
         </div>
