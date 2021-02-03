@@ -25,7 +25,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </section>
 </template>
@@ -42,7 +41,7 @@
           },
           {
             name: 'Whatsapp',
-            redirect: 'https://api.whatsapp.com/send?phone=688216756214',
+            redirect: 'https://api.whatsapp.com/send?phone=+6288216756214',
             color: 'bg-red-600'
           },
           {
@@ -67,10 +66,9 @@
           }
         ]
       }
-    }
+    },
+    transition: {
+      name: 'slide-fade'
+    },
   }
 </script>
-
-<style scoped>
-
-</style>

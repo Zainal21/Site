@@ -15,14 +15,11 @@
     async asyncData({
       app
     }) {
-
       const blogs = app.i18n.locale === 'en' ? blogsEn : blogsEn
-
       async function asyncImport(blogName) {
         const wholeMD = await import(`~/contents/en/blog/${blogName}.md`)
         return wholeMD.attributes
       }
-
       return Promise.all(blogs.map(blog => asyncImport(blog)))
         .then((res) => {
           return {
@@ -30,7 +27,6 @@
           }
         })
     },
-
     components: {
       BlogSection
     },
