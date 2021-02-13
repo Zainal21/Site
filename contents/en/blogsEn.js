@@ -1,5 +1,5 @@
 export default [
-  'perkenalan',
   'insecure-melihat-prestasi-orang',
-  'resolusi-2021'
+  'resolusi-2021',
+  'arti-sebuah-kebersamaan',
 ]
