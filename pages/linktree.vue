@@ -42,12 +42,12 @@
           {
             name: 'Whatsapp',
             redirect: 'https://api.whatsapp.com/send?phone=+6288216756214',
-            color: 'bg-red-600'
+            color: 'bg-green-600'
           },
           {
             name: 'instagram',
             redirect: 'https://www.instagram.com/Zainal_256bit',
-            color: 'bg-yellow-500'
+            color: 'bg-yellow-600'
           },
           {
             name: 'Telegram',
@@ -57,7 +57,7 @@
           {
             name: 'Twitter',
             redirect: 'https://twitter.com/penulisduduk',
-            color: 'bg-green-500'
+            color: 'bg-blue-500'
           },
           {
             name: 'LinkedIn',

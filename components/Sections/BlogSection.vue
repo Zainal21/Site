@@ -20,6 +20,7 @@
         </div>
       </div>
       <ul class="blogs">
+          <h2 class="text-gray-100 text-3xl lg:text-center font-bold mb-8  mt-10">- Content Not Found -</h2>
         <blog-card v-for="blog in blogs" :key="blog.name" :blog="blog" />
       </ul>
     </div>

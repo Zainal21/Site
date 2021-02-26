@@ -21,11 +21,11 @@
         skills : [
           {
             name: 'Front-End Development',
-            description : ' Currently I am studying several web technologies, the Frontend development section, I usually use<b>HTML</b>, <B>CSS</B>, <B>Javascript</B>, <b>Bootstrap</b>, <b>Tailwind</b>, <b>VueJS (on going)</b>,<b>React (but still a beginner)</b> to build User Interface'
+            description : ' Currently I am studying several web technologies, the Frontend development section, I usually use <b>HTML</b>, <B>CSS</B>, <B>Javascript</B>, <b>Bootstrap</b>, <b>Tailwind</b>, <b>VueJS (on going)</b>,<b>React (but still a beginner)</b> to build User Interface'
           },
            {
             name: 'Back-End Development',
-            description : 'For Backend development I am quite experienced with using <b>PHP</b> technology with Framework <b>(Laravel, Codeigniter3)</b> and <b> NodeJS with Framework (Express JS)</b>.and still learning'
+            description : 'For Backend development I am quite experienced with using <b>PHP</b> technology with Framework <b>(Laravel, Codeigniter3)</b> and <b> NodeJS</b> with Framework( <b>Express JS)</b>, and still learning'
           },
           {
             name: 'Desktop Apps Dev',

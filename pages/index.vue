@@ -6,12 +6,13 @@
           <div class="lg:w-1/2 mt-6">
             <h2 class="text-gray-100 text-2xl font-bold">Hi, I am Muhamad Zainal Arifin</h2>
             <p class="text-gray-400 text-base lg:max-w-md mt-4">
-              Nickname as <a href="www.github.com/Zainal21" class="text-indigo-300 text-base">@PenulisDudukDev </a>, I’m
+              Nickname as <a href="www.github.com/Zainal21" class="text-indigo-300 text-base">@PenulisDuduk</a>, I’m
               currently a Software Engineering student at <a class="text-indigo-300 text-base font-bold"
                 href="https://smkn2kra.sch.id">at VHS 2 Karanganyar,</a>
               Vocational Student who is interested in the world of technology,
               especially in the world of web programming, and a web programmer who is quite experienced in creating,
-              developing web-based applications, especially with backend development with PHP Technology & JS Technology
+              developing web-based applications, especially with backend development with PHP Technology & JS Technology, <br><a class="text-indigo-300 text-base font-bold"
+                href="www.github.com/Zainal21">"No Day Without Learn Several New Things"</a>
             </p>
             <div class="flex mt-6">
               <a href="#"
