@@ -8,7 +8,7 @@
               style="background-image:url('images/photo-1483058712412-4245e9b90334.webp')">
             </div>
           </div>
-          <div class="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2 ">
+          <div class="py-7 px-6 max-w-xl lg:max-w-5xl lg:w-1/2 ">
             <h2 class="text-2xl text-gray-100 font-bold md:text-3xl">Linktree</h2>
             <h3 class="mt-4 text-xl text-gray-100">" Talk about business ? can contact me on various platforms to discuss business with you "</h3>
           </div>
@@ -42,12 +42,12 @@
           {
             name: 'Whatsapp',
             redirect: 'https://api.whatsapp.com/send?phone=+6288216756214',
-            color: 'bg-green-600'
+            color: 'bg-green-500'
           },
           {
             name: 'instagram',
             redirect: 'https://www.instagram.com/Zainal_256bit',
-            color: 'bg-yellow-600'
+            color: 'bg-red-600'
           },
           {
             name: 'Telegram',
