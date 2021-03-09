@@ -27,7 +27,7 @@
                   class="lg:w-full h-auto md:w-full mb-5 rounded object-cover object-center mx-auto" :src="item.image"
                   lazy="loaded" width="200px" height="200px"></div>
               <a :href="item.link" class="text-lg md:text-lg text-center font-bold mb-2 text-gray-200">
-                {{item.project_name}} <span class="font-bold">({{item.stack}})</span>
+                {{item.project_name}} <br><span class="font-bold">({{item.stack}})</span>
               </a>
               <p class="text-base text-center font-light mb-4">
                 {{item.description}}
@@ -137,14 +137,6 @@
             image: 'Portfolio/image4.png'
           },
           {
-            id: 4,
-            project_name: 'Global Fashion',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
-            stack: 'Wordpress',
-            link: 'https://github.com/Zainal21',
-            image: 'Portfolio/image5.jpg'
-          },
-          {
             id: 5,
             project_name: 'Kabar Desa',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
@@ -167,6 +159,14 @@
             stack: 'Wordpress',
             link: 'https://github.com/Zainal21',
             image: 'Portfolio/2.png'
+          },
+          {
+            id: 7,
+            project_name: 'Complaint Management System',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
+            stack: 'Laravel + Tailwind + React + Blade',
+            link: 'https://github.com/Zainal21',
+            image: 'Portfolio/image8.png'
           },
         ]
       }
