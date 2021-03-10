@@ -168,6 +168,14 @@
             link: 'https://github.com/Zainal21',
             image: 'Portfolio/image8.png'
           },
+           {
+            id: 7,
+            project_name: 'KadangKoding official website (Redesign)',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
+            stack: 'Laravel',
+            link: 'https://github.com/Zainal21',
+            image: 'Portfolio/image9.png'
+          },
         ]
       }
     }
