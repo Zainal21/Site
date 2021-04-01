@@ -1,22 +1,7 @@
 <template>
   <div>
     <section class="recent-project">
-      <div class="container mx-auto py-8">
-        <div class="lg:w-1/7 mb-10">
-          <div class=" text-white lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg lg:rounded-lg">
-            <div class="lg:w-1/2">
-              <div class="h-64 bg-cover lg:rounded-lg lg:h-full"
-                style="background-image:url('images/photo-1483058712412-4245e9b90334.webp')">
-              </div>
-            </div>
-            <div class="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2 ">
-              <h2 class="text-2xl text-gray-100 font-bold md:text-3xl">Recent Project</h2>
-              <h3 class="mt-4 text-xl text-gray-100">" A recent project to fill my spare time and to learn some new web technologies as well as my portfolio "
-              </h3>
-            </div>
-          </div>
-        </div>
-      </div>
+      <SubContainer sectionTitle="Recent Project" SectionDescription=" ' A recent project to fill my spare time and to learn some new web technologies as well as my portfolio' "/>
       <div class="container mx-auto mb-5">
         <div class="flex flex-wrap justify-center">
           <div class="lg:w-2/4 md:w-1/2 p-1 mt-2 w-full" v-for="item in portfolio" :key="item.id">
@@ -59,9 +44,13 @@
 </style>
 
 <script>
+import SubContainer from "~/components/Sections/SubContainer"
   export default {
     transition: {
       name: 'slide-fade'
+    },
+    components:{
+      SubContainer
     },
     head: {
       title: 'Muhamad Zainal Arifin',
