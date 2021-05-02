@@ -238,15 +238,12 @@
     h2 {
       font-weight:600;
       margin: 1rem 0;
-      padding-bottom: 3rem;
-      padding-bottom: 2rem;
     }
 
     h3 {
       font-weight:600;
       margin: 1rem 0;
       font-size: 2rem;
-      padding-bottom: 2rem;
     }
 
     li {
