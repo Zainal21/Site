@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="recent-project">
-      <SubContainer sectionTitle="Recent Project" SectionDescription=" ' A recent project to fill my spare time and to learn some new web technologies as well as my portfolio' "/>
+      <SubContainer sectionTitle="Recent Project" SectionDescription="  A recent project to fill my spare time and to learn some new web technologies as well as my portfolio "/>
       <div class="container mx-auto mb-5">
         <div class="flex flex-wrap justify-center">
           <div class="lg:w-2/4 md:w-1/2 p-1 mt-2 w-full" v-for="item in portfolio" :key="item.id">
@@ -17,7 +17,7 @@
               <p class="text-base text-center font-light mb-4">
                 {{item.description}}
               </p>
-              <a :href="item.link"
+              <a :href="item.link" target="_blank"
                 class="flex items-center py-2 px-2 capitalize tracking-wide bg-btn text-white font-medium rounded hover:bg-gray-700 dark:hover:bg-gray-700 focus:outline-none focus:bg-gray-400 dark:focus:bg-gray-700">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mx-1" viewBox="0 0 24 24">
                   <path
@@ -67,7 +67,7 @@ import SubContainer from "~/components/Sections/SubContainer"
         },
         {
           name: 'description',
-          content: "Personal Website Muhamad Zainal Arifin , Penulis Duduk Dev"
+          content: "Personal Website Muhamad Zainal Arifin"
         },
         {
           name: 'description',
@@ -104,65 +104,57 @@ import SubContainer from "~/components/Sections/SubContainer"
         portfolio: [{
             id: 1,
             project_name: 'Teman Belajar',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
+            description: 'Teman Belajar is an online course platform that provides various web application-based learning videos',
             stack: 'Laravel + VueJS',
-            link: 'https://github.com/Zainal21',
+            link: 'https://gitlab.com/zainal21/e-course-learning-system-laravue',
             image: 'Portfolio/image1.png'
-          },
-          {
-            id: 2,
-            project_name: 'Teman Belajar Dashboard',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
-            stack: 'Laravel + VueJS',
-            link: 'https://github.com/Zainal21',
-            image: 'Portfolio/image2.png'
           },
           {
             id: 3,
             project_name: 'Guest Book E-Wedding',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
+            description: 'Guest Book E-Wedding is A website for online wedding invitations and can fill out attendance lists at weddings',
             stack: 'Laravel',
-            link: 'https://github.com/Zainal21',
+            link: 'https://github.com/Zainal21/The-Guest-Book-Wedding-Project',
             image: 'Portfolio/image4.png'
           },
           {
             id: 5,
             project_name: 'Kabar Desa',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
+            description: 'Kabar Desa is a web-based information system application to organize data collection activities in villages built with laravel',
             stack: 'Laravel',
-            link: 'https://github.com/Zainal21',
+            link: 'https://github.com/Zainal21/Kabar-Desa',
             image: 'Portfolio/image6.png'
           },
           {
             id: 6,
             project_name: 'Movie Catalog',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
+            description: 'Movie Catalog is a Simple application to search for movie data and view movie details connected to OmdbAPI built with vuejs',
             stack: 'VueJS',
-            link: 'https://github.com/Zainal21',
+            link: 'https://github.com/Zainal21/Vue-Movie-Catalogue',
             image: 'Portfolio/image7.png'
           },
           {
             id: 7,
             project_name: 'Food Delivery',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
+            description: 'Food Delivery is a landing page for a food ordering website built using wordpress',
             stack: 'Wordpress',
-            link: 'https://github.com/Zainal21',
+            link: 'gitlab.com/zainal21/food-delivery-wp-project',
             image: 'Portfolio/2.png'
           },
           {
             id: 7,
-            project_name: 'Complaint Management System',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
+            project_name: 'Sistem Pengaduan Sekolah',
+            description: 'Sistem Pengaduan Sekolah is a The information system used by school members to channel their aspirations and complaints online',
             stack: 'Laravel + Tailwind + React + Blade',
-            link: 'https://github.com/Zainal21',
+            link: 'https://github.com/erpeel-a/Sistem-Pengaduan-Sekolah-SMKN2Karanganyar',
             image: 'Portfolio/image8.png'
           },
            {
             id: 7,
             project_name: 'KadangKoding official website (Redesign)',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates praesentium fuga vel neque! Possimus',
+            description: 'Website redesign CV. KadangKoding Indonesia to fulfill internship assignments',
             stack: 'Laravel',
-            link: 'https://github.com/Zainal21',
+            link: 'https://github.com/Zainal21/kadang-koding-redesign',
             image: 'Portfolio/image9.png'
           },
         ]

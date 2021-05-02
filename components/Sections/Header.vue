@@ -30,6 +30,10 @@
                   class="no-underline block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4">
                   Blog
                 </nuxt-link>
+                  <nuxt-link to="/linktree"
+                  class="no-underline block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4">
+                  Linktree
+                </nuxt-link>
               </div>
             </div>
           </nav>

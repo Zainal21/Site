@@ -44,6 +44,11 @@ module.exports = {
         href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.1/css/all.min.css',
         integrity:'sha512-BxQjx52Ea/sanKjJ426PAhxQJ4BPfahiSb/ohtZ2Ipgrc5wyaTSgTwPhhZ/xC66vvg+N4qoDD1j0VcJAqBTjhQ==',
         crossorigin:'anonymous'
+      },
+      {
+        rel : 'shortcut icon',
+        type : 'image/x-icon',
+        href : 'assets/images/favicon.ico'
       }
     ]
   },

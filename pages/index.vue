@@ -43,12 +43,12 @@
     <!-- <section class="experience"></section> -->
     <!-- <section class="support-me"></section> -->
     <!-- section project -->
-    <section class="get-in-touch">
+    <!-- <section class="get-in-touch">
       <div class="container mx-auto">
         <div class="lg:w-1/7 mb-10">
           <h2 class="text-gray-100 text-2xl font-bold mb-8 mt-10">Let's Talk</h2>
           <div class="flex items-center -mx-2 mt-6">
-            <a class="mx-2  text-lg" href="https://twitter.com/penulisduduk" aria-label="Twitter">
+            <a class="mx-2  text-lg" href="https://twitter.com/penulisduduk" target="_blank" aria-label="Twitter">
               <svg class="fill-current text-gray-300 hover:text-gray-500 h-10 w-10" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512">
                 <path
@@ -64,7 +64,7 @@
               </svg>
             </a>
 
-            <a class="mx-2 text-lg" href="https://www.linkedin.com/in/muhammad-zainal-arifin"
+            <a class="mx-2 text-lg" href="https://www.linkedin.com/in/muhammad-zainal-arifin" target="_blank"
               aria-label="Linkden">
               <svg class="fill-current text-gray-300 hover:text-gray-500 h-10 w-10" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512">
@@ -73,7 +73,7 @@
               </svg>
             </a>
 
-            <a class="mx-2 text-lg" href="https://www.github.com/Zainal21" aria-label="Github">
+            <a class="mx-2 text-lg" href="https://www.github.com/Zainal21" target="_blank" aria-label="Github">
               <svg class="fill-current text-gray-300 hover:text-gray-500 h-10 w-10" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512">
                 <path
@@ -90,7 +90,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 <script>
