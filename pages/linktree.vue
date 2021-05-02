@@ -1,10 +1,10 @@
 <template>
-  <section class="blog-section pb-8 pt-50">
+  <section class="blog-section pb-8 pt-48">
     <SubContainer sectionTitle="Linktree"
       SectionDescription=" Talk about business ? can contact me on various platforms to discuss business with you " />
     <div v-for="(link,i) in links" :key="i">
       <div class="container mx-auto">
-        <div class="w-full my-5 rounded-md text-white" :class="link.color">
+        <div class="w-full my-3 rounded-md text-white" :class="link.color">
           <div class="flex justify-between items-center container mx-auto py-4 px-6">
             <div class="flex">
               <a :href="link.redirect" class="text-xl font-medium">{{link.name}}</a>

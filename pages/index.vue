@@ -25,7 +25,7 @@
           <div class="mt-8 lg:mt-0 lg:w-1/2">
             <div class="flex items-center justify-center lg:justify-end">
               <div class="max-w-lg">
-                <img class="w-full h-64 object-cover object-center rounded-md" src="images/photo3211868340741056440.jpg"
+                <img class="w-full h-64 object-cover object-center rounded-md" src="images/Zainal.jpg"
                   alt="">
               </div>
             </div>

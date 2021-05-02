@@ -208,7 +208,7 @@
 
     &__title {
       font-size: 2rem;
-      font-family: 'Tiempos Headline', Arial, sans-serif;
+      font-family: 'Poppins', sans-serif;
     }
 
     &__description {
@@ -224,7 +224,7 @@
     padding: 3.1rem 0;
     font-size: 16px;
     line-height: 1.7;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Poppins', sans-serif;
     color: #e0d5d5;
     background-color: rgb(22, 22, 29);
     >*:not(.datagrid):not(.image-placeholder) {
