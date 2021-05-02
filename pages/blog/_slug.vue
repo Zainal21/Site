@@ -1,6 +1,6 @@
 <template>
   <section class="single-pos">
-    <div class="lg:container lg:mx-auto mt-4 md:container mx-1 py-20">
+    <div class="lg:container lg:mx-auto mt-4 md:container mx-1 py-18">
       <div class="container mx-auto">
         <div class="flex justify-between items-center">
           <nuxt-link to="/posts" class="px-2 py-1 bg-gray-200 text-black text-sm font-bold rounded hover:bg-gray-200">

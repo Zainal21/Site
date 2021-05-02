@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="max-w-2xl mx-auto mt-5 bg-transparant overflow-hidden  rounded-lg">
-      <div class="p-7">
+      <div class="p-5">
         <div>
           <span class="text-blue-100 float-left text-xs font-medium uppercase">{{blog.year}}</span>
            <div class="flex justify-center">
