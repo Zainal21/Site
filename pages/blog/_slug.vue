@@ -236,11 +236,13 @@
 
 
     h2 {
+      margin: 1rem 0;
       padding-bottom: 3.2rem;
       padding-bottom: 2rem;
     }
 
     h3 {
+      margin: 1rem 0;
       font-size: 2.2rem;
       padding-bottom: 2rem;
     }

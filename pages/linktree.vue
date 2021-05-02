@@ -1,5 +1,5 @@
 <template>
-  <section class="blog-section pb-8 pt-48">
+  <section class="blog-section pb-8 pt-50">
     <SubContainer sectionTitle="Linktree"
       SectionDescription=" Talk about business ? can contact me on various platforms to discuss business with you " />
     <div v-for="(link,i) in links" :key="i">
