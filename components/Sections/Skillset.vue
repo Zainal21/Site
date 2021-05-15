@@ -25,7 +25,7 @@
           },
            {
             name: 'Back-End Development',
-            description : 'For Backend development I am quite experienced with using <b>PHP</b> technology with Framework <b>(Laravel, Codeigniter3)</b> and <b> NodeJS</b> with Framework( <b>Express JS)</b>, and still learning'
+            description : 'For Backend development I am quite experienced with using <b>PHP</b> technology with Framework <b>(Laravel, Codeigniter3)</b> and <b> NodeJS</b> with ( <b>Express JS Framework)</b>, and still learning'
           },
           {
             name: 'Desktop Apps Dev',

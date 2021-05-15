@@ -12,6 +12,7 @@
   import blogsEn from '~/contents/en/blogsEn.js'
 
   export default {
+   
     async asyncData({
       app
     }) {
