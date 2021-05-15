@@ -10,10 +10,10 @@ time_read: '4 Minutes Read'
 description: |
  it's 2021, Apakah Resolusimu tahun 2020 sudah tercapai ? atau bahkan belum tercapai semua ? yuk instropeksi diri
 ---
-_
+
 Tahun 2020 beberapa jam lagi akan berakhir.
 Sebagai bahan untuk menyongsong tahun 2020 tentu perlu summarize apa saja yang sudah tercapai dan mana yang perlu diperbaiki.
-So, berikut 2019 dalam kata.
+So, berikut recap 2020 check this out.
 
 ### Event
 Ditahun ini walaupun lagi pandemi COVID19, tidak menyurutkan semangat untuk join ke event-event seru semisal pada bulan Oktober kemarin, Aku dan Tim membuat proyek iseng-iseng untuk mengikuti event <b><a href="hacktoberfest.digitalocean.com/">Hacktoberfest 2020</a></b>, dan beberapa event di indonesia sejara online seperti Meetup Online dari <b><a href="https://deeptech.id/">Deeptech</a></b> dan juga Meetup Online dari komunitas <b><a href="https://surabayajs.org/">SurabayaJS</a></b> 

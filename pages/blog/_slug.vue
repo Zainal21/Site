@@ -208,7 +208,7 @@
 
     &__title {
       font-size: 2rem;
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Poppins', sans-serif !important;
     }
 
     &__description {
@@ -224,7 +224,7 @@
     padding: 3.1rem 0;
     font-size: 16px;
     line-height: 1.7;
-    font-family:'Poppins', sans-serif;
+    font-family:'Poppins', sans-serif !important;
     color: #e0d5d5;
     background-color: rgb(22, 22, 29);
     >*:not(.datagrid):not(.image-placeholder) {
@@ -237,16 +237,19 @@
 
     h2 {
       font-weight:600;
-      margin: 1rem 0;
+      margin: 0.8rem 0;
+      font-family:'Poppins', sans-serif !important;
     }
 
     h3 {
       font-weight:600;
       margin: 1rem 0;
-      font-size: 2rem;
+      font-size: 1.5rem;
+      font-family:'Poppins', sans-serif !important;
     }
 
     li {
+      font-family:'Poppins', sans-serif !important;
       list-style-type: initial;
     }
 
@@ -258,19 +261,25 @@
       overflow-x: scroll;
       display: block;
       margin-bottom: 5rem;
+      font-family:'Poppins', sans-serif !important;
 
       code {
         background-color: #f6f8fa;
+        font-family:'Poppins', sans-serif !important;
       }
     }
 
     code {
+      font-family:'Poppins', sans-serif !important;
       background: #f3f4f4;
       border-radius: 4px;
       display: inline;
       color: #030303;
       font-size: 14px;
       padding: .2em .4em;
+    }
+    p{
+      margin: 2rem !important;
     }
   }
 </style>

@@ -106,7 +106,7 @@ import SubContainer from "~/components/Sections/SubContainer"
             project_name: 'Teman Belajar',
             description: 'Teman Belajar is an online course platform that provides various web application-based learning videos',
             stack: 'Laravel + VueJS',
-            link: 'https://gitlab.com/zainal21/e-course-learning-system-laravue',
+            link: 'https://www.gitlab.com/zainal21/e-course-learning-system-laravue',
             image: 'Portfolio/image1.png'
           },
           {
@@ -114,7 +114,7 @@ import SubContainer from "~/components/Sections/SubContainer"
             project_name: 'Guest Book E-Wedding',
             description: 'Guest Book E-Wedding is A website for online wedding invitations and can fill out attendance lists at weddings',
             stack: 'Laravel',
-            link: 'https://github.com/Zainal21/The-Guest-Book-Wedding-Project',
+            link: 'https://www.github.com/Zainal21/The-Guest-Book-Wedding-Project',
             image: 'Portfolio/image4.png'
           },
           {
@@ -122,7 +122,7 @@ import SubContainer from "~/components/Sections/SubContainer"
             project_name: 'Kabar Desa',
             description: 'Kabar Desa is a web-based information system application to organize data collection activities in villages built with laravel',
             stack: 'Laravel',
-            link: 'https://github.com/Zainal21/Kabar-Desa',
+            link: 'https://www.github.com/Zainal21/Kabar-Desa',
             image: 'Portfolio/image6.png'
           },
           {
@@ -130,7 +130,7 @@ import SubContainer from "~/components/Sections/SubContainer"
             project_name: 'Movie Catalog',
             description: 'Movie Catalog is a Simple application to search for movie data and view movie details connected to OmdbAPI built with vuejs',
             stack: 'VueJS',
-            link: 'https://github.com/Zainal21/Vue-Movie-Catalogue',
+            link: 'https://www.github.com/Zainal21/Vue-Movie-Catalogue',
             image: 'Portfolio/image7.png'
           },
           {
@@ -138,23 +138,23 @@ import SubContainer from "~/components/Sections/SubContainer"
             project_name: 'Food Delivery',
             description: 'Food Delivery is a landing page for a food ordering website built using wordpress',
             stack: 'Wordpress',
-            link: 'gitlab.com/zainal21/food-delivery-wp-project',
+            link: 'https://www.gitlab.com/zainal21/food-delivery-wp-project',
             image: 'Portfolio/2.png'
           },
           {
-            id: 7,
+            id: 8,
             project_name: 'Sistem Pengaduan Sekolah',
             description: 'Sistem Pengaduan Sekolah is a The information system used by school members to channel their aspirations and complaints online',
             stack: 'Laravel + Tailwind + React + Blade',
-            link: 'https://github.com/erpeel-a/Sistem-Pengaduan-Sekolah-SMKN2Karanganyar',
+            link: 'https://www.github.com/erpeel-a/Sistem-Pengaduan-Sekolah-SMKN2Karanganyar',
             image: 'Portfolio/image8.png'
           },
            {
-            id: 7,
+            id: 9,
             project_name: 'KadangKoding official website (Redesign)',
             description: 'Website redesign CV. KadangKoding Indonesia to fulfill internship assignments',
             stack: 'Laravel',
-            link: 'https://github.com/Zainal21/kadang-koding-redesign',
+            link: 'https://www.github.com/Zainal21/kadang-koding-redesign',
             image: 'Portfolio/image9.png'
           },
         ]
