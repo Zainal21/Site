@@ -1,7 +1,8 @@
 <template>
   <div>
     <section class="recent-project">
-      <SubContainer sectionTitle="Recent Project" SectionDescription="  A recent project to fill my spare time and to learn some new web technologies as well as my portfolio "/>
+      <SubContainer sectionTitle="Recent Project"
+        SectionDescription="  A recent project to fill my spare time and to learn some new web technologies as well as my portfolio " />
       <div class="container mx-auto mb-5">
         <div class="flex flex-wrap justify-center">
           <div class="lg:w-2/4 md:w-1/2 p-1 mt-2 w-full" v-for="item in portfolio" :key="item.id">
@@ -44,12 +45,12 @@
 </style>
 
 <script>
-import SubContainer from "~/components/Sections/SubContainer"
+  import SubContainer from "~/components/Sections/SubContainer"
   export default {
     transition: {
       name: 'slide-fade'
     },
-    components:{
+    components: {
       SubContainer
     },
     head: {
@@ -101,46 +102,46 @@ import SubContainer from "~/components/Sections/SubContainer"
     },
     data: () => {
       return {
-         meta: [{
-          charset: 'utf-8'
-        },
-        {
-          name: 'viewport',
-          content: 'width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'
-        },
-        {
-          name: 'msapplication-TileColor',
-          content: '#ffffff'
-        },
-        {
-          name: 'description',
-          content: "Personal Website Muhamad Zainal Arifin ,  "
-        },
-        {
-          name: "keywords",
-          content: "penulisdudukdev"
-        },
-        {
-          name : "subject",
-          content : "Personal of Muhamad Zainal Arifin"
-        },
-        { 
-          name : "identifier-URL",
-          content: "https://muhammadzaindev.vercel.app/"
-        },
-        {
-          name: "keywords",
-          content: "Zainal21, Zainal, Muhamad Zainal Arifin, Zainal RPL, Muhamad Zain, Riana Eka Fidriyani, Riana"
-        },
-        {
-          name: "designer",
-          content: "Muhamad Zainal Arifin"
-        },
-        {
-          name: "developer",
-          content: "Muhamad Zainal Arifin"
-        }
-      ],
+        meta: [{
+            charset: 'utf-8'
+          },
+          {
+            name: 'viewport',
+            content: 'width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'
+          },
+          {
+            name: 'msapplication-TileColor',
+            content: '#ffffff'
+          },
+          {
+            name: 'description',
+            content: "Personal Website Muhamad Zainal Arifin ,  "
+          },
+          {
+            name: "keywords",
+            content: "penulisdudukdev"
+          },
+          {
+            name: "subject",
+            content: "Personal of Muhamad Zainal Arifin"
+          },
+          {
+            name: "identifier-URL",
+            content: "https://muhammadzaindev.vercel.app/"
+          },
+          {
+            name: "keywords",
+            content: "Zainal21, Zainal, Muhamad Zainal Arifin, Zainal RPL, Muhamad Zain, Riana Eka Fidriyani, Riana"
+          },
+          {
+            name: "designer",
+            content: "Muhamad Zainal Arifin"
+          },
+          {
+            name: "developer",
+            content: "Muhamad Zainal Arifin"
+          }
+        ],
         portfolio: [{
             id: 1,
             project_name: 'Teman Belajar',
@@ -189,7 +190,7 @@ import SubContainer from "~/components/Sections/SubContainer"
             link: 'https://www.github.com/erpeel-a/Sistem-Pengaduan-Sekolah-SMKN2Karanganyar',
             image: 'Portfolio/image8.png'
           },
-           {
+          {
             id: 9,
             project_name: 'KadangKoding official website (Redesign)',
             description: 'Website redesign CV. KadangKoding Indonesia to fulfill internship assignments',

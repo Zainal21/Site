@@ -223,7 +223,7 @@
   .dynamicMarkdown {
     padding: 3.1rem 0;
     font-size: 16px;
-    line-height: 1.7;
+    line-height: 1.4;
     font-family:'Poppins', sans-serif !important;
     color: #e0d5d5;
     background-color: rgb(22, 22, 29);
@@ -238,13 +238,14 @@
     h2 {
       font-weight:600;
       margin: 0.8rem 0;
+       font-size: inherit;
       font-family:'Poppins', sans-serif !important;
     }
 
     h3 {
       font-weight:600;
       margin: 1rem 0;
-      font-size: 1.5rem;
+      font-size:inherit;
       font-family:'Poppins', sans-serif !important;
     }
 
@@ -257,24 +258,25 @@
       box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
       padding: 2.4rem;
       border-radius: 4px;
-      background-color: #f6f8fa;
+      background-color: #27272e;
       overflow-x: scroll;
       display: block;
+      color: #e0d5d5;
       margin-bottom: 5rem;
       font-family:'Poppins', sans-serif !important;
 
       code {
-        background-color: #f6f8fa;
+        background-color: #27272e;
         font-family:'Poppins', sans-serif !important;
       }
     }
 
     code {
       font-family:'Poppins', sans-serif !important;
-      background: #f3f4f4;
+      background: #27272e;
       border-radius: 4px;
       display: inline;
-      color: #030303;
+      color: #cfcfd1;
       font-size: 14px;
       padding: .2em .4em;
     }
