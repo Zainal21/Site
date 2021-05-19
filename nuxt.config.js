@@ -24,12 +24,13 @@ const productionUrl = {
   en: "/en",
   es: "/es"
 };
-const baseUrl = '';
+const baseUrl = '#';
 
-module.exports = {
+export default {
   router : {
     prefetchLinks : false
   },
+
   env: {
     baseUrl,
     productionUrl
@@ -107,6 +108,11 @@ module.exports = {
           name: 'img/[name].[hash:7].[ext]'
         }
       });
+    },
+    splitChunks: {
+      layouts: false,
+      pages: true,
+      commons: true
     }
   },
   plugins: [

@@ -2,11 +2,13 @@
   <div>
     <hr class="border border-gray-500">
     <section class="footer">
-      <div class="container mx-auto px-5 py-8">
-        <footer class="flex flex-col justify-center items-center px-6 py-2  sm:flex-row">
-          <p class="py-2 text-md text-center text-gray-100 sm:py-0">Copyright © {{year}}  Build with <strong>NuxtJs</strong> & <strong>Meraki UI</strong></p>
-        </footer>
-      </div>
+      <footer class="bg-transparant">
+          <div class="container px-6 py-9 mx-auto">
+              <div>
+                  <p class="text-center text-sm text-gray-200">Copyright © {{year}}  Build with <strong>NuxtJs</strong> & <strong>Meraki UI </strong></p>
+              </div>
+          </div>
+      </footer>
     </section>
   </div>
 </template>

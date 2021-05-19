@@ -1,5 +1,5 @@
 <template>
-  <section class="blog-section pb-8 pt-50">
+  <section class="blog-section pb-20 pt-50">
     <SubContainer sectionTitle="Linktree"
       SectionDescription=" Talk about business ? can contact me on various platforms to discuss business with you " />
     <div v-for="(link,i) in links" :key="i">
@@ -7,7 +7,7 @@
         <div class="w-full my-3 rounded-md text-white" :class="link.color">
           <div class="flex justify-between items-center container mx-auto py-4 px-6">
             <div class="flex">
-              <a :href="link.redirect" class="text-xl font-medium">{{link.name}}</a>
+              <a :href="link.redirect" class="text-xl  font-bold hover:underline">{{link.name}}</a>
             </div>
           </div>
         </div>
@@ -30,7 +30,7 @@
           {
             name: 'Whatsapp',
             redirect: 'https://api.whatsapp.com/send?phone=+6288216756214',
-            color: 'bg-green-500'
+            color: 'bg-green-800'
           },
           {
             name: 'instagram',
@@ -45,7 +45,7 @@
           {
             name: 'Twitter',
             redirect: 'https://twitter.com/penulisduduk',
-            color: 'bg-blue-500'
+            color: 'bg-blue-600'
           },
           {
             name: 'LinkedIn',

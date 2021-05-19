@@ -1,11 +1,11 @@
 <template>
-  <div class="w-full max-w-xs text-center">
+  <div class="w-full max-w-xs hover:shadow-lg py-3 hover:border-1 hover:border-gray-600 border-2 border-gray-800 rounded-lg text-center">
     <iframe width="560" height="315" class="object-cover object-center w-full h-48 mx-auto rounded-lg"
      :src="source" title="YouTube video player" frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen></iframe>
     <div class="mt-2">
-      <span class="text-lg font-medium text-gray-200 dark:text-gray-200">{{title}}</span>
+      <span class="text-md font-medium px-3 py-3 text-gray-300  dark:text-gray-200">{{title}}</span>
     </div>
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div class="section posts-list">
-    <div class="content">
+    <div class="content p-9 mb-6 mx-auto">
       <BlogSection :blogs="blogs" />
     </div>
   </div>
@@ -8,7 +8,6 @@
 
 <script>
   import BlogSection from "~/components/Sections/BlogSection"
-
   import blogsEn from '~/contents/en/blogsEn.js'
 
   export default {
