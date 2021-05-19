@@ -68,31 +68,11 @@
         },
         {
           name: 'description',
-          content: "Personal Website Muhamad Zainal Arifin"
-        },
-        {
-          name: 'description',
-          content: "Project terkakhir yang dibuat oleh Muhamad Zainal Arifin"
+          content: "Personal Website Muhamad Zainal Arifin,Project terkakhir yang dibuat oleh Muhamad Zainal Arifin"
         },
         {
           name: "keywords",
-          content: "penulisdudukdev"
-        },
-        {
-          name: "keywords",
-          content: "Muhamad Zainal Arifin"
-        },
-        {
-          name: "keywords",
-          content: "Zainal21"
-        },
-        {
-          name: "keywords",
-          content: "ZainaRPLDEV"
-        },
-        {
-          name: "keywords",
-          content: "Junior Full Stack Developer"
+          content: "penulisdudukdev,Muhamad Zainal Arifin,Zainal21"
         },
         {
           name: "Author",
