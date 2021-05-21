@@ -3,13 +3,14 @@
     <div class="content p-9 mb-6 mx-auto">
       <BlogSection :blogs="blogs" />
     </div>
+    <ButtonToTop />
   </div>
 </template>
 
 <script>
   import BlogSection from "~/components/Sections/BlogSection"
   import blogsEn from '~/contents/en/blogsEn.js'
-
+  import ButtonToTop from "../components/ButtonToTop"
   export default {
    
     async asyncData({
@@ -28,7 +29,7 @@
         })
     },
     components: {
-      BlogSection
+      BlogSection,ButtonToTop
     },
 
     transition: {
@@ -59,17 +60,11 @@
             content: this.$t('indexPageHead.title')
           },
           {
-            name: "twitter:description",
+            name: "content:description",
             content: this.$t('indexPageHead.description')
           },
         ]
       };
     },
-
-    computed: {
-      ogImage: function () {
-        return;
-      }
-    }
   }
 </script>

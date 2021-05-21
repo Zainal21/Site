@@ -13,11 +13,13 @@
         </div>
       </div>
     </div>
+    <ButtonToTop />
   </section>
 </template>
 
 <script>
   import SubContainer from "~/components/Sections/SubContainer"
+  import ButtonToTop from "../components/ButtonToTop"
   export default {
     name: 'linktree',
     data: () => {
@@ -51,12 +53,17 @@
             name: 'LinkedIn',
             redirect: 'https://www.linkedin.com/in/muhammad-zainal-arifin',
             color: 'bg-blue-800'
+          },
+          {
+            name: 'Facebook',
+            redirect: '#',
+            color: 'bg-blue-900'
           }
         ]
       }
     },
     components: {
-      SubContainer,
+      SubContainer,ButtonToTop
     },
     transition: {
       name: 'slide-fade'

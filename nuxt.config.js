@@ -126,6 +126,20 @@ export default {
     '@nuxtjs/style-resources',
     ['nuxt-i18n', I18N],
     'nuxt-webfontloader',
+    ['nuxt-lazy-load', {
+        images: true,
+        videos: true,
+        audios: true,
+        iframes: true,
+        native: false,
+        polyfill: true,
+        directiveOnly: false,
+
+        loadingClass: 'isLoading',
+        loadedClass: 'isLoaded',
+        appendClass: 'lazyLoad',
+        
+    }]
   ],
   webfontloader: {
     custom: {

@@ -7,11 +7,11 @@
         <div class="flex flex-wrap justify-center">
           <div class="lg:w-2/4 md:w-1/2 p-1 mt-2 w-full" v-for="item in portfolio" :key="item.id">
             <div
-              class="h-full bg-skill card-skills shadow-md rounded-lg overflow-hidden relative p-8 flex flex-wrap flex-col items-center justify-center hover:shadow-lg hover:border-1 hover:border-gray-600 border-2 border-gray-800 rounded-lg">
+              class="h-full bg-skill card-skills shadow-md  overflow-hidden relative p-8 flex flex-wrap flex-col items-center justify-center hover:shadow-lg hover:border-1 hover:border-gray-600 border-2 border-gray-800 rounded-lg">
               <div>
                 <img alt="Image Skill"
                   class="lg:w-full h-auto md:w-full mb-5 rounded object-cover object-center mx-auto" :src="item.image"
-                  lazy="loaded" width="200px" height="200px"></div>
+                  lazy="loaded" width="200px" height="200px" v-lazy-load></div>
               <a :href="item.link" class="text-lg md:text-lg text-center font-bold mb-2 text-gray-200">
                 {{item.project_name}} <br><span class="font-bold">({{item.stack}})</span>
               </a>
@@ -30,6 +30,7 @@
           </div>
         </div>
       </div>
+      <ButtonToTop/>
     </section>
   </div>
 </template>
@@ -46,12 +47,13 @@
 
 <script>
   import SubContainer from "~/components/Sections/SubContainer"
+  import ButtonToTop from "../components/ButtonToTop"
   export default {
     transition: {
       name: 'slide-fade'
     },
     components: {
-      SubContainer
+      SubContainer,ButtonToTop
     },
     head: {
       title: 'Muhamad Zainal Arifin',
@@ -82,46 +84,6 @@
     },
     data: () => {
       return {
-        meta: [{
-            charset: 'utf-8'
-          },
-          {
-            name: 'viewport',
-            content: 'width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'
-          },
-          {
-            name: 'msapplication-TileColor',
-            content: '#ffffff'
-          },
-          {
-            name: 'description',
-            content: "Personal Website Muhamad Zainal Arifin ,  "
-          },
-          {
-            name: "keywords",
-            content: "penulisdudukdev"
-          },
-          {
-            name: "subject",
-            content: "Personal of Muhamad Zainal Arifin"
-          },
-          {
-            name: "identifier-URL",
-            content: "https://muhammadzaindev.vercel.app/"
-          },
-          {
-            name: "keywords",
-            content: "Zainal21, Zainal, Muhamad Zainal Arifin, Zainal RPL, Muhamad Zain, Riana Eka Fidriyani, Riana"
-          },
-          {
-            name: "designer",
-            content: "Muhamad Zainal Arifin"
-          },
-          {
-            name: "developer",
-            content: "Muhamad Zainal Arifin"
-          }
-        ],
         portfolio: [{
             id: 1,
             project_name: 'Teman Belajar',

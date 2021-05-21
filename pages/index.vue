@@ -23,7 +23,8 @@
           <div class="mt-8 lg:mt-0 lg:w-1/2">
             <div class="flex items-center justify-center lg:justify-end">
               <div class="max-w-lg">
-                <img class="w-full h-80 object-cover object-center rounded-md" src="images/Me_and_Nana.jpg" alt="">
+                <img class="w-full h-80 object-cover object-center rounded-md" v-lazy-load src="images/gallery/photo3211868340741056440.jpg"
+                  alt="">
               </div>
             </div>
           </div>
@@ -52,14 +53,17 @@
     <section class="recent-watch container p-9 mb-6 mx-auto bg-transparant dark:bg-gray-800">
       <h2 class="text-gray-100 text-2xl font-bold mb-8  mt-8">My Recent Reading list</h2>
       <div
-        class="max-w-4xl mx-auto mt-5 bg-transparant overflow-hidden hover:shadow-lg hover:border-1 hover:border-gray-600 border-2 border-gray-800 rounded-lg" v-for="readlist in readlists" :key="readlist.id">
+        class="max-w-4xl mx-auto mt-5 bg-transparant overflow-hidden hover:shadow-lg hover:border-1 hover:border-gray-600 border-2 border-gray-800 rounded-lg"
+        v-for="readlist in readlists" :key="readlist.id">
         <div class="p-5">
           <div>
             <span class="text-blue-100 float-left text-xs font-bold uppercase">{{readlist.authors}}</span>
             <div class="flex justify-center">
               <span class="font-medium ml-auto text-gray-100 text-sm">{{readlist.time_read}}</span>
             </div>
-            <a :href="readlist.sourceLink" class="block text-gray-100 font-semibold hover:underline text-2xl mt-3 hover:text-gray-300 hover:text-underline" target="_blank">{{readlist.title}}
+            <a :href="readlist.sourceLink"
+              class="block text-gray-100 font-semibold hover:underline text-2xl mt-3 hover:text-gray-300 hover:text-underline"
+              target="_blank">{{readlist.title}}
             </a>
             <p class="text-sm text-gray-100 mt-3">{{readlist.excerpt}}</p>
             <span
@@ -69,12 +73,23 @@
       </div>
     </section>
     <!-- galery photo -->
+    <!-- component -->
+    <section class="recent-watch container p-9 mb-6 mx-auto bg-transparant dark:bg-gray-800">
+      <h2 class="text-gray-100 text-2xl font-bold mb-8  mt-8">My Photos gallery</h2>
+      <div class="container mx-auto p-8">
+        <ImageGallery/>
+      </div>
+    </section>
+    <ButtonToTop />
   </div>
+  
 </template>
 <script>
   import Contribution from '../components/Sections/Contribution'
   import Skillset from "../components/Sections/Skillset"
   import MusicPlaylistCard from "../components/MusicPlaylistCard"
+  import ImageGallery from "../components/ImageGallery"
+  import ButtonToTop from "../components/ButtonToTop"
   export default {
     head: {
       title: 'Muhamad Zainal Arifin',
@@ -143,41 +158,40 @@
             source: "https://www.youtube.com/embed/4DxL6IKmXx4"
           }
         ],
-        readlists : [
-          {
-            id : 1,
-            title : 'Docker, Rancher, & Laravel: Easy & Safe Scalability!',
-            authors : 'Will Bowman',
-            time_read : '9 Minutes',
-            excerpt : 'I attended Laracon US ’16 and met Luca Critelli who shared how he manages his businesses backend with Docker & Rancher. We both agreed to work on an article to help introduce Rancher to the Laravel community, it’s ',
-            sourceLink : 'https://medium.com/@asked_io/docker-rancher-laravel-easy-safe-scalability-4e6eb8758232',
-            category:'Programming'
+        readlists: [{
+            id: 1,
+            title: 'Docker, Rancher, & Laravel: Easy & Safe Scalability!',
+            authors: 'Will Bowman',
+            time_read: '9 Minutes',
+            excerpt: 'I attended Laracon US ’16 and met Luca Critelli who shared how he manages his businesses backend with Docker & Rancher. We both agreed to work on an article to help introduce Rancher to the Laravel community, it’s ',
+            sourceLink: 'https://medium.com/@asked_io/docker-rancher-laravel-easy-safe-scalability-4e6eb8758232',
+            category: 'Programming'
           },
           {
-            id : 2,
-            title : 'I Almost Got Fired for Choosing React in Our Enterprise App',
-            authors : 'Razvan Dragomir',
-            time_read : '8 Minutes',
-            excerpt : 'I love React. I use it for all my personal projects and would love to recommend it for new work initiatives. However, after the unpleasant experience I had, I will not encourage using it for enterprise applications. Not again. ',
-            sourceLink : 'https://betterprogramming.pub/i-almost-got-fired-for-choosing-react-in-our-enterprise-app-846ea840841c',
-            category:'Programming'
+            id: 2,
+            title: 'I Almost Got Fired for Choosing React in Our Enterprise App',
+            authors: 'Razvan Dragomir',
+            time_read: '8 Minutes',
+            excerpt: 'I love React. I use it for all my personal projects and would love to recommend it for new work initiatives. However, after the unpleasant experience I had, I will not encourage using it for enterprise applications. Not again. ',
+            sourceLink: 'https://betterprogramming.pub/i-almost-got-fired-for-choosing-react-in-our-enterprise-app-846ea840841c',
+            category: 'Programming'
           },
           {
-            id : 3 ,
-            title : 'Intentional Career Building',
-            authors : 'Kent C. Dodds ',
-            time_read : '9 Minutes',
-            excerpt : 'A challenge and ideas for you to do something to build your career.One thing I want to do is provide you with some specific ideas of things you can do to improve your skills and get what you want out of your career.  ',
-            sourceLink : 'https://kentcdodds.com/blog/intentional-career-building',
-            category:'career'
+            id: 3,
+            title: 'Intentional Career Building',
+            authors: 'Kent C. Dodds ',
+            time_read: '9 Minutes',
+            excerpt: 'A challenge and ideas for you to do something to build your career.One thing I want to do is provide you with some specific ideas of things you can do to improve your skills and get what you want out of your career.  ',
+            sourceLink: 'https://kentcdodds.com/blog/intentional-career-building',
+            category: 'career'
           }
         ]
       }
     },
     components: {
       Contribution,
-      Skillset,
-      MusicPlaylistCard
+      Skillset,ImageGallery,
+      MusicPlaylistCard,ButtonToTop
     }
   }
 </script>

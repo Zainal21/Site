@@ -22,7 +22,7 @@
                 </div>
               </div>
               <div class="container mx-auto">
-                <img :src="`/images/blog/${id}/_thumbnail.jpg`" alt="" width="100%">
+                <img v-lazy-load :src="`/images/blog/${id}/_thumbnail.jpg`" alt="" width="100%">
               </div>
             </div>
           </div>
@@ -36,16 +36,17 @@
       </div>
     </div>
     <div class="container mx-auto mb-10">
-        <div class="comment">
-          <Disqus />
-        </div>
+      <div class="comment">
+        <Disqus />
+      </div>
     </div>
+    <ButtonToTop />
   </section>
 
 </template>
 <script>
-
   import DynamicMarkdown from "~/components/Markdown/DynamicMarkdown.vue"
+  import ButtonToTop from "~/components/ButtonToTop"
   const baseUrl = '#';
   export default {
 
@@ -54,7 +55,6 @@
         baseUrl: baseUrl
       }
     },
-
     async asyncData({
       params,
       app
@@ -75,10 +75,6 @@
         extraComponent: attr.extraComponent,
         renderFunc: `(${fileContent.vue.render})`,
         staticRenderFuncs: `[${fileContent.vue.staticRenderFns}]`,
-        image: {
-          main: attr.image && attr.image.main,
-          og: attr.image && attr.image.og
-        }
       }
     },
 
@@ -87,7 +83,7 @@
     },
 
     components: {
-      DynamicMarkdown
+      DynamicMarkdown, ButtonToTop
     },
 
     head() {
@@ -109,8 +105,39 @@
           {
             property: "og:title",
             content: this.pageTitle
+          },
+          {
+            name: 'msapplication-TileColor',
+            content: '#ffffff'
+          },
+          {
+            name: 'description',
+            content: "Personal Website Muhamad Zainal Arifin ,  "
+          },
+          {
+            name: "keywords",
+            content: "penulisdudukdev"
+          },
+          {
+            name: "subject",
+            content: "Personal of Muhamad Zainal Arifin"
+          },
+          {
+            name: "identifier-URL",
+            content: "https://muhammadzaindev.vercel.app/"
+          },
+          {
+            name: "keywords",
+            content: "Zainal21, Zainal, Muhamad Zainal Arifin, Zainal RPL, Muhamad Zain, Riana Eka Fidriyani, Riana"
+          },
+          {
+            name: "designer",
+            content: "Muhamad Zainal Arifin"
+          },
+          {
+            name: "developer",
+            content: "Muhamad Zainal Arifin"
           }
-
         ],
         link: [
           this.hreflang
@@ -143,7 +170,6 @@
           hreflang: this.showLocales[0].code
         }
       },
-
       extraComponentLoader() {
         if (!this.extraComponent) {
           return null
@@ -224,9 +250,10 @@
     padding: 3.1rem 0;
     font-size: 16px;
     line-height: 1.4;
-    font-family:'Poppins', sans-serif !important;
+    font-family: 'Poppins', sans-serif !important;
     color: #e0d5d5;
     background-color: rgb(22, 22, 29);
+
     >*:not(.datagrid):not(.image-placeholder) {
       max-width: 700px;
       margin-left: auto;
@@ -236,21 +263,21 @@
 
 
     h2 {
-      font-weight:600;
+      font-weight: 600;
       margin: 0.8rem 0;
-       font-size: inherit;
-      font-family:'Poppins', sans-serif !important;
+      font-size: inherit;
+      font-family: 'Poppins', sans-serif !important;
     }
 
     h3 {
-      font-weight:600;
+      font-weight: 600;
       margin: 1rem 0;
-      font-size:inherit;
-      font-family:'Poppins', sans-serif !important;
+      font-size: inherit;
+      font-family: 'Poppins', sans-serif !important;
     }
 
     li {
-      font-family:'Poppins', sans-serif !important;
+      font-family: 'Poppins', sans-serif !important;
       list-style-type: initial;
     }
 
@@ -263,16 +290,16 @@
       display: block;
       color: #e0d5d5;
       margin-bottom: 5rem;
-      font-family:'Poppins', sans-serif !important;
+      font-family: 'Poppins', sans-serif !important;
 
       code {
         background-color: #27272e;
-        font-family:'Poppins', sans-serif !important;
+        font-family: 'Poppins', sans-serif !important;
       }
     }
 
     code {
-      font-family:'Poppins', sans-serif !important;
+      font-family: 'Poppins', sans-serif !important;
       background: #27272e;
       border-radius: 4px;
       display: inline;
@@ -280,7 +307,8 @@
       font-size: 14px;
       padding: .2em .4em;
     }
-    p{
+
+    p {
       margin: 2rem !important;
     }
   }
