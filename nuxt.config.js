@@ -130,7 +130,7 @@ export default {
         images: true,
         videos: true,
         audios: true,
-        iframes: true,
+        iframes: false,
         native: false,
         polyfill: true,
         directiveOnly: false,
