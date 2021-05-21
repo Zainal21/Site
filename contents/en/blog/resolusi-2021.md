@@ -12,7 +12,7 @@ description: |
 ---
 
 Tahun 2020 beberapa jam lagi akan berakhir.
-Sebagai bahan untuk menyongsong tahun 2020 tentu perlu summarize apa saja yang sudah tercapai dan mana yang perlu diperbaiki.
+Sebagai bahan untuk menyongsong tahun 2021 tentu perlu summarize apa saja yang sudah tercapai dan mana yang perlu diperbaiki.
 So, berikut recap 2020 check this out.
 
 ### Event
@@ -35,9 +35,10 @@ Walaupun begitu, kita harus semangat dalam belajar apa lagi tahun besuk udah mau
 ### Apa Target di-2021 nanti?
 Sebenarnya banyak yang belum tercapai di tahun 2020 ini, dan belum ada target yang jelas untuk 2021 ini, ya jalanin aja dengan maksimal  <br>
 Beberapa rencana buat tahun 2021 nanti:
-- Belajar React, VueJS dan NuxtJS
-- Memperdalam Laravel dan NodeJS
-- Belajar Design Pattern
-- Rutin Baca Buku
-- Rutin akfif berkontribusi Open Source
-- dan masih banyak lagi
+ - Belajar React, VueJS dan NuxtJS
+ - Memperdalam Laravel dan NodeJS
+ - Belajar Design Pattern
+ - Rutin Baca Buku
+ - Rutin akfif berkontribusi Open Source
+ - dan masih banyak lagi
+Doakan Semoga semua bisa aku lakukan, Aamiin☺️
