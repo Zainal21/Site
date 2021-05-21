@@ -28,14 +28,12 @@
     <div class="w-full sm:w-1/3 h-32 md:h-48 mb-4 sm:mb-0 px-2">
       <span class="block w-full h-full bg-grey-dark bg-no-repeat bg-center bg-cover cursor-pointeroverflow-hidden  hover:shadow-lg hover:border-1 hover:border-gray-500 border-4 border-gray-800 rounded-lg"
         style="background-image: url(images/gallery/karang-taruna.jpg);" v-lazy-load>
-        
       </span>
     </div>
     <div class="w-full sm:w-1/3 h-32 md:h-48 px-2">
-      <a class="block w-full h-full bg-grey-dark bg-no-repeat bg-center bg-cover cursor-pointeroverflow-hidden  hover:shadow-lg hover:border-1 hover:border-gray-500 border-4 border-gray-800 rounded-lg"
+      <span class="block w-full h-full bg-grey-dark bg-no-repeat bg-center bg-cover cursor-pointeroverflow-hidden  hover:shadow-lg hover:border-1 hover:border-gray-500 border-4 border-gray-800 rounded-lg"
         style="background-image: url(images/gallery/karang-taruna-2.jpg);">
-        Link
-      </a>
+      </span>
     </div>
   </div>
 </template>
