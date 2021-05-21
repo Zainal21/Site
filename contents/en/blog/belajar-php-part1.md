@@ -13,15 +13,10 @@ description: |
 
 ### Alasan kenapa kita belajar PHP
 - Mudah Dipahami
-
 - Memiliki Sumber Belajar Berbahasa Indonesia yang Melimpah
-
 - Hosting yang Murah Meriah
-
 - Lapangan Pekerjaan yang Luas, walaupun diluar negeri kelihatannya jarang, akan tetapi untuk di Indonesia masih banyak lapangan kerja yang menggunakan bahasa pemrograman PHP
-
 - Memiliki Komunitas yang Besar
-
 - Dan masih banyak lagi
 
 
@@ -44,28 +39,22 @@ PHP disebut bahasa pemrograman server side karena PHP diproses pada komputer ser
 ### Apa saja yang harus dipersiapkan
 
 - `Code Editor`, disini teman - teman bebas untuk memilih Code Editor apapun, tetapi kami sarankan untuk memakai [Visual Studio Code](https://code.visualstudio.com/) karena kemudahan menambahkan ekstensi dan juga sudah tertanamnya fitur _emmet_ yang membuat kita menulis kode dengan lebih cepat
-
 - `Web Server`  yang digunakan untuk membuat layanan server yang berdiri sendiri atau localhost, disini kami rekomendasikan untuk menggunakan [__XAMPP__](https://www.apachefriends.org/index.html), karena Cross Platform, artinya dapat dijalankan berjalan di banyak sistem operasi. XAMPP adalah perangkat lunak bebas, yang mendukung banyak sistem operasi, merupakan kompilasi dari beberapa program. Fungsinya adalah sebagai server yang berdiri sendiri, yang terdiri atas program __Apache HTTP Server, MySQL database__, dan penerjemah bahasa yang ditulis dengan bahasa pemrograman PHP dan Perl
-
 - `Web Browser` Web browser merupakan aplikasi yang bisa menjelajahi, menyajikan, maupun mengambil konten yang ada di berbagai sumber informasi pada jaringan internet atau WWW. singkatnya Web Browser digunakan untuk menjalankan skrip ``php`` yang akan kita buat. Teman-teman dapat menggunakan berbagai macam web browser, akan tetapi yang kami sarankan adalah menggunakan web browser yang terbaru / yang sudah diupdate,Teman-teman bisa Web browser yang cukup populer seperti Google Chrome, Mozilla Firefox, Opera, dll
 
 
 ### Membuat Program Pertama Dengan PHP
 
 - Jika Teman-teman sudah menginstall XAMPP, Web Browser & Code Editor
-
 - Silahkan teman-taman buka XAMPP dan manyalan Web Server-nya (Apache)
-
 - Buat folder baru di folder Htdocs yang berada di komputer teman-teman, biasanya untuk Windows Terletak pada Drive C:XAMPP/Htdocs, untuk Linux ada di /opt/lampp/htdocs. dan buat file di dalam folder tersebut
-
 - Jika sudah, Buka Folder tersebut ke Code Editor favorit teman-teman. dan ketik program dibawah ini.
 
-```php
-<?php
-  echo "Hello World";
-?>
-```
-
+  ```php
+  <?php
+    echo "Hello World";
+  ?>
+  ```
 - jika sudah buka web browser lalu ketik di url ```localhost``` dan arahkan ke folder yang telah kita buat tadi, lihat apa yang terjadi.
 
 
@@ -88,19 +77,14 @@ Sebelum ke Penggunaan _Variable_ pada PHP kita kenalan dahulu tentang tipe data.
 
 - Integer
 Integer adalah type data pada php yang berupa angka bulat seperti 1, 22, 100, 1000, type data ini sangat umum digunakan di bahasa pemrograman khusunya berkaitan dengan angka bulat
-
 - String
 String adalah type data pada php yang berisi text dan karakter dimana bentuknya bisa kata atau kalimat. Dan dalam PHP untuk penulisan jenis type data ini biasanya dengan Single Quoted (' '), Double Quoted (" "). 
-
 - Boolean
 type boolean adalah tipe data yang hanya memiliki dua nilai yaitu true dan false
-
 - Array
 array berbeda dengan type data pada php seperti integer atau boolean, karena array adalah sebuah tipe data yang didalamnya terdiri dari kumpulan tipe data
-
 - Float
 Float atau nama lainya adalah floating point atau real number adalah type data pada php yang memiliki bagian desimal di akhir angka contohnya adalah 3,21 atau 4,5dalam penulisan type data float didalam php bukan menggunakan koma ( ,) tetapi menggunakan titik (.)
-
 - Char 
 Tipe data Char adalah tipe data yang hanya bisa diisi dengan 1 karakter saja. 
 
@@ -117,7 +101,6 @@ Berikut contoh penggunaan tipe data dan variable pada bahasa pemrograman PHP
 ?>
 
 ```
-
 2. _Integer_
 
 ```php
@@ -127,7 +110,6 @@ Berikut contoh penggunaan tipe data dan variable pada bahasa pemrograman PHP
   echo $umur  // mencetak nilai variable ke layar
 ?>
 ```
-
 3. _Float_
 
 ```php
@@ -136,7 +118,6 @@ Berikut contoh penggunaan tipe data dan variable pada bahasa pemrograman PHP
     $nilaibahasaindo = 9.6;
 ?>
 ```
-
 4. _Boolean_
 
 ```php
@@ -146,7 +127,6 @@ Berikut contoh penggunaan tipe data dan variable pada bahasa pemrograman PHP
     $salah = false
 ?>
 ```
-
 5. _Array_ 
 
 ```php
@@ -174,8 +154,6 @@ Berikut contoh penggunaan tipe data dan variable pada bahasa pemrograman PHP
 ?>
 
 ```
-
-
 6. _Char_
 
 
@@ -188,8 +166,6 @@ Berikut contoh penggunaan tipe data dan variable pada bahasa pemrograman PHP
 ?>
 
 ```
-
-
 Bagaimana Mudah bukan?
 
 

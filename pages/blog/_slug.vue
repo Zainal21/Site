@@ -1,24 +1,24 @@
 <template>
   <section class="single-pos">
-    <div class="lg:container lg:mx-auto mt-4 md:container mx-1 py-18">
+    <div class="lg:container lg:mx-auto mt-4 md:container mx-2 py-18">
       <div class="container mx-auto">
-        <div class="flex justify-between items-center">
+        <div class="flex justify-between items-center mt-10">
           <nuxt-link to="/posts" class="px-2 py-1 bg-gray-200 text-black text-sm font-bold rounded hover:bg-gray-200">
             Back</nuxt-link>
           <p class="font-semibold text-center text-gray-100 text-sm">{{ year }}</p>
           <p class="px-2 py-1 text-black bg-gray-100 text-sm font-bold rounded hover:bg-gray-200">{{category}}</p>
         </div>
       </div>
-      <div class="mt-2">
+      <div class="mt-3">
         <div class="blogSelected">
           <div class="intro">
-            <div class="elevate-cover">
-              <div class="elevate-cover__textOffset">
-                <div class="elevate-cover__left">
-                  <h1 class="elevate-cover__title text-4xl text-white font-bold hover:text-gray-100">
+            <div class="content-cover">
+              <div class="content-cover__textOffset">
+                <div class="content-cover__left">
+                  <h1 class="content-cover__title text-4xl text-white font-bold hover:text-gray-100">
                     {{ title }}
                   </h1>
-                  <p class="elevate-cover__description text-xl text-white">{{ description }}</p>
+                  <p class="content-cover__description text-xl text-white">{{ description }}</p>
                 </div>
               </div>
               <div class="container mx-auto">
@@ -209,7 +209,8 @@
     }
   }
 
-  .elevate-cover {
+  .content-cover {
+    font-family: 'Poppins', sans-serif !important;
     display: flex;
     flex-direction: column;
     // min-height: 459px;
@@ -234,7 +235,6 @@
 
     &__title {
       font-size: 2rem;
-      font-family: 'Poppins', sans-serif !important;
     }
 
     &__description {
@@ -248,10 +248,10 @@
 
   .dynamicMarkdown {
     padding: 3.1rem 0;
-    font-size: 16px;
+    font-size:1.125rem;
     line-height: 1.4;
     font-family: 'Poppins', sans-serif !important;
-    color: #e0d5d5;
+    color: rgb(229, 231, 235);
     background-color: rgb(22, 22, 29);
 
     >*:not(.datagrid):not(.image-placeholder) {
@@ -266,18 +266,15 @@
       font-weight: 600;
       margin: 0.8rem 0;
       font-size: inherit;
-      font-family: 'Poppins', sans-serif !important;
     }
 
     h3 {
       font-weight: 600;
       margin: 1rem 0;
       font-size: inherit;
-      font-family: 'Poppins', sans-serif !important;
     }
 
     li {
-      font-family: 'Poppins', sans-serif !important;
       list-style-type: initial;
     }
 
@@ -290,16 +287,12 @@
       display: block;
       color: #e0d5d5;
       margin-bottom: 5rem;
-      font-family: 'Poppins', sans-serif !important;
-
       code {
         background-color: #27272e;
-        font-family: 'Poppins', sans-serif !important;
       }
     }
 
     code {
-      font-family: 'Poppins', sans-serif !important;
       background: #27272e;
       border-radius: 4px;
       display: inline;
@@ -309,7 +302,7 @@
     }
 
     p {
-      margin: 2rem !important;
+      margin: 0.8rem 0 !important;
     }
   }
 </style>

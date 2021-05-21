@@ -5,7 +5,7 @@
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen v-lazy-load></iframe>
     <div class="mt-2">
-      <span class="text-md font-medium px-3 py-3 text-gray-300  dark:text-gray-200">{{title}}</span>
+      <span class="text-md font-normal px-3 py-3 text-gray-300  dark:text-gray-200">{{title}}</span>
     </div>
   </div>
 </template>

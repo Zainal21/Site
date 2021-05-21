@@ -1,6 +1,6 @@
 <template>
   <div class="section posts-list">
-    <div class="content p-9 mb-6 mx-auto">
+    <div class="content mx-auto">
       <BlogSection :blogs="blogs" />
     </div>
     <ButtonToTop />

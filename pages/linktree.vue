@@ -7,7 +7,7 @@
         <div class="w-full my-3 rounded-md text-white" :class="link.color">
           <div class="flex justify-between items-center container mx-auto py-4 px-6">
             <div class="flex">
-              <a :href="link.redirect" class="text-xl  font-bold hover:underline">{{link.name}}</a>
+              <a :href="link.redirect" class="text-xl  font-bold hover:underline" target="_blank">{{link.name}}</a>
             </div>
           </div>
         </div>
@@ -28,6 +28,11 @@
             name: 'Github',
             redirect: 'https://github.com/Zainal21',
             color: 'bg-gray-800'
+          },
+          {
+            name: 'Gitlab',
+            redirect: 'https://gitlab.com/Zainal21',
+            color: 'bg-yellow-500'
           },
           {
             name: 'Whatsapp',

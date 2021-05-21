@@ -24,7 +24,7 @@
             <div class="flex items-center justify-center lg:justify-end">
               <div class="max-w-lg">
                 <img class="w-full h-80 object-cover object-center rounded-md" v-lazy-load src="images/gallery/photo3211868340741056440.jpg"
-                  alt="">
+                  alt="muhamad zainal arifin">
               </div>
             </div>
           </div>
@@ -163,7 +163,7 @@
             title: 'Docker, Rancher, & Laravel: Easy & Safe Scalability!',
             authors: 'Will Bowman',
             time_read: '9 Minutes',
-            excerpt: 'I attended Laracon US ’16 and met Luca Critelli who shared how he manages his businesses backend with Docker & Rancher. We both agreed to work on an article to help introduce Rancher to the Laravel community, it’s ',
+            excerpt: 'I attended Laracon US ’16 and met Luca Critelli who shared how he manages his businesses backend with Docker & Rancher. We both agreed to work on an article to help introduce Rancher to the Laravel community ',
             sourceLink: 'https://medium.com/@asked_io/docker-rancher-laravel-easy-safe-scalability-4e6eb8758232',
             category: 'Programming'
           },
