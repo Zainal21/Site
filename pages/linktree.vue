@@ -24,7 +24,13 @@
     name: 'linktree',
     data: () => {
       return {
-        links: [{
+        links: [
+           {
+            name: 'E-mail',
+            redirect: 'mailto:Muhammadzaindev@gmail.com',
+            color: 'bg-indigo-900'
+          },
+          {
             name: 'Github',
             redirect: 'https://github.com/Zainal21',
             color: 'bg-gray-800'
@@ -32,7 +38,7 @@
           {
             name: 'Gitlab',
             redirect: 'https://gitlab.com/Zainal21',
-            color: 'bg-yellow-500'
+            color: 'bg-yellow-600'
           },
           {
             name: 'Whatsapp',

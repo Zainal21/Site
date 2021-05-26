@@ -1,8 +1,10 @@
 * { box-sizing: border-box; }
 
+
 html{
   height: 100%;
   font-family:'Poppins', sans-serif !important ;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -22,6 +24,10 @@ body {
       transform: translateX($nav-responsive-width);
     }
   }
+}
+
+#__nuxt{
+  scroll-behavior: smooth;
 }
 
 .slide-fade-enter-active,

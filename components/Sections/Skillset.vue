@@ -28,8 +28,8 @@
           }
           ,
           {
-            name: 'Desktop Apps Dev',
-            description:'For Desktop app development. I once worked on a desktop application project using <b>VB.NET</b> and <b>C#</b> with <b>SQL Server Database</b>'
+            name: 'Other (Skillset)',
+            description:'Git or Version Control System, Linux (basic command-line operations), Basic Using Docker Container, Analytic System & Visualization with Draw.io and Whimsycle for Brainstroming'
           }
         ]
       }

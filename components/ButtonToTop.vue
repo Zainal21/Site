@@ -24,7 +24,7 @@
     line-height: 1.8;
     background-color:rgb(22, 22, 29) ;
     color: #ddd;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
   }
 </style>
 
