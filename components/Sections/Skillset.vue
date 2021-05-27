@@ -29,7 +29,7 @@
           ,
           {
             name: 'Other (Skillset)',
-            description:'Git or Version Control System, Linux (basic command-line operations), Basic Using Docker Container, Analytic System & Visualization with Draw.io and Whimsycle for Brainstroming'
+            description:'Git or Version Control System, Linux (basic command-line operations), Basic Using Docker , Analytic System & Visualization with Draw.io and Whimsical'
           }
         ]
       }
