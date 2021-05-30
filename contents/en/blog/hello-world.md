@@ -15,6 +15,10 @@ description: |
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eius iste quo? Doloribus adipisci cum obcaecati laboriosam nulla aspernatur quae nemo accusamus debitis molestias soluta vitae harum quam tempora, in vero qui corporis ducimus temporibus odio, repellat, facere beatae saepe.
 
-```lorem ipsum```
+```php
+<?php
+    echo "Hello World";
+?>
+```
 
 

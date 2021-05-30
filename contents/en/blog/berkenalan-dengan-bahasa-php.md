@@ -1,10 +1,10 @@
 ---
-name: 'belajar-php-part1'
+name: 'berkenalan-dengan-bahasa-php'
 title: 'Belajar Dasar Pemograman PHP'
 year: 18 Mei 2021
 color: '#edece7'
 isTextColorDark: true
-id: 'belajar-php-part1'
+id: 'berkenalan-dengan-bahasa-php'
 category: 'Programming'
 time_read: '7 Minutes Read'
 description: |
@@ -34,8 +34,7 @@ description: |
 
 __PHP__ adalah bahasa pemrograman script server-side yang didesain untuk pengembangan web. Selain itu, PHP juga bisa digunakan sebagai bahasa pemrograman umum (wikipedia). PHP di kembangkan pada tahun 1995 oleh Rasmus Lerdorf, dan sekarang dikelola oleh The PHP Group. Situs resmi PHP bisa dilihat di [php.net](http://www.php.net).
 
-PHP disebut bahasa pemrograman server side karena PHP diproses pada komputer server.
-
+PHP disebut bahasa pemrograman server side karena PHP diproses pada komputer server. jadi PHP bukan __Pemberi Haparan Palsu__ ya hahaha
 ### Apa saja yang harus dipersiapkan
 
 - `Code Editor`, disini teman - teman bebas untuk memilih Code Editor apapun, tetapi kami sarankan untuk memakai [Visual Studio Code](https://code.visualstudio.com/) karena kemudahan menambahkan ekstensi dan juga sudah tertanamnya fitur _emmet_ yang membuat kita menulis kode dengan lebih cepat

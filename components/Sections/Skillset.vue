@@ -20,7 +20,7 @@
         skills : [
           {
             name: 'Front-End Development',
-            description : ' Currently I am studying several web technologies, the Frontend development section, I usually use <b>HTML</b>, <B>CSS</B>, <B>Javascript</B>, <b>Bootstrap</b>, <b>Tailwind</b>, <b>VueJS (on going)</b>,<b>React (but still a beginner)</b> to build User Interface'
+            description : ' Currently I am studying several web technologies, the Frontend development section, I usually use <b>HTML</b>, <B>CSS</B>, <B>Javascript</B>, <b>Bootstrap</b>, <b>Tailwind</b>, <b>VueJS</b>(on going),<b>ReactJS</b> (but still a beginner) to build User Interface'
           },
            {
             name: 'Back-End Development',
@@ -29,7 +29,7 @@
           ,
           {
             name: 'Other (Skillset)',
-            description:'Git or Version Control System, Linux (basic command-line operations), Basic Using Docker , Analytic System & Visualization with Draw.io and Whimsical'
+            description:'<B>Git</B> and <B>Version Control System<B>, <B>Linux (basic command-line operations)</B>, Basic Usage <B>Docker</B> , Analytic System & Visualization with <B>Draw.io</B> and <B>Whimsical</B>'
           }
         ]
       }
