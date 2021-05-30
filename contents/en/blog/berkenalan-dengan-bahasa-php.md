@@ -1,6 +1,6 @@
 ---
 name: 'berkenalan-dengan-bahasa-php'
-title: 'Belajar Dasar Pemograman PHP'
+title: 'Yukk..Berkekenalan dengan bahasa PHP'
 year: 18 Mei 2021
 color: '#edece7'
 isTextColorDark: true

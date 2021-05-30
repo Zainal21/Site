@@ -47,17 +47,17 @@
           },
           {
             name: 'instagram',
-            redirect: 'https://www.instagram.com/Zainal_256bit',
+            redirect: 'https://www.instagram.com/muhamadzain.dev',
             color: 'bg-red-600'
           },
           {
             name: 'Telegram',
-            redirect: 'https://t.me/Muhammadzain_234',
+            redirect: 'https://t.me/muhamadzaindev',
             color: 'bg-indigo-500'
           },
           {
             name: 'Twitter',
-            redirect: 'https://twitter.com/penulisduduk',
+            redirect: 'https://twitter.com/muhamadzain.dev',
             color: 'bg-blue-600'
           },
           {

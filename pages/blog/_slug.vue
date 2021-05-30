@@ -282,21 +282,18 @@
       box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
       padding: 2.4rem;
       border-radius: 4px;
-      background-color: #27272e;
+      background-color: #27272e;  
       overflow-x: scroll;
       display: block;
-      color: #e0d5d5;
       margin-bottom: 5rem;
       code {
-        background-color: #27272e;
+         background-color: #27272e;  
       }
     }
 
     code {
-      background: #27272e;
       border-radius: 4px;
       display: inline;
-      color: #cfcfd1;
       font-size: 14px;
       padding: .2em .4em;
     }

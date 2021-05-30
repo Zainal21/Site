@@ -4,20 +4,19 @@
       <div class="container mx-auto px-6 py-8">
         <div class="lg:flex items-center">
           <div class="lg:w-1/2 mt-6">
-            <h2 class="text-gray-100 text-2xl font-bold">Hi, I am Muhamad Zainal Arifin</h2>
+            <h2 class="text-gray-100 text-2xl font-bold">Hi, I am Muhamad Zainal Arifin 👋</h2>
             <p class="text-gray-400 text-base lg:max-w-md mt-4">
               Nickname as <a href="www.github.com/Zainal21" class="text-indigo-300 text-base">@PenulisDuduk</a>, I’m
-              currently a Software Engineering student<a class="text-indigo-300 text-base font-bold"
-                href="https://smkn2kra.sch.id"> at VHS 2 Karanganyar,</a>
-              Vocational Student who is interested in the world of technology,
+               graduate Software Engineering student from<a class="text-indigo-300 text-base"
+                href="https://smkn2kra.sch.id">  VHS 2 Karanganyar,</a> Now as a Freelance Web Developer,
+               Software Engineering graduate who is interested in the world of technology,
               especially in the world of web programming, and a web programmer who is quite experienced in creating,
               developing web-based applications, especially with backend development with PHP Technology & JavaScript
               Technology
             </p>
             <div class="flex mt-6">
-              <a href="#"
-                class="px-3 py-2 block  bg-gray-800 text-white text-xs font-semibold rounded hover:bg-gray-700">Download
-                CV</a>
+              <nuxt-link to="/linktree"
+                class="px-3 py-2 block  bg-gray-800 text-white text-xs font-semibold rounded hover:bg-gray-700">Hire Me</nuxt-link>
             </div>
           </div>
           <div class="mt-8 lg:mt-0 lg:w-1/2">
