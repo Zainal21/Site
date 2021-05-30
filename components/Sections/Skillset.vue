@@ -29,7 +29,11 @@
           ,
           {
             name: 'Other (Skillset)',
+<<<<<<< HEAD
             description:'<B>Git</B> and <B>Version Control System<B>, <B>Linux (basic command-line operations)</B>, Basic Usage <B>Docker</B> , Analytic System & Visualization with <B>Draw.io</B> and <B>Whimsical</B>'
+=======
+            description:'Git or Version Control System, Linux (basic command-line operations), Basic Using Docker Container, Analytic System & Visualization with Draw.io and Whimsycle for Brainstroming'
+>>>>>>> parent of 5f76a1e... chore(skillset content) : change other skillset content
           }
         ]
       }
