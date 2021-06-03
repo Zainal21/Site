@@ -1,7 +1,7 @@
 ---
 name: "kisah-akhir-sekolah-dalam-kata"
 title: "Kisah akhir sekolah dalam kata"
-year: 30 Mei 2021
+year: 3 Juni 2021
 color: "#edece7"
 isTextColorDark: true
 id: "kisah-akhir-sekolah-dalam-kata"
@@ -29,7 +29,7 @@ Nah di kelas 12 ini kebetulan aku berpartisipasi dalam LKS (Lomba Kompetensi Sis
 
 ## * Apa yang akan kulakukan kedepannya ?
 
-Mungkin sudah menjadi tantangan terbesar ketika lulus sekolah, dimana masih banyak yang tidak tau harus ngapain, sudah menentukan untuk menempuh pendidikan yang lebih tinggi lagi dan ada juga yang bekerja. dan bahkan ada yang sudah berkeinginan untuk menikah. untuk itu aku memutuskan untuk bekerja terlebih dahulu, karena aku ingin segera membahagiakan Orang tua dan keluarga tercintaku. 
+Mungkin sudah menjadi tantangan terbesar ketika lulus sekolah, dimana masih banyak yang tidak tau harus ngapain, sudah menentukan untuk menempuh pendidikan yang lebih tinggi lagi dan ada juga yang bekerja. dan bahkan ada yang sudah berkeinginan untuk menikah. untuk itu aku memutuskan untuk bekerja terlebih dahulu, karena aku ingin segera membahagiakan Orang tua dan keluarga tercintaku dan juga aku ingin belajar hal baru di dunia teknologi ini. 
 
 kenapa kok tidak kuliah ? karena mungkin bekal dari SMK ini sudah cukup untukku jadi aku ingin belajar hal baru lagi.
 
