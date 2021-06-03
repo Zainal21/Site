@@ -29,7 +29,7 @@ Nah di kelas 12 ini kebetulan aku berpartisipasi dalam LKS (Lomba Kompetensi Sis
 
 ## * Apa yang akan kulakukan kedepannya ?
 
-Mungkin sudah menjadi tantangan terbesar ketika lulus sekolah, dimana banyak yang tau haru ngapain, sudah menentukan untuk menempuh pendidikan yang lebih tinggi lagi dan ada juga yang bekerja. dan bahkan ada yang sudah berkeinginan untuk menikah. untuk itu aku memutuskan untuk bekerja terlebih dahulu, karena aku ingin segera membahagiakan Orang tua dan keluarga tercintaku. 
+Mungkin sudah menjadi tantangan terbesar ketika lulus sekolah, dimana masih banyak yang tidak tau harus ngapain, sudah menentukan untuk menempuh pendidikan yang lebih tinggi lagi dan ada juga yang bekerja. dan bahkan ada yang sudah berkeinginan untuk menikah. untuk itu aku memutuskan untuk bekerja terlebih dahulu, karena aku ingin segera membahagiakan Orang tua dan keluarga tercintaku. 
 
 kenapa kok tidak kuliah ? karena mungkin bekal dari SMK ini sudah cukup untukku jadi aku ingin belajar hal baru lagi.
 
