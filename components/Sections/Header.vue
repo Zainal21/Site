@@ -61,7 +61,10 @@
 </script>
 
 <style scoped>
+  .header{
+     font-family: 'Poppins', Arial, sans-serif !important;
+  }
   h1 {
     font-size: 2rem;
   }
-</style>
+</style>ge

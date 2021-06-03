@@ -2,7 +2,7 @@
   <div>
     <section class="hero-section">
       <div class="container mx-auto px-6 py-8">
-        <div class="lg:flex items-center">
+        <div class="lg:flex items-center">  
           <div class="lg:w-1/2 mt-6">
             <h2 class="text-gray-100 text-2xl font-bold">Hi, I am Muhamad Zainal Arifin 👋</h2>
             <p class="text-gray-400 text-base lg:max-w-md mt-4">
@@ -11,8 +11,7 @@
                 href="https://smkn2kra.sch.id">  VHS 2 Karanganyar,</a> Now as a Freelance Web Developer,
                Software Engineering graduated who is interested in the world of technology,
               especially in the world of web programming, and a web programmer who is quite experienced in creating,
-              developing web-based applications, especially with backend development with PHP Technology & JavaScript
-              Technology
+              developing web-based applications, 
             </p>
             <div class="flex mt-6">
               <nuxt-link to="/linktree"
@@ -52,7 +51,7 @@
     <section class="recent-watch container p-9 mb-6 mx-auto bg-transparant dark:bg-gray-800">
       <h2 class="text-gray-100 text-2xl font-bold mb-8  mt-8">My Recent Reading list</h2>
       <div
-        class="max-w-4xl mx-auto mt-5 bg-transparant overflow-hidden hover:shadow-lg hover:border-1 hover:border-gray-600 border-2 border-gray-800 rounded-lg"
+        class="max-w-4xl mx-auto mt-5 bg-transparant overflow-hidden hover:shadow-lg hover:border-1 hover:border-gray-700 border-2 border-gray-800 rounded-lg"
         v-for="readlist in readlists" :key="readlist.id">
         <div class="p-5">
           <div>
@@ -66,7 +65,7 @@
             </a>
             <p class="text-sm text-gray-100 mt-3">{{readlist.excerpt}}</p>
             <span
-              class="px-3 py-1 mt-5 mb-5 float-left bg-gray-800 text-sm text-white font-bold rounded hover:bg-gray-600">{{readlist.category}}</span>
+              class="px-3 py-1 mt-5 mb-5 float-left  text-sm text-white font-bold rounded bg-gray-800 hover:bg-gray-600">{{readlist.category}}</span>
           </div>
         </div>
       </div>

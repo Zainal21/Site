@@ -210,7 +210,6 @@
   }
 
   .content-cover {
-    font-family:  'Montserrat', sans-serif !important;
     display: flex;
     flex-direction: column;
     // min-height: 459px;
@@ -247,10 +246,9 @@
   }
 
   .dynamicMarkdown {
-    padding: 3.1rem 0;
+    font-family: 'Poppins', sans-serif;
     font-size:1.125rem;
-    line-height: 1.4;
-    font-family:'Montserrat', sans-serif !important;
+    line-height: 1.6;
     color: rgb(229, 231, 235);
     background-color: rgb(22, 22, 29);
 
