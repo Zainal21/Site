@@ -3,8 +3,9 @@
 
 html{
   height: 100%;
-  font-family:'Poppins', sans-serif !important ;
   scroll-behavior: smooth;
+  font-family: 'Poppins', Arial, sans-serif !important;
+  font-weight: 400 !important;
 }
 
 body {
@@ -12,7 +13,6 @@ body {
   overflow-x: hidden;
   transition: transform .5s ease-out;
   background-color: rgb(22, 22, 29);
-  font-family: 'Poppins', sans-serif !important;
   color: rgb(231, 231, 232);
   @media (min-width: $grid-breakpoint){
     padding-left: 0;
