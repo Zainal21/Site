@@ -1,6 +1,6 @@
 ---
 name: 'berkenalan-dengan-bahasa-php'
-title: 'Yukk..Berkekenalan dengan bahasa PHP'
+title: 'Yukk..Berkenalan dengan bahasa PHP'
 year: 18 Mei 2021
 color: '#edece7'
 isTextColorDark: true
@@ -90,8 +90,6 @@ Tipe data Char adalah tipe data yang hanya bisa diisi dengan 1 karakter saja.
 Berikut contoh penggunaan tipe data dan variable pada bahasa pemrograman PHP
 
 1. _String_
-
-
 ```php
 <?php 
 
@@ -155,7 +153,6 @@ Berikut contoh penggunaan tipe data dan variable pada bahasa pemrograman PHP
 ```
 6. _Char_
 
-
 ```php
 <?php
 
@@ -166,7 +163,6 @@ Berikut contoh penggunaan tipe data dan variable pada bahasa pemrograman PHP
 
 ```
 Bagaimana Mudah bukan?
-
 
 Okey..itu mungkin itu dulu ya.. tunggu di postingan selanjutnya ya..Semoga bermanfaat.. Tetap Semangat Belajar 
 
