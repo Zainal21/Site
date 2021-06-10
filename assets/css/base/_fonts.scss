@@ -4,7 +4,6 @@
   font-family: 'Premier Sans', Arial, Helvetica, sans-serif;
   src: url('./Premier-Sans.ttf');
 }
-
 $font-base-color: $grey-2;
 $font-family-base: 'Premier Sans',
 Arial,
@@ -73,8 +72,12 @@ blockquote,
 }
 
 .title {
+<<<<<<< HEAD
   font-family: $font-family-base;
   ;
+=======
+  font-family: 'Poppins', sans-serif;
+>>>>>>> 5196056bee63960db5ec675a3f58728ff6aa1dba
   margin: 7.2rem 0 4.8rem 0;
   text-align: center;
   font-weight: 600;

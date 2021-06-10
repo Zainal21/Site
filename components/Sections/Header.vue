@@ -62,10 +62,9 @@
 
 <style scoped>
   .header{
-      font-family: 'Poppins',
-    sans-serif !important;
+     font-family: 'Poppins', Arial, sans-serif !important;
   }
   h1 {
     font-size: 2rem;
   }
-</style>
+</style>ge
