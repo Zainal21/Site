@@ -1,11 +1,11 @@
 <!-- @format -->
 
 <template>
-  <div>
+  <div class="container mx-auto">
     <div
-      class="max-w-4xl mx-auto mt-5 bg-transparant overflow-hidden  hover:shadow-lg hover:border-1 hover:border-gray-600 border-2 border-gray-800 rounded-lg"
+      class="max-w-4xl mx-auto  mt-5 bg-transparant overflow-hidden hover:shadow-2xl hover:border-1hover:border-gray-700 border-2 border-gray-800 rounded-lg"
     >
-      <div class="p-5">
+      <div class="p-6 mx-3">
         <article>
           <span
             class="text-blue-100 float-left text-xs font-medium uppercase"

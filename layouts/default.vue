@@ -1,8 +1,8 @@
 <template>
   <div class="layout">
-    <Header/>
-    <nuxt class="nuxt-content"/>
-    <Footer/>
+    <Header />
+    <nuxt class="nuxt-content" />
+    <Footer />
   </div>
 </template>
 <script>
@@ -10,13 +10,18 @@
   import Header from '~/components/Sections/Header'
 
   export default {
-    components: { Footer,Header }
+    components: {
+      Footer,
+      Header
+    }
   }
 </script>
 
 
 <style scoped>
-body{
-  background-color: rgba(31,41,55,1);
-}
+  body {
+    font-family: 'Poppins',
+      sans-serif !important;
+    background-color: rgba(31, 41, 55, 1);
+  }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="header ">
+    <section class="header">
       <div class="font-sans antialiased" id="app">
         <div class="container mx-auto px-5 py-5">
           <nav class="flex items-center justify-between flex-wrap bg-teal">
@@ -61,6 +61,10 @@
 </script>
 
 <style scoped>
+  .header{
+      font-family: 'Poppins',
+    sans-serif !important;
+  }
   h1 {
     font-size: 2rem;
   }

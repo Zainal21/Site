@@ -7,7 +7,7 @@
         <div class="flex flex-wrap justify-center">
           <div class="lg:w-2/4 md:w-1/2 p-1 mt-2 w-full" v-for="item in portfolio" :key="item.id">
             <div
-              class="h-full bg-skill card-skills shadow-md  overflow-hidden relative p-8 flex flex-wrap flex-col items-center justify-center hover:shadow-lg hover:border-1 hover:border-gray-600 border-2 border-gray-800 rounded-lg">
+              class="h-full bg-skill card-skills shadow-md  overflow-hidden relative p-8 flex flex-wrap flex-col items-center justify-center hover:shadow-2xl hover:border-1 hover:border-gray-700 border-2 border-gray-800 rounded-lg">
               <div>
                 <img alt="Image Skill"
                   class="lg:w-full h-auto md:w-full mb-5 rounded object-cover object-center mx-auto" :src="item.image"

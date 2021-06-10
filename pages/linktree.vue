@@ -4,10 +4,10 @@
       SectionDescription=" Talk about business ? can contact me on various platforms to discuss business with you " />
     <div v-for="(link,i) in links" :key="i">
       <div class="container mx-auto">
-        <div class="w-full my-3 rounded-md text-white" :class="link.color">
+        <div class="w-full my-3 rounded-md shadow-xl hover:shadow-2xl text-white" :class="link.color">
           <div class="flex justify-between items-center container mx-auto py-4 px-6">
             <div class="flex">
-              <a :href="link.redirect" class="text-xl  font-bold hover:underline" target="_blank">{{link.name}}</a>
+              <a :href="link.redirect" class="text-xl font-bold hover:underline" target="_blank">{{link.name}}</a>
             </div>
           </div>
         </div>

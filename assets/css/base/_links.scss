@@ -9,24 +9,28 @@ a {
   -o-transition-duration: 0.4s;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
+
   &:hover,
   &.active,
   &:focus,
-  .nuxt-link-active{
+  .nuxt-link-active {
     outline: 0;
     text-decoration: none;
   }
 
   &.ani {
     text-decoration: none;
+
     &:hover,
     &.active,
-    &:focus{
+    &:focus {
       color: $primary-light;
     }
+
     span {
       display: inline-block;
       position: relative;
+
       &:after {
         content: "";
         display: block;
@@ -46,40 +50,50 @@ a {
       }
     }
   }
+
   &.dribbble {
     color: #ea4c89;
+
     &:hover,
     &.active,
-    &:focus{
-      color: lighten(#ea4c89,10%);
+    &:focus {
+      color: lighten(#ea4c89, 10%);
     }
+
     span:after {
-      background-color: lighten(#ea4c89,10%);
+      background-color: lighten(#ea4c89, 10%);
     }
   }
+
   &.linkedin {
     color: #0077B5;
+
     &:hover,
     &.active,
-    &:focus{
-      color: lighten(#0077B5,10%);
+    &:focus {
+      color: lighten(#0077B5, 10%);
     }
+
     span:after {
-      background-color: lighten(#0077B5,10%);
+      background-color: lighten(#0077B5, 10%);
     }
   }
+
   &.twitter {
     color: #00aced;
+
     &:hover,
     &.active,
-    &:focus{
-      color: lighten(#00aced,10%);
+    &:focus {
+      color: lighten(#00aced, 10%);
     }
+
     span:after {
-      background-color: lighten(#00aced,10%);
+      background-color: lighten(#00aced, 10%);
     }
   }
 }
+
 a.ani:hover span:after {
   width: 100%;
 }
