@@ -20,8 +20,6 @@
 
 <style scoped>
   body {
-    font-family: 'Poppins',
-      sans-serif !important;
     background-color: rgba(31, 41, 55, 1);
   }
 </style>

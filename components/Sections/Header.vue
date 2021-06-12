@@ -19,18 +19,18 @@
             <div :class="open ? 'block': 'hidden'" class="w-full sm:flex sm:items-center sm:w-auto text-white ml-auto">
               <div class="text-base sm:flex-grow mt-1">
                 <nuxt-link to="/" prefetch
-                  class="no-underline block mt-2 sm:inline-block sm:mt-0  text-sm hover:text-white mr-4">
+                  class="no-underline nav-link block mt-2 sm:inline-block sm:mt-0  text-sm hover:text-white mr-4">
                   Home
                 </nuxt-link>
                 <nuxt-link to="/project" prefetch
-                  class="no-underline block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4">
+                  class="no-underline nav-link block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4">
                   Recent Project
                 </nuxt-link>
                 <nuxt-link to="/posts" prefetch
-                  class="no-underline block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4">
+                  class="no-underline  nav-link block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4">
                   Blog
                 </nuxt-link>
-                  <nuxt-link to="/linktree" prefetch
+                <nuxt-link to="/linktree" prefetch
                   class="no-underline block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4">
                   Linktree
                 </nuxt-link>
@@ -40,7 +40,7 @@
         </div>
       </div>
     </section>
-      <hr class="border border-gray-500">
+    <hr class="border border-gray-500">
   </div>
 </template>
 
@@ -61,9 +61,16 @@
 </script>
 
 <style scoped>
-  .header{
-     font-family: 'Poppins', Arial, sans-serif !important;
+  .nav-link {
+    font-family: 'Poppins',
+      sans-serif,
+      Arial,
+      Helvetica,
+      sans-serif !important;
+    ;
+    font-weight: 400;
   }
+
   h1 {
     font-size: 2rem;
   }

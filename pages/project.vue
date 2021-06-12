@@ -1,8 +1,10 @@
 <template>
   <div>
     <section class="recent-project">
-      <SubContainer sectionTitle="Recent Project"
-        SectionDescription="  A recent project to fill my spare time and to learn some new web technologies as well as my portfolio " />
+      <SubContainer 
+        sectionTitle="Recent Project"
+        SectionDescription="  A recent project to fill my spare time and to learn some new web technologies as well as my portfolio "
+      />
       <div class="container mx-auto mb-5">
         <div class="flex flex-wrap justify-center">
           <div class="lg:w-2/4 md:w-1/2 p-1 mt-2 w-full" v-for="item in portfolio" :key="item.id">

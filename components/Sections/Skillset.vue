@@ -14,22 +14,20 @@
 </template>
 <script>
   export default {
-    name:'Skillset',
-    data : () => {
+    name: 'Skillset',
+    data: () => {
       return {
-        skills : [
-          {
+        skills: [{
             name: 'Front-End Development',
-            description : ' Currently I am studying several web technologies, the Frontend development section, I usually use <b>HTML</b>, <B>CSS</B>, <B>Javascript</B>, <b>Bootstrap</b>, <b>Tailwind</b>, <b>VueJS</b>(on going),<b>ReactJS</b> (but still a beginner) to build User Interface'
+            description: ' Currently I am studying several web technologies, the Frontend development section, I usually use <b>HTML</b>, <B>CSS</B>, <B>Javascript</B>, <b>Bootstrap</b>, <b>Tailwind</b>, <b>VueJS</b>(on going),<b>ReactJS</b> (but still a beginner) to build User Interface'
           },
-           {
+          {
             name: 'Back-End Development',
-            description : 'For Backend development I am quite experienced with using <b>PHP</b> technology with Framework <b>(Laravel, Codeigniter3)</b> and <b> NodeJS Environment</b> with ( <b>Express JS Framework)</b>, and still learning'
-          }
-          ,
+            description: 'For Backend development I am quite experienced with using <b>PHP</b> technology with Framework <b>(Laravel, Codeigniter3)</b> and <b> NodeJS Environment</b> with ( <b>Express JS Framework)</b>, and still learning'
+          },
           {
             name: 'Other (Skillset)',
-            description:'<B>Git</B> and <B>Version Control System</B>, <B>Linux (basic command-line operations)</B>, Basic Usage <B>Docker</B> , Analytic System & Visualization with <B>Draw.io</B> and <B>Whimsical</B>'
+            description: '<B>Git</B> and <B>Version Control System</B>, <B>Linux (basic command-line operations)</B>, Basic Usage <B>Docker</B> , Analytic System & Visualization with <B>Draw.io</B> and <B>Whimsical</B>'
           }
         ]
       }

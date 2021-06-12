@@ -1,28 +1,29 @@
 <template>
-  <div>
+  <div class="main-content">
     <section class="hero-section">
       <div class="container mx-auto px-6 py-8">
-        <div class="lg:flex items-center">  
+        <div class="lg:flex items-center">
           <div class="lg:w-1/2 mt-6">
             <h2 class="text-gray-100 text-2xl font-bold">Hi, I am Muhamad Zainal Arifin 👋</h2>
             <p class="text-gray-400 text-base lg:max-w-md mt-4">
               Nickname as <a href="www.github.com/Zainal21" class="text-indigo-300 text-base">@PenulisDuduk</a>, I’m
-               graduated Software Engineering student from<a class="text-indigo-300 text-base"
-                href="https://smkn2kra.sch.id">  VHS 2 Karanganyar,</a> Now as a Freelance Web Developer,
-               Software Engineering graduated who is interested in the world of technology,
+              graduated Software Engineering student from<a class="text-indigo-300 text-base"
+                href="https://smkn2kra.sch.id"> VHS 2 Karanganyar,</a> Now as a Freelance Web Developer,
+              Software Engineering graduated who is interested in the world of technology,
               especially in the world of web programming, and a web programmer who is quite experienced in creating,
-              developing web-based applications, 
+              developing web-based applications.
             </p>
             <div class="flex mt-6">
               <nuxt-link to="/linktree"
-                class="px-3 py-2 block  bg-gray-800 text-white text-xs font-semibold rounded hover:bg-gray-700">Hire Me</nuxt-link>
+                class="px-3 py-2 block  bg-gray-800 text-white text-xs font-semibold rounded hover:bg-gray-700">Hire Me
+              </nuxt-link>
             </div>
           </div>
           <div class="mt-8 lg:mt-0 lg:w-1/2">
             <div class="flex items-center justify-center lg:justify-end">
               <div class="max-w-lg">
-                <img class="w-full h-80 object-cover object-center rounded-md" v-lazy-load src="images/gallery/photo3211868340741056440.jpg"
-                  alt="muhamad zainal arifin">
+                <img class="w-full h-80 object-cover object-center rounded-md" v-lazy-load
+                  src="images/gallery/photo3211868340741056440.jpg" alt="muhamad zainal arifin">
               </div>
             </div>
           </div>
@@ -75,12 +76,12 @@
     <section class="recent-watch container p-9 mb-6 mx-auto bg-transparant dark:bg-gray-800">
       <h2 class="text-gray-100 text-2xl font-bold mb-8  mt-8">My Photos gallery</h2>
       <div class="container mx-auto p-8">
-        <ImageGallery/>
+        <ImageGallery />
       </div>
     </section>
     <ButtonToTop />
   </div>
-  
+
 </template>
 <script>
   import Contribution from '../components/Sections/Contribution'
@@ -121,14 +122,6 @@
         {
           name: "keywords",
           content: "Zainal21, Zainal, Muhamad Zainal Arifin, Zainal RPL, Muhamad Zain, Riana Eka Fidriyani, Riana"
-        },
-        {
-          name: "designer",
-          content: "Muhamad Zainal Arifin"
-        },
-        {
-          name: "developer",
-          content: "Muhamad Zainal Arifin"
         }
       ],
 
@@ -188,12 +181,14 @@
     },
     components: {
       Contribution,
-      Skillset,ImageGallery,
-      MusicPlaylistCard,ButtonToTop
+      Skillset,
+      ImageGallery,
+      MusicPlaylistCard,
+      ButtonToTop
     }
   }
 </script>
 
 <style scoped>
-
+  
 </style>

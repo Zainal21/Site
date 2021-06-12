@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
 
-@font-face {
-  font-family: 'Premier Sans', Arial, Helvetica, sans-serif;
-  src: url('./Premier-Sans.ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Viga&display=swap');
+
 $font-base-color: $grey-2;
-$font-family-base: 'Premier Sans',
+$font-family-base: 'Poppins',
+sans-serif,
 Arial,
 Helvetica,
 sans-serif;
-$font-family-blog: 'Premier Sans',
+$font-family-blog: 'Poppins',
+sans-serif,
 Arial,
 Helvetica,
 sans-serif;
@@ -29,14 +28,18 @@ $fs-h6: $fs-small;
 
 
 html {
+  font-family:  'Poppins',
+  sans-serif,
+  Arial,
+  Helvetica,
+  sans-serif !important;
+  ;
   font-size: 62.5%;
-  /* Now 10px = 1rem! */
   -webkit-font-smoothing: antialiased;
-  font-family: $font-family-base;
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 
 body {
-  font-family: $font-family-base !important;
   font-size: $fs-base-responsive;
   color: $font-base-color;
   line-height: $line-height-base;
@@ -72,12 +75,7 @@ blockquote,
 }
 
 .title {
-<<<<<<< HEAD
   font-family: $font-family-base;
-  ;
-=======
-  font-family: 'Poppins', sans-serif;
->>>>>>> 5196056bee63960db5ec675a3f58728ff6aa1dba
   margin: 7.2rem 0 4.8rem 0;
   text-align: center;
   font-weight: 600;

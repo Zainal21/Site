@@ -1,7 +1,9 @@
 <template>
   <section class="blog-section pb-20 pt-50">
-    <SubContainer sectionTitle="Linktree"
-      SectionDescription=" Talk about business ? can contact me on various platforms to discuss business with you " />
+    <SubContainer 
+      sectionTitle="Linktree"
+      SectionDescription=" Talk about business ? can contact me on various platforms to discuss business with you " 
+    />
     <div v-for="(link,i) in links" :key="i">
       <div class="container mx-auto">
         <div class="w-full my-3 rounded-md shadow-xl hover:shadow-2xl text-white" :class="link.color">
