@@ -14,8 +14,6 @@ $background-secondary-darker: #000000;
 $success: #57BC27;
 $warning: #F9B13D;
 $text-negative: white;
-
-//name //color //text or false
 $colors: "primary"$primary $text-negative,
 "primary-light"$primary-light $text-negative,
 "primary-lighter"$primary-lighter false,
@@ -28,11 +26,9 @@ $colors: "primary"$primary $text-negative,
 "black"black $text-negative,
 "success"$success $text-negative,
 "warning"$warning $text-negative;
-
 $gutter: 2.4rem;
 $header-height: 7rem;
 $header-height-breakpoint: 5rem;
 $nav-responsive-width: 26rem;
-
 $border-radius: 3px;
 $shadow: 0 2px 4px rgba(black, .08);

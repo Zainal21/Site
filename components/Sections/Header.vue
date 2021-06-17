@@ -5,7 +5,7 @@
         <div class="container mx-auto px-5 py-5">
           <nav class="flex items-center justify-between flex-wrap bg-teal">
             <div class="flex items-center flex-no-shrink text-white mr-6">
-              <nuxt-link to="/" prefetch class="font-semibold text-lg tracking-tight">@Muhammadzain</nuxt-link>
+              <nuxt-link to="/" fetch class="font-semibold text-lg tracking-tight">@Muhammadzain</nuxt-link>
             </div>
             <div class="block sm:hidden text-white">
               <button @click="toggle"
@@ -18,19 +18,19 @@
             </div>
             <div :class="open ? 'block': 'hidden'" class="w-full sm:flex sm:items-center sm:w-auto text-white ml-auto">
               <div class="text-base sm:flex-grow mt-1">
-                <nuxt-link to="/" prefetch
+                <nuxt-link to="/" fetch
                   class="no-underline nav-link block mt-2 sm:inline-block sm:mt-0  text-sm hover:text-white mr-4">
                   Home
                 </nuxt-link>
-                <nuxt-link to="/project" prefetch
+                <nuxt-link to="/project" fetch
                   class="no-underline nav-link block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4">
                   Recent Project
                 </nuxt-link>
-                <nuxt-link to="/posts" prefetch
+                <nuxt-link to="/posts" fetch
                   class="no-underline  nav-link block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4">
                   Blog
                 </nuxt-link>
-                <nuxt-link to="/linktree" prefetch
+                <nuxt-link to="/linktree" fetch
                   class="no-underline block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4">
                   Linktree
                 </nuxt-link>
@@ -70,7 +70,6 @@
     ;
     font-weight: 400;
   }
-
   h1 {
     font-size: 2rem;
   }

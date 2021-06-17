@@ -6,6 +6,7 @@ import Mode from "frontmatter-markdown-loader/mode"
 import MarkdownIt from 'markdown-it'
 import mip from 'markdown-it-prism'
 
+// get path markdowm file
 function getPaths (lang, type) {
   let initial = lang
   if (lang === 'en') { initial = '' }
@@ -14,6 +15,7 @@ function getPaths (lang, type) {
     .map(filename => `${initial}/${type}/${path.parse(filename).name}`)
 }
 
+// init md file
 const md = new MarkdownIt({
   html: true,
   typographer: true

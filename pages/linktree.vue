@@ -22,57 +22,12 @@
 <script>
   import SubContainer from "~/components/Sections/SubContainer"
   import ButtonToTop from "../components/ButtonToTop"
+  import linktree from './data/linktree.json'
   export default {
     name: 'linktree',
     data: () => {
       return {
-        links: [
-           {
-            name: 'E-mail',
-            redirect: 'mailto:Muhammadzaindev@gmail.com',
-            color: 'bg-indigo-900'
-          },
-          {
-            name: 'Github',
-            redirect: 'https://github.com/Zainal21',
-            color: 'bg-gray-800'
-          },
-          {
-            name: 'Gitlab',
-            redirect: 'https://gitlab.com/Zainal21',
-            color: 'bg-yellow-600'
-          },
-          {
-            name: 'Whatsapp',
-            redirect: 'https://api.whatsapp.com/send?phone=+6288216756214',
-            color: 'bg-green-800'
-          },
-          {
-            name: 'instagram',
-            redirect: 'https://www.instagram.com/muhamadzain.dev',
-            color: 'bg-red-600'
-          },
-          {
-            name: 'Telegram',
-            redirect: 'https://t.me/muhamadzaindev',
-            color: 'bg-indigo-500'
-          },
-          {
-            name: 'Twitter',
-            redirect: 'https://twitter.com/muhamadzain.dev',
-            color: 'bg-blue-600'
-          },
-          {
-            name: 'LinkedIn',
-            redirect: 'https://www.linkedin.com/in/muhammad-zainal-arifin',
-            color: 'bg-blue-800'
-          },
-          {
-            name: 'Facebook',
-            redirect: '#',
-            color: 'bg-blue-900'
-          }
-        ]
+        links: linktree
       }
     },
     components: {
