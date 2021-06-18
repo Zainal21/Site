@@ -1,7 +1,9 @@
 <template>
   <div class="section posts-list">
     <div class="content mx-auto">
-      <BlogSection :blogs="blogs" />
+      <BlogSection 
+        :blogs="blogs" 
+      />
     </div>
     <ButtonToTop />
   </div>

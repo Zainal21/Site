@@ -47,7 +47,8 @@
             v-for="playlist in playlists" 
             :key="playlist.id" 
             :source="playlist.source"
-            :title="playlist.title" />
+            :title="playlist.title" 
+          />
         </div>
       </div>
     </section>
