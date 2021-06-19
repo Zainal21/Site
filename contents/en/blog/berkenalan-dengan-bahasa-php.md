@@ -49,11 +49,11 @@ PHP disebut bahasa pemrograman server side karena PHP diproses pada komputer ser
 - Buat folder baru di folder Htdocs yang berada di komputer teman-teman, biasanya untuk Windows Terletak pada Drive C:XAMPP/Htdocs, untuk Linux ada di /opt/lampp/htdocs. dan buat file di dalam folder tersebut
 - Jika sudah, Buka Folder tersebut ke Code Editor favorit teman-teman. dan ketik program dibawah ini.
 
-  ```php
-  <?php
-    echo "Hello World";
-  ?>
-  ```
+```php
+<?php
+  echo "Hello World";
+?>
+```
 - jika sudah buka web browser lalu ketik di url ```localhost``` dan arahkan ke folder yang telah kita buat tadi, lihat apa yang terjadi.
 
 
@@ -92,7 +92,6 @@ Berikut contoh penggunaan tipe data dan variable pada bahasa pemrograman PHP
 1. _String_
 ```php
 <?php 
-
   $nama = 'Muhamad Zain';
   echo $nama; // mencetak nilai variable ke layar
 ?>
@@ -102,7 +101,6 @@ Berikut contoh penggunaan tipe data dan variable pada bahasa pemrograman PHP
 
 ```php
 <?php
-  
   $umur = 20;
   echo $umur  // mencetak nilai variable ke layar
 ?>
@@ -128,7 +126,6 @@ Berikut contoh penggunaan tipe data dan variable pada bahasa pemrograman PHP
 
 ```php
 <?php
-
     $buah = ['mangga', 'anggur','pisang', 'jeruk', 'semangka']; // penulisan array baru
 
     $hewan = array('sapi', 'gajah', 'semut', 'kuda', 'kadal'); // penulisan array lama
@@ -147,7 +144,6 @@ Berikut contoh penggunaan tipe data dan variable pada bahasa pemrograman PHP
     echo $hewan[2]; // hasilnya semut
     echo "<br />";
     echo $siswa[1]; // hasilnya tomy karena secara langsung kita memberi key pada elemen array
-
 ?>
 
 ```
@@ -158,7 +154,6 @@ Berikut contoh penggunaan tipe data dan variable pada bahasa pemrograman PHP
 
     $nilaiMtk = A;
     $nilaiKalkulus = B; // hanya terdiri dari 1 karakter saja
-
 ?>
 
 ```
@@ -167,9 +162,7 @@ Bagaimana Mudah bukan?
 Okey..itu mungkin itu dulu ya.. tunggu di postingan selanjutnya ya..Semoga bermanfaat.. Tetap Semangat Belajar 
 
 
-```
-Everyone should learn code, it teach how to think
- - Steve Jobs (1955-2011)
-```
+> Everyone should learn code, it teach how to think -Steve Jobs (1955-2011)
+
 
 

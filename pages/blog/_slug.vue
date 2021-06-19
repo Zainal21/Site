@@ -283,6 +283,7 @@
       overflow-x: scroll;
       display: block;
       margin-bottom: 5rem;
+      font-weight:600;
       code {
          background-color: #27272e;  
       }

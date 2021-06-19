@@ -21,7 +21,7 @@
             class="block text-gray-100 font-semibold text-2xl mt-3 hover:text-gray-300 hover:underline"
             >{{ blog.title }}
           </nuxt-link>
-          <p class="text-sm text-gray-100 mt-3">{{ blog.description }}</p>
+          <p class="text-md text-gray-100 mt-3">{{ blog.description }}</p>
           <span
             class="px-3 py-1 mt-5 mb-5 float-left bg-gray-800 text-sm text-white font-bold rounded hover:bg-gray-600"
             >{{ blog.category }}</span

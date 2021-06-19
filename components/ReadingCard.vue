@@ -12,7 +12,7 @@
           class="block text-gray-100 font-semibold hover:underline text-2xl mt-3 hover:text-gray-300 hover:text-underline"
           target="_blank">{{title}}
         </a>
-        <p class="text-sm text-gray-100 mt-3">{{excerpt}}</p>
+        <p class="text-md text-gray-100 mt-3">{{excerpt}}</p>
         <span
           class="px-3 py-1 mt-5 mb-5 float-left  text-sm text-white font-bold rounded bg-gray-800 hover:bg-gray-600">{{category}}</span>
       </div>
