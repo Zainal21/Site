@@ -63,6 +63,7 @@
         :sourceLink="readlist.sourceLink"
         :excerpt="readlist.excerpt"
         :category="readlist.category"
+        :title="readlist.title"
       />
     </section>
     <!-- galery photo -->

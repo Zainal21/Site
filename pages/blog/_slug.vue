@@ -83,7 +83,8 @@
     },
 
     components: {
-      DynamicMarkdown, ButtonToTop
+      DynamicMarkdown,
+      ButtonToTop
     },
 
     head() {
@@ -182,6 +183,11 @@
 
 
 <style lang="scss">
+  img {
+    border-radius: 6px;
+    width: 100%;
+  }
+
   .overflowhidden {
     overflow: hidden;
   }
@@ -212,7 +218,6 @@
   .content-cover {
     display: flex;
     flex-direction: column;
-    // min-height: 459px;
 
     &__img,
     &__textOffset {
@@ -246,8 +251,8 @@
   }
 
   .dynamicMarkdown {
-    font-family: 'Poppins', sans-serif;
-    font-size:1.125rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.125rem;
     line-height: 1.6;
     color: rgb(229, 231, 235);
     background-color: rgb(22, 22, 29);
@@ -257,7 +262,6 @@
       margin-right: auto;
       display: block;
     }
-
 
     h2 {
       font-weight: 600;
@@ -279,25 +283,30 @@
       box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
       padding: 2.4rem;
       border-radius: 4px;
-      background-color: #27272e;  
+      background-color: #27272e;
       overflow-x: scroll;
       display: block;
       margin-bottom: 5rem;
-      font-weight:600;
+
       code {
-         background-color: #27272e;  
+        background-color: #27272e;
       }
     }
 
     code {
       border-radius: 4px;
       display: inline;
-      font-size: 14px;
-      padding: .2em .4em;
+      font-size: 0.8em;
     }
 
     p {
       margin: 0.8rem 0 !important;
+    }
+    @media (max-width : 600px){
+       img{
+        border-radius: 9px;
+        width:80%;
+      }
     }
   }
 </style>

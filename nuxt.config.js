@@ -18,7 +18,7 @@ function getPaths (lang, type) {
 // init md file
 const md = new MarkdownIt({
   html: true,
-  typographer: true
+  typographer: true,
 })
 md.use(mip)
 
@@ -72,7 +72,7 @@ export default {
   css: [
     'normalize.css/normalize.css',
     '@/assets/css/main.scss',
-    '@/assets/css/prism-material-light.css'
+    '@/assets/css/prism-material-light.css',
   ],
   buildModules: ['@nuxtjs/tailwindcss'],
   build: {

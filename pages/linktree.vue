@@ -20,7 +20,6 @@
 <script>
   import SubContainer from "~/components/Sections/SubContainer"
   import ButtonToTop from "../components/ButtonToTop"
-  import linktree from './data/linktree.json'
   export default {
     name: 'linktree',
     data: () => {
@@ -58,7 +57,7 @@
           {
             name: "Twitter",
             redirect: "https://twitter.com/muhamadzain.dev",
-            color: bg - blue - 600
+            color: "bg-blue-600"
           },
           {
             name: "LinkedIn",

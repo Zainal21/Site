@@ -9,7 +9,7 @@
           <span class="font-medium ml-auto text-gray-100 text-sm">{{time_read}}</span>
         </div>
         <a :href="sourceLink"
-          class="block text-gray-100 font-semibold hover:underline text-2xl mt-3 hover:text-gray-300 hover:text-underline"
+          class="block text-gray-100  font-semibold hover:underline text-2xl mt-3 hover:text-gray-300 hover:text-underline"
           target="_blank">{{title}}
         </a>
         <p class="text-md text-gray-100 mt-3">{{excerpt}}</p>

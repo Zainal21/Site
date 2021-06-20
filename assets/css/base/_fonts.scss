@@ -1,16 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Viga&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 $font-base-color: $grey-2;
-$font-family-base: 'Poppins',
-sans-serif,
-Arial,
-Helvetica,
+$font-family-base: 'Lexend Deca',
 sans-serif;
-$font-family-blog: 'Poppins',
-sans-serif,
-Arial,
-Helvetica,
+$font-family-blog: 'Lexend Deca',
 sans-serif;
 $line-height-base: 1.5;
 $fs-base: 1.6rem;
@@ -28,22 +22,15 @@ $fs-h6: $fs-small;
 
 
 html {
-  font-family:  'Poppins',
-  sans-serif,
-  Arial,
-  Helvetica,
-  sans-serif !important;
-  ;
   font-size: 62.5%;
   -webkit-font-smoothing: antialiased;
-  font-family: Arial, Helvetica, sans-serif !important;
 }
 
 body {
   font-size: $fs-base-responsive;
   color: $font-base-color;
   line-height: $line-height-base;
-
+  font-weight: 400;
   @media (min-width: $screen-sm) {
     font-size: $fs-base;
   }

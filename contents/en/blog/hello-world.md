@@ -17,7 +17,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eius iste qu
 
 ```php
 <?php
-echo "Hello World";
+    echo "Hello World";
 ?>
 ```
 
