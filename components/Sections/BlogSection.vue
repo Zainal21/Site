@@ -2,7 +2,7 @@
   <section class="blog-section pb-8 pt-50 ">
     <SubContainer 
         sectionTitle="Blog" 
-        SectionDescription=" Talk about business or sharing about with me? can contact me on various platforms to discuss business with you "
+        SectionDescription=" Some of the tweets in the form of stories, experiences and knowledge that I can share "
       />
       <ul class="blogs">
         <blog-card 
