@@ -46,7 +46,7 @@
           },
           {
             name: "instagram",
-            redirect: "https://www.instagram.com/muhamadzain.dev",
+            redirect: "https://www.instagram.com/muhamadzain.tsx",
             color: "bg-red-600"
           },
           {
@@ -56,7 +56,7 @@
           },
           {
             name: "Twitter",
-            redirect: "https://twitter.com/muhamadzain.dev",
+            redirect: "https://twitter.com/Penulisduduk",
             color: "bg-blue-600"
           },
           {
@@ -66,8 +66,13 @@
           },
           {
             name: "Facebook",
-            redirect: "#",
+            redirect: "https://www.facebook.com/muhammadzaenalariefin.ariefin.7/",
             color: "bg-blue-900"
+          },
+          {
+            name: "Discord Server",
+            redirect: "https://discord.gg/kuP3VsJemP",
+            color: "bg-blue-600"
           }
         ]
       }
