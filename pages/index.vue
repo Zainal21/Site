@@ -8,7 +8,7 @@
             <p class="text-gray-400 text-base lg:max-w-md mt-4">
               Nickname as <a href="www.github.com/Zainal21" class="text-indigo-300 text-base">@PenulisDuduk</a>, I’m
               graduated Software Engineering student from<a class="text-indigo-300 text-base"
-                href="https://smkn2kra.sch.id"> VHS 2 Karanganyar,</a> Now work as a Software Engineer at (CV. Cipta Karya Abadi) Cikajogja ,
+                href="https://smkn2kra.sch.id"> VHS 2 Karanganyar,</a> Now work as a Software Engineer at CV. Cipta Karya Abadi (Cikajogja) ,
               Software Engineering graduated who is interested in the world of technology,
               especially in the world of web programming, and a web programmer who is quite experienced in creating,
               developing web-based applications.
