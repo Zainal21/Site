@@ -74,7 +74,23 @@ export default {
     '@/assets/css/main.scss',
     '@/assets/css/prism-material-light.css',
   ],
-  buildModules: ['@nuxtjs/tailwindcss'],
+  buildModules: ['@nuxtjs/tailwindcss', 'nuxt-purgecss'],
+  purgeCSS:{
+    extractors: () => [
+      {
+        extractor(content) {
+          return content.match(/[A-z0-9-:\\/]+/g)
+        },
+        extensions: ['html', 'vue', 'js']
+      },
+      {
+        extractor(content) {
+          return content.match(/[A-z0-9-\\/]+/g)
+        },
+        extensions: ['vue'] 
+      }
+    ]
+  },
   build: {
     extend (config) {
       const rule = config.module.rules.find(r => r.test.toString() === '/\\.(png|jpe?g|gif|svg|webp)$/i')
