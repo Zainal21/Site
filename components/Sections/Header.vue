@@ -34,6 +34,10 @@
                   class="no-underline block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4">
                   Linktree
                 </nuxt-link>
+                 <a href="https://color-chunking.vercel.app/" target="_blank"
+                  class="no-underline  nav-link block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4">
+                  Color Chunking
+                </a>
               </div>
             </div>
           </nav>
