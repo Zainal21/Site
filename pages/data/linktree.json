@@ -25,11 +25,6 @@
     "color": "bg-red-600"
   },
   {
-    "name": "Telegram",
-    "redirect": "https://t.me/muhamadzaindev",
-    "color": "bg-indigo-500"
-  },
-  {
     "name": "Twitter",
     "redirect": "https://twitter.com/muhamadzain.dev",
     "color": "bg-blue-600"
