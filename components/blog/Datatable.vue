@@ -3,24 +3,16 @@
 <template>
   <div class="datagrid">
     <div v-if="checkbox">
-      <input type="checkbox" id="checkbox" v-model="checked">
+      <input type="checkbox" id="checkbox" v-model="checked" />
       Loading
     </div>
-    <div
-      class="datagrid__container"
-    >
+    <div class="datagrid__container">
       <keep-alive>
         <table>
           <thead>
             <tr>
-              <th
-                v-for="column in columns"
-                :key="column.title"
-              >
-                <span
-                  class="column-title"
-                  v-text="column.title"
-                />
+              <th v-for="column in columns" :key="column.title">
+                <span class="column-title" v-text="column.title" />
               </th>
             </tr>
           </thead>
@@ -30,15 +22,12 @@
               :key="index"
               class="datagrid__row"
               :class="{
-                'blend': blend,
+                blend: blend,
                 'vertical-animation': verticalAnimation,
-                'horizontal-animation': horizontalAnimation
+                'horizontal-animation': horizontalAnimation,
               }"
             >
-              <td
-                v-for="column in columns"
-                :key="column.title"
-              >
+              <td v-for="column in columns" :key="column.title">
                 <span>
                   <div
                     class="datagrid__loader"
@@ -48,21 +37,10 @@
               </td>
             </tr>
           </tbody>
-          <tbody
-            v-else
-            class="datagrid__shadow"
-          >
-            <tr
-              v-for="item in rows"
-              :key="item.id"
-            >
-              <td
-                v-for="rowCell in item"
-                :key="rowCell.keyValue"
-              >
-                <span
-                  v-text="rowCell"
-                />
+          <tbody v-else class="datagrid__shadow">
+            <tr v-for="item in rows" :key="item.id">
+              <td v-for="rowCell in item" :key="rowCell.keyValue">
+                <span v-text="rowCell" />
               </td>
             </tr>
           </tbody>
@@ -73,62 +51,61 @@
 </template>
 
 <script>
-
 const columns = [
   {
-    title: 'Name',
-    value: 'name'
+    title: "Name",
+    value: "name",
   },
   {
-    title: 'Country',
-    value: 'country'
+    title: "Country",
+    value: "country",
   },
   {
-    title: 'Song',
-    value: 'song'
-  }
-]
+    title: "Song",
+    value: "song",
+  },
+];
 
 const rowsSample = [
   {
-    name: 'Testing',
-    country: 'Indonesia',
-    song: 'Semoga kau dineraka'
-  }
-]
+    name: "Testing",
+    country: "Indonesia",
+    song: "Semoga kau dineraka",
+  },
+];
 
 export default {
-  name: 'Datatable',
+  name: "Datatable",
 
   props: {
     isLoading: {
       type: Boolean,
-      default: true
+      default: true,
     },
     blend: {
       type: Boolean,
-      default: true
+      default: true,
     },
     checkbox: {
       type: Boolean,
-      default: false
+      default: false,
     },
     verticalAnimation: {
       type: Boolean,
-      default: true
+      default: true,
     },
     horizontalAnimation: {
       type: Boolean,
-      default: true
-    }
+      default: true,
+    },
   },
 
-  data () {
+  data() {
     return {
       rows: rowsSample,
       columns: columns,
-      checked: ''
-    }
-  }
-}
+      checked: "",
+    };
+  },
+};
 </script>

@@ -5,18 +5,17 @@
 </template>
 
 <script lang="js">
-  import Vue from "vue";
-  const files = require.context("assets/icons", true, /\.svg$/);
-  files.keys().forEach(files);
-  export default {
-    props: {
-      name: {
-        type: String,
-        required: true
-      }
+import Vue from "vue";
+const files = require.context("assets/icons", true, /\.svg$/);
+files.keys().forEach(files);
+export default {
+  props: {
+    name: {
+      type: String,
+      required: true
     }
   }
+}
 </script>
 
-<style lang="scss">
-</style>
+<style lang="scss"></style>

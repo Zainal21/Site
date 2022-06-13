@@ -3,7 +3,7 @@
 <template>
   <div class="container mx-auto">
     <div
-      class="max-w-4xl mx-auto  mt-5 bg-transparant overflow-hidden hover:shadow-2xl hover:border-1hover:border-gray-700 border-2 border-gray-800 rounded-lg"
+      class="max-w-4xl mx-auto  mt-5 bg-gray-700 overflow-hidden shadow-xl hover:shadow-2xl border-1 hover:border-2 border-gray-700 hover:border-gray-700 border-2 border-gray-800 rounded-lg"
     >
       <div class="p-6 mx-3">
         <article>
