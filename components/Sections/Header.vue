@@ -5,10 +5,7 @@
         <div class="container mx-auto px-5 py-5">
           <nav class="flex items-center justify-between flex-wrap bg-teal">
             <div class="flex items-center flex-no-shrink text-white mr-6">
-              <nuxt-link
-                to="/"
-                fetch
-                class="font-semibold text-lg tracking-tight"
+              <nuxt-link to="/" fetch class="font-semibold text-lg"
                 >@Muhammadzain</nuxt-link
               >
             </div>
@@ -35,35 +32,35 @@
                 <nuxt-link
                   to="/"
                   fetch
-                  class="no-underline nav-link block mt-2 sm:inline-block sm:mt-0  text-sm hover:text-white mr-4"
+                  class="no-underline nav-link block mt-2 sm:inline-block sm:mt-0  text-sm hover:text-white mr-4  text-lg"
                 >
                   Home
                 </nuxt-link>
                 <nuxt-link
                   to="/project"
                   fetch
-                  class="no-underline nav-link block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4"
+                  class="no-underline nav-link block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4  text-lg"
                 >
                   Recent Project
                 </nuxt-link>
                 <nuxt-link
                   to="/posts"
                   fetch
-                  class="no-underline  nav-link block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4"
+                  class="no-underline  nav-link block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4 text-lg"
                 >
                   Blog
                 </nuxt-link>
                 <nuxt-link
                   to="/linktree"
                   fetch
-                  class="no-underline block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4"
+                  class="no-underline block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4  text-lg"
                 >
                   Linktree
                 </nuxt-link>
                 <a
                   href="https://color-chunking.vercel.app/"
                   target="_blank"
-                  class="no-underline  nav-link block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4"
+                  class="no-underline  nav-link block mt-2 sm:inline-block sm:mt-0 text-sm hover:text-white mr-4  text-lg"
                 >
                   Color Chunking
                 </a>
